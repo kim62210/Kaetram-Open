@@ -14,9 +14,21 @@
 
     opacity: 0.75;
 
-    // 화면 비율 기반 반응형 — 작은 폰에선 작게, 큰 폰/태블릿에선 크게
-    transform: scale(clamp(0.55, 1.4vmin, 1.1));
+    // 화면 크기 기반 반응형 — 작은 폰에선 작게, 큰 폰/태블릿에선 크게
     transform-origin: center center;
+    transform: scale(0.85);
+
+    @media (max-width: 480px) {
+        transform: scale(0.65);
+    }
+
+    @media (min-width: 768px) {
+        transform: scale(1);
+    }
+
+    @media (min-width: 1024px) {
+        transform: scale(1.1);
+    }
 
     &[hidden] {
         display: none;
