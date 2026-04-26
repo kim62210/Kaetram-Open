@@ -6,20 +6,10 @@ services:
     image: kaetram:latest
     container_name: kaetram
     restart: unless-stopped
-    environment:
-      ACCEPT_LICENSE: 'true'
-      HOST: '0.0.0.0'
-      # PORT는 클라(sirv)와 서버(uws) 둘 다 process.env.PORT를 읽어 충돌하므로 미설정.
-      # 서버 기본 9001 / 클라 sirv 기본 9000 (--no-logs -p 9000)
-      SSL: 'true'
-      HUB_ENABLED: 'false'
-      SKIP_DATABASE: 'true'
-      CLIENT_REMOTE_HOST: 'kaetram.brian-dev.cloud'
-      CLIENT_REMOTE_PORT: ''
-      NAME: '브라이언의 모험'
-      MAX_PLAYERS: '50'
-      TUTORIAL_ENABLED: 'true'
-      DEBUGGING: 'false'
+    # config.ts:95가 dotenv.load({path: '../../.env', defaults: '../../.env.defaults'})
+    # 로 .env 파일을 직접 읽으므로 호스트 .env를 마운트한다 (compose environment 무효).
+    volumes:
+      - ./.env:/app/.env:ro
     networks:
       - infra_default
     labels:
