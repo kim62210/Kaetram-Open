@@ -1,0 +1,35 @@
+services:
+  kaetram:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: kaetram:latest
+    container_name: kaetram
+    restart: unless-stopped
+    environment:
+      ACCEPT_LICENSE: 'true'
+      HOST: '0.0.0.0'
+      PORT: '9001'
+      SSL: 'true'
+      HUB_ENABLED: 'false'
+      SKIP_DATABASE: 'true'
+      CLIENT_REMOTE_HOST: 'kaetram.brian-dev.cloud'
+      CLIENT_REMOTE_PORT: ''
+      NAME: '브라이언의 모험'
+      MAX_PLAYERS: '50'
+      TUTORIAL_ENABLED: 'true'
+      DEBUGGING: 'false'
+    networks:
+      - infra_default
+    labels:
+      - "com.brian-dev.service=kaetram"
+      - "com.brian-dev.domain=kaetram.brian-dev.cloud"
+    healthcheck:
+      test: ["CMD", "wget", "-qO-", "http://127.0.0.1:9000/"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+
+networks:
+  infra_default:
+    external: true
