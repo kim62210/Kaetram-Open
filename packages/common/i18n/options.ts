@@ -79,6 +79,15 @@ import ResourceKo from './ko/resource';
 import StoreKo from './ko/store';
 import GameKo from './ko/game';
 import WarpsKo from './ko/warps';
+import IntroEn from './en/intro';
+import IntroDe from './de/intro';
+import IntroEs from './es/intro';
+import IntroFr from './fr/intro';
+import IntroPt from './pt/intro';
+import IntroRo from './ro/intro';
+import IntroRu from './ru/intro';
+import IntroTl from './tl/intro';
+import IntroKo from './ko/intro';
 
 export let resources = {
     en: {
@@ -90,7 +99,8 @@ export let resources = {
         resource: ResourceEn,
         store: StoreEn,
         game: GameEn,
-        warps: WarpsEn
+        warps: WarpsEn,
+        intro: IntroEn
     },
     de: {
         crafting: CraftingDe,
@@ -101,7 +111,8 @@ export let resources = {
         resource: ResourceDe,
         store: StoreDe,
         game: GameDe,
-        warps: WarpsDe
+        warps: WarpsDe,
+        intro: IntroDe
     },
     es: {
         crafting: CraftingEs,
@@ -112,7 +123,8 @@ export let resources = {
         resource: ResourceEs,
         store: StoreEs,
         game: GameEs,
-        warps: WarpsEs
+        warps: WarpsEs,
+        intro: IntroEs
     },
     fr: {
         crafting: CraftingFr,
@@ -123,7 +135,8 @@ export let resources = {
         resource: ResourceFr,
         store: StoreFr,
         game: GameFr,
-        warps: WarpsFr
+        warps: WarpsFr,
+        intro: IntroFr
     },
     pt: {
         crafting: CraftingPt,
@@ -134,7 +147,8 @@ export let resources = {
         resource: ResourcePt,
         store: StorePt,
         game: GamePt,
-        warps: WarpsPt
+        warps: WarpsPt,
+        intro: IntroPt
     },
     ro: {
         crafting: CraftingRo,
@@ -145,7 +159,8 @@ export let resources = {
         resource: ResourceRo,
         store: StoreRo,
         game: GameRo,
-        warps: WarpsRo
+        warps: WarpsRo,
+        intro: IntroRo
     },
     ru: {
         crafting: CraftingRu,
@@ -156,7 +171,8 @@ export let resources = {
         resource: ResourceRu,
         store: StoreRu,
         game: GameRu,
-        warps: WarpsRu
+        warps: WarpsRu,
+        intro: IntroRu
     },
     tl: {
         crafting: CraftingTl,
@@ -167,7 +183,8 @@ export let resources = {
         resource: ResourceTl,
         store: StoreTl,
         game: GameTl,
-        warps: WarpsTl
+        warps: WarpsTl,
+        intro: IntroTl
     },
     ko: {
         crafting: CraftingKo,
@@ -178,7 +195,8 @@ export let resources = {
         resource: ResourceKo,
         store: StoreKo,
         game: GameKo,
-        warps: WarpsKo
+        warps: WarpsKo,
+        intro: IntroKo
     }
 } as const;
 
