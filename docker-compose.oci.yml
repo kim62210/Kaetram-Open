@@ -15,6 +15,9 @@ services:
       - ./.env:/app/.env:ro
     networks:
       - infra_default
+    depends_on:
+      kaetram-mongo:
+        condition: service_healthy
     labels:
       - "com.brian-dev.service=kaetram"
       - "com.brian-dev.domain=kaetram.brian-dev.cloud"
@@ -23,6 +26,26 @@ services:
       interval: 30s
       timeout: 5s
       retries: 3
+
+  kaetram-mongo:
+    image: mongo:7
+    container_name: kaetram-mongo
+    restart: unless-stopped
+    volumes:
+      - kaetram_mongo_data:/data/db
+    networks:
+      - infra_default
+    labels:
+      - "com.brian-dev.service=kaetram-mongo"
+    healthcheck:
+      test: ["CMD", "mongosh", "--quiet", "--eval", "db.adminCommand('ping').ok"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+      start_period: 20s
+
+volumes:
+  kaetram_mongo_data:
 
 networks:
   infra_default:
