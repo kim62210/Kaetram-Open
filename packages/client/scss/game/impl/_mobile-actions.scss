@@ -1,0 +1,65 @@
+@use '../../abstracts/media';
+
+#mobile-action-buttons {
+    position: absolute;
+    right: 1.5em;
+    bottom: 2.5em;
+
+    display: flex;
+    flex-direction: column;
+    gap: 0.75em;
+
+    z-index: 100;
+
+    pointer-events: auto;
+
+    &[hidden] {
+        display: none;
+    }
+}
+
+.mobile-action-btn {
+    width: 4.5em;
+    height: 4.5em;
+
+    padding: 0;
+    border-radius: 50%;
+    border: 2px solid rgba(255, 255, 255, 0.35);
+
+    background: rgba(0, 0, 0, 0.55);
+    color: #fff;
+
+    font-size: 1.75em;
+    line-height: 1;
+
+    cursor: pointer;
+
+    -webkit-tap-highlight-color: transparent;
+    touch-action: manipulation;
+    user-select: none;
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    transition:
+        background 0.15s ease-out,
+        transform 0.1s ease-out;
+
+    &:active {
+        background: rgba(255, 255, 255, 0.25);
+        transform: scale(0.94);
+    }
+
+    &:focus-visible {
+        outline: 2px solid rgba(252, 218, 92, 0.9);
+        outline-offset: 2px;
+    }
+}
+
+.mobile-action-icon {
+    pointer-events: none;
+    display: inline-block;
+}

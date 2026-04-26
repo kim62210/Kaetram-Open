@@ -93,7 +93,7 @@ export default class Storage {
                 brightness: 100,
                 audioEnabled: !isMobile(),
                 lowPowerMode: false,
-                joyStickEnabled: false,
+                joyStickEnabled: isMobile(),
                 debugMode: false,
                 showNames: true,
                 showLevels: true,

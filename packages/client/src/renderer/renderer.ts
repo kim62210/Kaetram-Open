@@ -143,6 +143,9 @@ export default class Renderer {
     public fontSize = 12;
     public strokeSize = 4;
 
+    // Smaller font used specifically for entity names/levels drawn over sprites.
+    public nameFontSize = 8;
+
     // Detect functions
     public mobile = isMobile();
     public tablet = isTablet();
@@ -174,6 +177,8 @@ export default class Renderer {
         this.camera.onZoom(() => {
             this.fontSize = Math.floor(12 + this.camera.zoomFactor * 3);
             this.strokeSize = Math.floor(this.fontSize / 6);
+            // Names/levels stay small relative to the world even when zoomed in.
+            this.nameFontSize = Math.floor(8 + this.camera.zoomFactor);
         });
     }
 
@@ -1135,10 +1140,21 @@ export default class Renderer {
         if (entity.nameColour) colour = entity.nameColour;
 
         // Draw the name if we're drawing names.
-        if (drawNames) this.drawText(entity.name, x, nameY, true, true, colour);
+        if (drawNames)
+            this.drawText(
+                entity.name,
+                x,
+                nameY,
+                true,
+                true,
+                colour,
+                undefined,
+                this.nameFontSize
+            );
 
         // Draw the level if we're drawing levels.
-        if (drawLevels && entity.level) this.drawText(levelText, x, levelY, true, true, colour);
+        if (drawLevels && entity.level)
+            this.drawText(levelText, x, levelY, true, true, colour, undefined, this.nameFontSize);
     }
 
     /**
@@ -1157,7 +1173,9 @@ export default class Renderer {
                 this.camera.borderOffsetHeight / 2 - nameOffset * this.camera.zoomFactor,
                 true,
                 false,
-                'rgba(252,218,92, 1)'
+                'rgba(252,218,92, 1)',
+                undefined,
+                this.nameFontSize
             );
 
             if (entity.hasCrown()) this.drawPlayerCrown(entity.getCrownKey());
@@ -1170,7 +1188,9 @@ export default class Renderer {
                 this.camera.borderOffsetHeight / 2 - 10 * this.camera.zoomFactor,
                 true,
                 false,
-                'rgba(252,218,92, 1)'
+                'rgba(252,218,92, 1)',
+                undefined,
+                this.nameFontSize
             );
     }
 

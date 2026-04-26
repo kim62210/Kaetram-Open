@@ -8,6 +8,7 @@ import Pointer from './controllers/pointer';
 import SpritesController from './controllers/sprites';
 import Zoning from './controllers/zoning';
 import JoystickController from './controllers/joystick';
+import MobileActions from './controllers/mobileactions';
 import Player from './entity/character/player/player';
 import Handler from './entity/character/player/handler';
 import Map from './map/map';
@@ -58,6 +59,7 @@ export default class Game {
     public entities: EntitiesController;
     public bubble: BubbleController;
     public joystick: JoystickController;
+    public mobileActions: MobileActions;
     public menu: MenuController;
 
     public connection: Connection;
@@ -88,6 +90,7 @@ export default class Game {
         this.joystick = new JoystickController(this);
         this.menu = new MenuController(this);
         this.input = new InputController(this);
+        this.mobileActions = new MobileActions(this);
         this.socket = new Socket(this);
         this.updater = new Updater(this);
         this.audio = new AudioController(this);
