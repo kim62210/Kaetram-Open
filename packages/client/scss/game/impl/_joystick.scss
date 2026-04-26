@@ -4,8 +4,8 @@
     @include sprite.sheet($image: 'main', $y: 133, $width: 42, $height: 42, $scale: 3);
 
     position: absolute;
-    bottom: 2.5em;
-    left: 2.5em;
+    bottom: clamp(1.5em, 4vmin, 3em);
+    left: clamp(1.5em, 4vmin, 3em);
 
     display: flex;
     flex-direction: row;
@@ -13,6 +13,10 @@
     justify-content: center;
 
     opacity: 0.75;
+
+    // 화면 비율 기반 반응형 — 작은 폰에선 작게, 큰 폰/태블릿에선 크게
+    transform: scale(clamp(0.55, 1.4vmin, 1.1));
+    transform-origin: center center;
 
     &[hidden] {
         display: none;

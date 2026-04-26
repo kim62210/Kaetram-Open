@@ -2,12 +2,12 @@
 
 #mobile-action-buttons {
     position: absolute;
-    right: 1.5em;
-    bottom: 2.5em;
+    right: clamp(0.75em, 3vmin, 2em);
+    bottom: clamp(1.5em, 4vmin, 3em);
 
     display: flex;
     flex-direction: column;
-    gap: 0.75em;
+    gap: clamp(0.5em, 2vmin, 1em);
 
     z-index: 100;
 
@@ -19,8 +19,9 @@
 }
 
 .mobile-action-btn {
-    width: 4.5em;
-    height: 4.5em;
+    // 화면 비율 기반 반응형: 작은 폰 ~48px, 일반 폰 ~64px, 태블릿 ~80px
+    width: clamp(3em, 13vmin, 5em);
+    height: clamp(3em, 13vmin, 5em);
 
     padding: 0;
     border-radius: 50%;
@@ -29,7 +30,7 @@
     background: rgba(0, 0, 0, 0.55);
     color: #fff;
 
-    font-size: 1.75em;
+    font-size: clamp(1.2em, 5vmin, 1.9em);
     line-height: 1;
 
     cursor: pointer;
