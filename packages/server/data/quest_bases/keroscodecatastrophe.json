@@ -1,37 +1,37 @@
 {
-    "name": "Keros' Code Catastrophe",
-    "description": "Oops, he did it again!|Our dear developer, Keros, tried to implement a 'funny hat' feature but accidentally turned all monsters into chickens. Can you help revert his... 'enhancements'?",
+    "name": "케로스의 코드 대참사",
+    "description": "이런, 또 이러네!|우리의 친애하는 개발자 케로스가 '재미있는 모자' 기능을 구현하려다 모든 몬스터를 닭으로 바꿔버렸다. 그의 '개선'을 되돌리는 일을 도와줄 수 있을까?",
     "rewards": ["debugger's helm", "chicken plushie"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "keros",
             "text": [
-                "Okay, I may have made a tiny mistake.",
-                "Who would have thought that adding a hat would turn all the dragons into chickens?",
-                "Please help me fix this!"
+                "오케이, 사소한 실수가 좀 있었어.",
+                "모자 하나 추가했는데 모든 드래곤이 닭으로 변할 줄 누가 알았겠어?",
+                "이거 좀 고쳐주라!"
             ],
-            "completedText": ["Seek the Code Guru in the Pixel Forest."]
+            "completedText": ["픽셀 숲에서 코드 도사를 찾아라."]
         },
         "1": {
             "task": "talk",
             "npc": "codeguru",
             "text": [
-                "Ah, Keros' masterpieces. Always so... unexpected.",
-                "You'll need the Debug Elixir from the Glitch Grotto.",
-                "Bring it to me, and we'll set things right."
+                "아, 케로스의 걸작이로군. 항상 이렇게... 예측 불허라네.",
+                "글리치 동굴에서 디버그 영약을 가져와야 한다.",
+                "가져오면 다시 정상으로 돌려놓을 수 있지."
             ],
-            "completedText": ["Retrieve the Debug Elixir from the Glitch Grotto."]
+            "completedText": ["글리치 동굴에서 디버그 영약을 가져와라."]
         },
         "2": {
             "task": "talk",
             "npc": "keros",
             "text": [
-                "You've got the elixir? Great!",
-                "Let's pour this on the main server... carefully...",
-                "...and voila! The monsters are back!",
-                "Maybe I'll stick to just designing hats from now on.",
-                "Thanks for the help! Here's a token of my appreciation."
+                "영약 구해왔어? 좋아!",
+                "조심스럽게 메인 서버에 부어보자...",
+                "...짠! 몬스터들이 돌아왔어!",
+                "앞으로는 그냥 모자 디자인만 해야겠다.",
+                "도와줘서 고마워! 작은 감사의 표시야."
             ],
             "itemRewards": [
                 {
@@ -44,8 +44,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@Thanks to you, the game's integrity is restored! Wear the @crimson@debugger's helm@green@ with pride, and cuddle with your chicken plushie – a reminder of Keros' little mishap.",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신 덕분에 게임의 무결성이 회복되었습니다! @crimson@디버거의 투구@green@를 자랑스럽게 쓰고, 케로스의 작은 실수를 떠올리게 하는 닭 인형과 함께 즐거운 시간을 보내세요.",
                 "colour": "#33cc33"
             }
         }

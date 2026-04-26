@@ -232,7 +232,7 @@ export default class Guilds extends Menu {
 
         // Ensure the guild name is valid.
         if (this.nameInput.value.length < 3 || this.nameInput.value.length > 16)
-            return this.setError('Guild name must be between 3 and 15 characters.');
+            return this.setError('길드 이름은 3자 이상 15자 이하로 입력해주세요.');
 
         // Send the packet to the server with the information.
         this.game.socket.send(Packets.Guild, {
@@ -335,12 +335,12 @@ export default class Guilds extends Menu {
 
         name.className = 'stroke';
 
-        name.innerHTML = info.name || 'Unknown';
+        name.innerHTML = info.name || '알 수 없음';
 
         this.guildName.append(name);
 
         // Update the leave button to disband if we're the leader.
-        if (this.getUsername() === info.owner) this.leaveButton.innerHTML = 'Disband';
+        if (this.getUsername() === info.owner) this.leaveButton.innerHTML = '해체';
 
         // Update the guild members list.
         for (let member of info.members!)
@@ -541,7 +541,7 @@ export default class Guilds extends Menu {
         let description = this.listContainer.querySelector('#guilds-info')!;
 
         // Description is empty if there are any guilds.
-        description.innerHTML = total === 0 ? 'There are no guilds available...' : '';
+        description.innerHTML = total === 0 ? '사용 가능한 길드가 없습니다...' : '';
 
         // Iterate through the guilds and create a list element for each one.
         for (let guild of guilds)
@@ -691,7 +691,7 @@ export default class Guilds extends Menu {
 
             serverElement.innerHTML =
                 member.serverId === -1
-                    ? 'Offline'
+                    ? '오프라인'
                     : `${this.game.app.config.name} ${member.serverId}`;
         }
     }
@@ -814,7 +814,7 @@ export default class Guilds extends Menu {
 
             serverElement.className = `server ${isPlayer ? 'text-green' : 'text-red'}`;
 
-            serverElement.innerHTML = isPlayer ? `Kaetram ${this.game.player.serverId}` : 'Offline';
+            serverElement.innerHTML = isPlayer ? `Kaetram ${this.game.player.serverId}` : '오프라인';
 
             element.append(serverElement);
 

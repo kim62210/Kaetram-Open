@@ -1,26 +1,26 @@
 {
-    "name": "Forge of Fate",
-    "description": "Thrain, the legendary blacksmith, requires unique materials.|Thrain's ambition is to forge the mightiest weapon ever seen. But to do that, he requires rare materials scattered across the land. Embark on a journey to gather these for him.",
-    "rewards": ["3500 gold", "weaponoflegends"],
+    "name": "운명의 대장간",
+    "description": "전설의 대장장이 트레인이 특별한 재료들을 필요로 한다.|트레인의 야망은 일찍이 본 적 없는 가장 강력한 무기를 단조하는 것이다. 이를 위해 이 땅 곳곳에 흩어진 희귀한 재료들이 필요하다. 여정을 떠나 그를 위해 재료를 모아라.",
+    "rewards": ["3500 골드", "weaponoflegends"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "thrain",
             "text": [
-                "Ah, adventurer! You've arrived at the right time.",
-                "I aim to craft a weapon of legends, but I need special materials.",
-                "Will you assist me in this noble endeavor?"
+                "오, 모험가여! 마침 잘 왔구나.",
+                "전설의 무기를 만들고자 하는데 특별한 재료가 필요하다.",
+                "이 고귀한 일에 손을 빌려 주겠는가?"
             ],
-            "completedText": ["The first material is called Luminite Ore, found in the Luminescent Caves."]
+            "completedText": ["첫 번째 재료는 발광 동굴에서 찾을 수 있는 루미나이트 광석이다."]
         },
         "1": {
             "task": "talk",
             "npc": "caveguardian",
             "text": [
-                "You seek the Luminite Ore? Not many come here for it.",
-                "Prove your worth by defeating the Luminescent Golems, and I shall grant you access."
+                "루미나이트 광석을 찾는가? 이걸 노리고 오는 자는 많지 않아.",
+                "발광 골렘들을 처치하여 자격을 증명하라. 그러면 통과시켜 주리라."
             ],
-            "completedText": ["Face the Luminescent Golems!"]
+            "completedText": ["발광 골렘들에 맞서라!"]
         },
         "2": {
             "task": "kill",
@@ -30,53 +30,53 @@
         "3": {
             "task": "talk",
             "npc": "caveguardian",
-            "text": ["You've proven yourself. Here, take the Luminite Ore."],
+            "text": ["자격을 증명했군. 자, 루미나이트 광석을 가져가라."],
             "itemRewards": [
                 {
                     "key": "luminiteore",
                     "count": 3
                 }
             ],
-            "completedText": ["Return to Thrain with the Luminite Ore."]
+            "completedText": ["루미나이트 광석을 가지고 트레인에게 돌아가라."]
         },
         "4": {
             "task": "talk",
             "npc": "thrain",
             "text": [
-                "Excellent work! The next material is the Heart of the Forest.",
-                "It's a magical gem located deep within the Enchanted Woods."
+                "훌륭하다! 다음 재료는 숲의 심장이다.",
+                "마법의 숲 깊은 곳에 있는 마법 보석이지."
             ],
-            "completedText": ["Venture into the Enchanted Woods and retrieve the Heart of the Forest."]
+            "completedText": ["마법의 숲에 들어가 숲의 심장을 가져와라."]
         },
         "5": {
             "task": "talk",
             "npc": "treantelder",
             "text": [
-                "Why do you seek the Heart? Oh, for Thrain's quest?",
-                "Solve the riddles of the woods and the Heart shall be yours."
+                "왜 심장을 찾는가? 오, 트레인의 의뢰로?",
+                "숲의 수수께끼를 풀면 심장은 그대의 것이 되리라."
             ],
-            "completedText": ["Solve the riddles and navigate the Enchanted Woods."]
+            "completedText": ["수수께끼를 풀고 마법의 숲을 헤쳐 나가라."]
         },
         "6": {
             "task": "talk",
             "npc": "woodsspirit",
-            "text": ["You've solved the riddles. Here is the Heart of the Forest."],
+            "text": ["수수께끼를 풀었군. 여기 숲의 심장이다."],
             "itemRewards": [
                 {
                     "key": "heartoftheforest",
                     "count": 1
                 }
             ],
-            "completedText": ["Return to Thrain with the Heart of the Forest."]
+            "completedText": ["숲의 심장을 가지고 트레인에게 돌아가라."]
         },
         "7": {
             "task": "talk",
             "npc": "thrain",
             "text": [
-                "You've done splendidly. The last item I require is the Ember of Eternity.",
-                "It's said to be in the grasp of the Phoenix atop the Tower of Flames."
+                "정말 훌륭하다. 마지막 재료는 영원의 잉걸이다.",
+                "화염의 탑 정상에서 불사조가 지키고 있다고 한다."
             ],
-            "completedText": ["Climb the Tower of Flames and retrieve the Ember of Eternity."]
+            "completedText": ["화염의 탑에 올라 영원의 잉걸을 가져와라."]
         },
         "8": {
             "task": "kill",
@@ -103,8 +103,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Forge of Fate@green@. You have gained 3500 gold and the Weapon of Legends!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 방금 @crimson@운명의 대장간@green@을 완료했습니다. 3500 골드와 전설의 무기를 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

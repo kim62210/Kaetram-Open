@@ -1,26 +1,26 @@
 {
-    "name": "The Elemental Blade",
-    "description": "The world's elements seek a worthy bearer.|Legends speak of a blade that embodies the very essence of earth, fire, water, and air. Begin the journey to forge this elemental masterpiece and command its boundless power.",
+    "name": "원소의 검",
+    "description": "세계의 원소들이 합당한 주인을 찾고 있다.|전설에 따르면 흙, 불, 물, 바람의 정수를 모두 담은 검이 있다고 한다. 이 원소의 걸작을 단조하고 그 무한한 힘을 다스릴 여정을 시작하라.",
     "rewards": ["elementalsword"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "eldersmith",
             "text": [
-                "Ah, an adventurer! Have you heard of the Elemental Blade?",
-                "It is a sword that channels the forces of nature.",
-                "To craft it, you must gather the four Elemental Shards from across the land."
+                "오, 모험가여! 원소의 검을 들어본 적 있는가?",
+                "자연의 힘을 다루는 검이지.",
+                "그것을 만들려면 이 땅 곳곳에서 네 개의 원소 조각을 모아야 한다."
             ],
-            "completedText": ["Your journey begins in the Earth Caverns."]
+            "completedText": ["여정은 대지의 동굴에서 시작된다."]
         },
         "1": {
             "task": "talk",
             "npc": "earthguard",
             "text": [
-                "Seeking the Earth Shard? Prove your worth by defeating the Earth Elementals.",
-                "Return with their Essence, and I shall grant you the Shard."
+                "대지의 조각을 찾는가? 대지의 정령들을 처치하여 자격을 증명하라.",
+                "그들의 정수를 가져오면 조각을 내주리라."
             ],
-            "completedText": ["Defeat the Earth Elementals."]
+            "completedText": ["대지의 정령들을 처치하라."]
         },
         "2": {
             "task": "kill",
@@ -31,8 +31,8 @@
             "task": "talk",
             "npc": "earthguard",
             "text": [
-                "You have done well. Here is the Earth Shard.",
-                "Now, seek the Flame Spirit in the Lava Pits for the Fire Shard."
+                "잘했다. 여기 대지의 조각이다.",
+                "이제 용암 구덩이의 화염 정령에게서 불의 조각을 얻어라."
             ],
             "itemRewards": [
                 {
@@ -45,17 +45,17 @@
             "task": "talk",
             "npc": "flamespirit",
             "text": [
-                "To earn my Fire Shard, navigate through the Lava Maze.",
-                "Survive its trials, and the Shard is yours."
+                "내 불의 조각을 얻으려면 용암 미궁을 헤쳐 나가라.",
+                "시련을 견뎌내면 조각은 그대의 것이다."
             ],
-            "completedText": ["Navigate the Lava Maze."]
+            "completedText": ["용암 미궁을 헤쳐 나가라."]
         },
         "5": {
             "task": "talk",
             "npc": "flamespirit",
             "text": [
-                "You burn with determination. Take the Fire Shard.",
-                "Next, journey to the Water Temple for the Water Shard."
+                "결의로 불타고 있군. 불의 조각을 받아라.",
+                "다음은 물의 사원에서 물의 조각을 얻어라."
             ],
             "itemRewards": [
                 {
@@ -68,15 +68,15 @@
             "task": "talk",
             "npc": "watertemplar",
             "text": [
-                "Retrieve the Sacred Pearl from the depths to earn the Water Shard.",
-                "But be wary, the depths hide many secrets."
+                "심해에서 신성한 진주를 가져와 물의 조각을 얻어라.",
+                "허나 조심하라, 심해는 많은 비밀을 품고 있다."
             ],
-            "completedText": ["Retrieve the Sacred Pearl."]
+            "completedText": ["신성한 진주를 가져와라."]
         },
         "7": {
             "task": "talk",
             "npc": "watertemplar",
-            "text": ["The Water Shard is yours.", "Finally, ascend the Sky Tower for the Air Shard."],
+            "text": ["물의 조각은 그대의 것이다.", "마지막으로 천공의 탑에 올라 바람의 조각을 얻어라."],
             "itemRewards": [
                 {
                     "key": "watershard",
@@ -88,17 +88,17 @@
             "task": "talk",
             "npc": "windkeeper",
             "text": [
-                "To claim the Air Shard, fly through the Cloud Rings.",
-                "Only those light of heart and sure of purpose will succeed."
+                "바람의 조각을 얻으려면 구름 고리를 통과해 날아라.",
+                "오직 가벼운 마음과 확고한 목적을 지닌 자만이 성공한다."
             ],
-            "completedText": ["Fly through the Cloud Rings."]
+            "completedText": ["구름 고리를 통과하라."]
         },
         "9": {
             "task": "talk",
             "npc": "windkeeper",
             "text": [
-                "With the power of air now yours, return to Elder Smith.",
-                "He will guide you in forging the Elemental Blade."
+                "이제 바람의 힘을 손에 넣었으니, 엘더 스미스에게 돌아가라.",
+                "그가 원소의 검을 단조하는 길을 안내해 주리라."
             ],
             "itemRewards": [
                 {
@@ -135,8 +135,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@The Elemental Blade@green@. You now wield the power of the elements!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 방금 @crimson@원소의 검@green@을 완료했습니다. 이제 원소의 힘을 휘두를 수 있습니다!",
                 "colour": "#33cc33"
             }
         }

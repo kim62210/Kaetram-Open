@@ -1,41 +1,41 @@
 {
-    "name": "The Lost Melody",
-    "description": "A forgotten song needs to be revived.|Ancient tales tell of a melody that could summon rains and heal the earth. The village bard believes the notes are scattered, waiting to be pieced together.",
+    "name": "잃어버린 선율",
+    "description": "잊혀진 노래를 되살려야 한다.|고대 이야기에 따르면 비를 부르고 대지를 치유하는 선율이 있었다고 한다. 마을 음유시인은 그 음표들이 흩어져 다시 모이기를 기다리고 있다고 믿는다.",
     "rewards": ["ancientlute"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "villagebard",
             "text": [
-                "Greetings, traveler. I've been trying to recall a melody.",
-                "Its notes are said to be hidden in old monuments across the land.",
-                "Could you help me gather them?"
+                "안녕, 여행자여. 한 선율을 떠올리려 애쓰고 있다네.",
+                "그 음표들이 이 땅 곳곳의 옛 기념비에 숨겨져 있다고 하지.",
+                "함께 모아 줄 수 있겠나?"
             ],
-            "completedText": ["Seek the first monument."]
+            "completedText": ["첫 번째 기념비를 찾아라."]
         },
         "1": {
             "task": "talk",
             "npc": "stonepillar",
             "text": [
-                "Upon this stone, a note is faintly etched. It resonates softly.",
-                "You've discovered the first note!"
+                "이 돌 위에 음표 하나가 희미하게 새겨져 있다. 부드럽게 울려 퍼진다.",
+                "첫 번째 음표를 발견했다!"
             ],
-            "completedText": ["Find the next monument."]
+            "completedText": ["다음 기념비를 찾아라."]
         },
         "2": {
             "task": "talk",
             "npc": "ancientstatue",
             "text": [
-                "Water trickles down the statue, revealing a hidden musical note.",
-                "Another piece of the puzzle!"
+                "조각상에서 물이 흘러내리며 숨겨진 음표가 드러난다.",
+                "또 하나의 조각이 모였다!"
             ],
-            "completedText": ["Seek the third note."]
+            "completedText": ["세 번째 음표를 찾아라."]
         },
         "3": {
             "task": "talk",
             "npc": "cavepainting",
-            "text": ["The cave's walls reverberate with a unique tone.", "You've found the third musical note!"],
-            "completedText": ["Return to the bard."]
+            "text": ["동굴 벽에서 독특한 음색이 메아리친다.", "세 번째 음표를 찾아냈다!"],
+            "completedText": ["음유시인에게 돌아가라."]
         },
         "4": {
             "task": "talk",
@@ -47,12 +47,12 @@
                 }
             ],
             "text": [
-                "Ah, these are the notes! Let me piece them together...",
-                "Marvelous! As thanks, please take this ancient lute."
+                "오, 이것이 그 음표들이군! 한번 모아 보겠네...",
+                "놀랍군! 감사의 뜻으로 이 고대 류트를 받아주게."
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have completed @crimson@The Lost Melody@green@. The village bard has gifted you an ancient lute!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 @crimson@잃어버린 선율@green@을 완료했습니다. 마을 음유시인이 고대 류트를 선물했습니다!",
                 "colour": "#33cc33"
             }
         }

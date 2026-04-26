@@ -1,53 +1,53 @@
 {
-    "name": "Guardian of the Oasis",
-    "description": "Desert secrets await your discovery.|Legends speak of a hidden oasis, guarded by a majestic creature. Villagers are running out of water, and only the oasis can save them now.",
+    "name": "오아시스의 수호자",
+    "description": "사막의 비밀이 그대를 기다린다.|전설에 따르면 위대한 생명체가 지키는 숨겨진 오아시스가 있다고 한다. 마을 사람들의 식수가 바닥나고 있어, 이제 그 오아시스만이 그들을 구할 수 있다.",
     "rewards": ["elixiroflife"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "villageelder",
             "text": [
-                "Brave traveler, our village is in peril.",
-                "We've heard of an oasis hidden within the desert's heart.",
-                "But it's guarded by a creature. Will you help?"
+                "용감한 여행자여, 우리 마을이 위기에 처했소.",
+                "사막 한가운데 숨겨진 오아시스가 있다는 이야기를 들었지.",
+                "허나 한 생명체가 그곳을 지키고 있다오. 도와주겠소?"
             ],
-            "completedText": ["Venture into the desert."]
+            "completedText": ["사막으로 떠나라."]
         },
         "1": {
             "task": "talk",
             "npc": "deserthermit",
             "text": [
-                "Ah, seeking the oasis? It's real, but not easy to find.",
-                "Follow the path where cacti bloom at midnight."
+                "아, 오아시스를 찾는다고? 실재하긴 하지만 찾기는 쉽지 않아.",
+                "자정에 꽃이 피는 선인장을 따라가게."
             ],
-            "completedText": ["Seek the blooming cacti."]
+            "completedText": ["꽃 피는 선인장을 찾아라."]
         },
         "2": {
             "task": "talk",
             "npc": "bloomingcacti",
             "text": [
-                "The cacti glow mysteriously, leading a path deeper into the desert.",
-                "You feel a presence watching you."
+                "선인장들이 신비롭게 빛나며 사막 깊숙한 곳으로 길을 안내한다.",
+                "누군가 그대를 지켜보는 듯한 기운이 느껴진다."
             ],
-            "completedText": ["Continue on the path."]
+            "completedText": ["계속 길을 따라가라."]
         },
         "3": {
             "task": "talk",
             "npc": "oasisguardian",
             "text": [
-                "You've found the oasis, and its guardian stands before you.",
-                "Why have you come? Only those with pure intentions may access this sacred water."
+                "그대가 오아시스를 찾아냈고, 그 수호자가 그대 앞에 섰다.",
+                "어찌하여 왔는가? 오직 순수한 의도를 가진 자만이 이 신성한 물에 닿을 수 있다."
             ],
-            "completedText": ["Speak your intentions."]
+            "completedText": ["그대의 의도를 밝혀라."]
         },
         "4": {
             "task": "talk",
             "npc": "oasisguardian",
             "text": [
-                "Very well. I sense truth in your words.",
-                "Collect the water, but remember: take only what you need."
+                "좋다. 그대의 말에서 진심이 느껴진다.",
+                "물을 가져가되, 기억하라. 필요한 만큼만 취하라."
             ],
-            "completedText": ["Collect the oasis water."]
+            "completedText": ["오아시스의 물을 채집하라."]
         },
         "5": {
             "task": "talk",
@@ -59,12 +59,12 @@
                 }
             ],
             "text": [
-                "You've returned! And with the oasis water!",
-                "Our village is saved. As a token of our gratitude, take this Elixir of Life."
+                "돌아왔구나! 그것도 오아시스의 물과 함께!",
+                "우리 마을이 구원받았소. 감사의 표시로 이 생명의 영약을 받으시오."
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have completed @crimson@Guardian of the Oasis@green@. The villagers have gifted you the Elixir of Life!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 @crimson@오아시스의 수호자@green@를 완료했습니다. 마을 사람들이 생명의 영약을 선물했습니다!",
                 "colour": "#33cc33"
             }
         }

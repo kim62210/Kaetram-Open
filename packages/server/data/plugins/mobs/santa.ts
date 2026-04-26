@@ -32,7 +32,7 @@ export default class Santa extends Default {
         this.mob.heal(healAmount);
 
         // Send a message to the player.
-        this.mob.talkCallback?.(`The power of Christmas heals me!`);
+        this.mob.talkCallback?.(`크리스마스의 힘이 나를 치유한다!`);
     }
 
     /**

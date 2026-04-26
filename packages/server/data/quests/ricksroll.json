@@ -1,42 +1,42 @@
 {
-    "name": "Rick's Roll",
-    "description": "Rick needs help to make his famous roll to be together forever with his girlfriend.|Rick finds himself in need of assistance to create his famous roll. Go talk to him and see what he needs! ",
-    "rewards": ["1987 Cooking experience"],
+    "name": "릭의 롤",
+    "description": "릭은 여자친구와 영원히 함께하기 위해 그의 유명한 롤을 만들 도움이 필요하다.|릭은 자신의 유명한 롤을 만들기 위해 도움이 필요한 상황이다. 그에게 가서 무엇이 필요한지 들어보자!",
+    "rewards": ["요리 경험치 1987"],
     "stages": {
         "0": {
             "task": "cooking",
             "npc": "rick",
             "text": [
-                "Hello adventurer please help me.",
-                "Me and my girlfriend are no strangers to love",
-                "She knows the rules and so do I",
-                "A full commitment’s what I’m thinking of",
-                "She wouldn’t get this from any other guy",
-                "I just wanna tell her how I’m feeling",
-                "Gotta make her understand",
-                "That's why I need your help",
-                "Please bring me 5 cooked shrimps",
-                "They are the key ingredients of my perfect rolls",
-                "I need to make it so we could be together forever"
+                "안녕 모험가, 제발 도와줘.",
+                "나랑 내 여자친구는 사랑에 처음이 아니야",
+                "그녀도 규칙을 알고 나도 알지",
+                "내가 생각하는 건 완전한 헌신이야",
+                "다른 어떤 남자한테서도 받을 수 없는 거지",
+                "그저 내 마음을 그녀에게 전하고 싶어",
+                "그녀가 이해하게 만들어야 해",
+                "그래서 네 도움이 필요한 거야",
+                "구운 새우 5마리를 가져다 줘",
+                "내 완벽한 롤의 핵심 재료거든",
+                "우리가 영원히 함께하려면 이걸 만들어야 해"
             ],
             "completedText": [
-                "Don't give up on me",
-                "Don't let me down",
-                "Don't let me say goodbye",
-                "Please bring me 5 cooked shrimps"
+                "날 포기하지 말아줘",
+                "날 실망시키지 말아줘",
+                "작별 인사를 하게 만들지 말아줘",
+                "구운 새우 5마리를 가져다 줘"
             ]
         },
         "1": {
             "task": "cooking",
             "npc": "rick",
             "hasItemText": [
-                "Thank you. I'm so touched",
-                "I'll never gonna go around and desert you",
-                "Give me a second",
+                "고마워. 너무 감동이야",
+                "절대 너를 떠나거나 버리지 않을게",
+                "잠깐만 기다려줘",
                 "....",
                 "....",
-                "Perfect!",
-                "Could you do me a favour and give my rolls to my girlfriend?"
+                "완벽해!",
+                "부탁 하나만 들어줄래? 내 롤을 여자친구한테 전해줘"
             ],
             "itemRequirements": [
                 {
@@ -51,15 +51,15 @@
                 }
             ],
             "popup": {
-                "title": "Item acquired!",
-                "text": "Rick handed over his rolls, you can tell that it was made with love!",
+                "title": "아이템 획득!",
+                "text": "릭이 자신의 롤을 건넸습니다. 사랑을 담아 만든 게 느껴집니다!",
                 "colour": "#33cc33"
             },
             "completedText": [
-                "Don't give up on me",
-                "Don't let me down",
-                "Don't let me say goodbye",
-                "Please deliver my rolls to my girlfriend, Lena!"
+                "날 포기하지 말아줘",
+                "날 실망시키지 말아줘",
+                "작별 인사를 하게 만들지 말아줘",
+                "내 롤을 여자친구 레나에게 전해줘!"
             ]
         },
         "2": {
@@ -69,10 +69,10 @@
             "task": "talk",
             "npc": "rickgf",
             "hasItemText": [
-                "Oh!",
-                "Is this from Rick?",
-                "Thank you so much adventurer!",
-                "Please take this as a token of my appreciation"
+                "어머!",
+                "이거 릭이 보낸 거예요?",
+                "정말 고마워요 모험가님!",
+                "감사의 표시로 이걸 받아주세요"
             ],
             "itemRequirements": [
                 {
@@ -87,8 +87,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Rick's Roll@green@. You have gained 1987 gold!",
+                "title": "퀘스트 완료!",
+                "text": "@green@@crimson@릭의 롤@green@을 완료했습니다. 1987 골드를 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

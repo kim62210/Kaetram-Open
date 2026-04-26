@@ -1,30 +1,30 @@
 {
-    "name": "Arts and Crafts",
-    "description": "Help the old lady on the great mountai with her crafts.|The old lady on the great mountain is very cold and needs a brave adventurer to run errands for her. In exchange you will be taught how to start crafting items.",
-    "rewards": ["Access to crafting benches"],
+    "name": "예술과 공예",
+    "description": "거대한 산 위의 할머니가 공예 일을 도와줄 사람을 찾고 있다.|거대한 산 위에 사는 할머니는 너무 추워서 용감한 모험가의 잔심부름이 필요하다. 그 대가로 아이템 제작의 기초를 배울 수 있다.",
+    "rewards": ["제작대 사용 권한"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "iamverycoldnpc",
             "text": [
-                "Hello there young one...",
-                "Would you be interested in learning how to craft things?",
-                "I can teach you, but you'll need to bring me some materials first.",
-                "I'm gonna teach you how to make pendants.",
-                "First bring me some string, you can craft it by finding blue lilies.",
-                "Secondly I will need some beryl, you can find it in various caves.",
-                "You can use the crafting table to make a Beryl Pendant."
+                "어서 오게나, 젊은 친구…",
+                "물건 만드는 법을 배워보고 싶지 않은가?",
+                "내가 가르쳐 줄 수 있지만, 먼저 재료를 좀 가져와야 해.",
+                "오늘은 펜던트 만드는 법을 가르쳐 주겠네.",
+                "먼저 실을 좀 가져오게. 푸른 백합을 찾으면 만들 수 있지.",
+                "그다음엔 베릴이 필요해. 여러 동굴에서 찾을 수 있을 거야.",
+                "제작대를 사용하면 베릴 펜던트를 만들 수 있다네."
             ],
-            "completedText": ["Bring me some string and some beryl gemstone and use it to make a pendant."]
+            "completedText": ["실과 베릴 보석을 가져와서 펜던트를 만들어 오게."]
         },
         "1": {
             "task": "talk",
             "npc": "iamverycoldnpc",
             "hasItemText": [
-                "Wonderful, now you can use crafting in combination with other skills",
-                "to create more complex items. Fletch a small bowl and bring it to me."
+                "훌륭하군. 이제 다른 스킬과 제작을 조합해서",
+                "더 복잡한 아이템을 만들 수 있다네. 작은 그릇을 깎아서 가져오게."
             ],
-            "completedText": ["Fletch me a small bowl and bring it to me."],
+            "completedText": ["작은 그릇을 깎아서 가져와 주게."],
             "itemRequirements": [
                 {
                     "key": "berylpendant",
@@ -36,11 +36,11 @@
             "task": "talk",
             "npc": "iamverycoldnpc",
             "hasItemText": [
-                "Perfect, I'm gonna take that bowl just to annoy you. Go make another",
-                "one and use this tomato to make a stew using the cauldron.",
-                "You may need to go find the rest of the ingredients, I'm getting old."
+                "완벽해. 너 약 올리려고 그 그릇은 내가 가져가겠어. 하나 더 만들고",
+                "이 토마토를 써서 가마솥으로 스튜를 만들어 오게.",
+                "나머지 재료는 자네가 직접 찾아야 할 거야. 늙어서 못 움직이거든."
             ],
-            "completedText": ["Try making a stew using a bowl, a tomato, and the cauldron."],
+            "completedText": ["그릇 하나, 토마토 하나, 그리고 가마솥으로 스튜를 만들어 보게."],
             "itemRequirements": [
                 {
                     "key": "bowlsmall",
@@ -57,7 +57,7 @@
         "3": {
             "task": "talk",
             "npc": "iamverycoldnpc",
-            "hasItemText": ["Wonderful, see, you're getting the hang of it."],
+            "hasItemText": ["훌륭해, 봐, 점점 감을 잡아가는군."],
             "itemRequirements": [
                 {
                     "key": "stew",
@@ -65,8 +65,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Arts and Craft@green@ quest.",
+                "title": "퀘스트 완료!",
+                "text": "@green@@crimson@예술과 공예@green@ 퀘스트를 완료했습니다.",
                 "colour": "#33cc33"
             }
         }

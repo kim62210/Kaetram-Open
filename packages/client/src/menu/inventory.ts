@@ -345,9 +345,9 @@ export default class Inventory extends Menu {
     private formatDescription(name: string, count: number, description: string): string {
         return count < 1000
             ? description
-            : `${description} You have a stack of ${count.toLocaleString(
-                  'en-US'
-              )} ${name.toLowerCase()}. `;
+            : `${description} ${name}을(를) ${count.toLocaleString(
+                  'ko-KR'
+              )}개 보유 중입니다. `;
     }
 
     /**

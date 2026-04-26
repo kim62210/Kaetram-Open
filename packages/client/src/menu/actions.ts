@@ -98,32 +98,32 @@ export default class Actions extends Menu {
             enchantmentsDiv.id = 'action-description-enchantments';
 
             // Apply the attack stats to the attack div.
-            attack.innerHTML = `<u>Attack Stats:</u>
-                Crush: ${attackStats.crush} <br>
-                Slash: ${attackStats.slash} <br>
-                Stab: ${attackStats.stab} <br>
-                Archery: ${attackStats.archery} <br>
-                Magic: ${attackStats.magic} <br>`;
+            attack.innerHTML = `<u>공격 능력치:</u>
+                강타: ${attackStats.crush} <br>
+                참격: ${attackStats.slash} <br>
+                찌르기: ${attackStats.stab} <br>
+                활쏘기: ${attackStats.archery} <br>
+                마법: ${attackStats.magic} <br>`;
 
             // Apply the defense stats to the defense div.
-            defense.innerHTML = `<u>Defense Stats:</u>
-                Crush: ${defenseStats.crush} <br>
-                Slash: ${defenseStats.slash} <br>
-                Stab: ${defenseStats.stab} <br>
-                Archery: ${defenseStats.archery} <br>
-                Magic: ${defenseStats.magic} <br>`;
+            defense.innerHTML = `<u>방어 능력치:</u>
+                강타: ${defenseStats.crush} <br>
+                참격: ${defenseStats.slash} <br>
+                찌르기: ${defenseStats.stab} <br>
+                활쏘기: ${defenseStats.archery} <br>
+                마법: ${defenseStats.magic} <br>`;
 
             // Apply the bonuses to the bonuses div.
-            bonusesDiv.innerHTML = `<u>Bonuses:</u>
-                Accuracy: ${bonuses.accuracy} <br>
-                Strength: ${bonuses.strength} <br>
-                Archery: ${bonuses.archery} <br>
-                Magic: ${bonuses.magic} <br>`;
+            bonusesDiv.innerHTML = `<u>보너스:</u>
+                명중: ${bonuses.accuracy} <br>
+                힘: ${bonuses.strength} <br>
+                활쏘기: ${bonuses.archery} <br>
+                마법: ${bonuses.magic} <br>`;
 
             // If the item has enchantments, apply them to the enchantments div.
             if (Object.keys(enchantments).length > 0) {
                 // Apply the enchantments to the enchantments div.
-                enchantmentsDiv.innerHTML = `<u>Enchantments:</u>`;
+                enchantmentsDiv.innerHTML = `<u>마법부여:</u>`;
 
                 for (let key in enchantments) {
                     let enchantment = Modules.Enchantment[key];

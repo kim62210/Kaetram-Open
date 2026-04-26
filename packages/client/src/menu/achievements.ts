@@ -121,7 +121,7 @@ export default class Achievements extends Menu {
         this.regions.push('Miscellaneous');
 
         // Update the tab text.
-        this.tabText.innerHTML = this.currentRegion;
+        this.tabText.innerHTML = this.currentRegion === 'Miscellaneous' ? '기타' : this.currentRegion;
     }
 
     /**

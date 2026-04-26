@@ -1,28 +1,28 @@
 {
-    "name": "The Elemental Gastronomy",
-    "description": "Master Chef Elandrial seeks the ultimate ingredients.|Chef Elandrial believes that combining elements through cooking can create dishes with magical properties. To prove his theory, he seeks the assistance of a versatile adventurer to gather and craft the needed ingredients.",
-    "rewards": ["Elemental Dish", "Experience in Cooking, Fletching, and Magic"],
+    "name": "원소의 미식",
+    "description": "마스터 셰프 엘란드리얼이 궁극의 재료를 찾고 있다.|셰프 엘란드리얼은 요리를 통해 원소를 결합하면 마법적 성질을 지닌 음식을 만들 수 있다고 믿는다. 자신의 이론을 증명하기 위해 다재다능한 모험가의 도움을 청하고 있다.",
+    "rewards": ["원소 요리", "요리·궁시 제작·마법 경험치"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "elandrial",
             "text": [
-                "Ah, adventurer! I've heard tales of your versatility.",
-                "I have a theory that fusing elemental properties in food can create something extraordinary.",
-                "First, I need you to explore the Frozen Caves to find the Icecap Mushroom.",
-                "But be wary, the caves are known to be treacherous!"
+                "오, 모험가여! 그대의 다재다능함에 대해 들었다네.",
+                "음식에 원소의 성질을 융합하면 비범한 무언가가 만들어진다는 이론이 있지.",
+                "먼저 얼어붙은 동굴을 탐험해 빙관 버섯을 가져와다오.",
+                "다만 조심해라, 그 동굴은 위험하기로 유명하니!"
             ],
-            "completedText": ["The Frozen Caves await.", "Seek out the Icecap Mushroom."]
+            "completedText": ["얼어붙은 동굴이 기다린다.", "빙관 버섯을 찾아라."]
         },
         "1": {
             "task": "talk",
             "npc": "elandrial",
             "hasItemText": [
-                "Perfect! Now, for the next ingredient.",
-                "We need an arrow with fiery properties. But not just any arrow, an arrow crafted with the Feather of a Phoenix.",
-                "You'll need to use your fletching skills to craft this arrow."
+                "완벽하군! 이제 다음 재료다.",
+                "불의 성질을 가진 화살이 필요해. 평범한 화살이 아니라 불사조의 깃털로 만든 화살이지.",
+                "궁시 제작 기술로 이 화살을 만들어야 한다."
             ],
-            "completedText": ["Combine the Phoenix Feather with an arrow shaft.", "Craft the Fiery Phoenix Arrow."],
+            "completedText": ["불사조의 깃털과 화살대를 결합하라.", "불꽃의 불사조 화살을 만들어라."],
             "itemRequirements": [
                 {
                     "key": "icecapmushroom",
@@ -34,17 +34,17 @@
             "task": "fletching",
             "item": "fieryphoenixarrow",
             "npc": "elandrial",
-            "completedText": ["Once you've crafted the Fiery Phoenix Arrow,", "return to me."]
+            "completedText": ["불꽃의 불사조 화살을 만들었다면", "다시 나에게로 돌아오라."]
         },
         "3": {
             "task": "talk",
             "npc": "elandrial",
             "hasItemText": [
-                "Magnificent! Now, for the final touch, we will imbue this arrow with an enchantment.",
-                "Use your magic to cast a spell of levitation on this arrow.",
-                "It will become the Levitating Fiery Phoenix Arrow!"
+                "훌륭하다! 이제 마지막 단계로, 이 화살에 마법을 부여하자.",
+                "그대의 마법으로 이 화살에 부양 주문을 걸어라.",
+                "그러면 부양하는 불꽃 불사조 화살이 될 것이다!"
             ],
-            "completedText": ["Utilize your magic.", "Craft the Levitating Fiery Phoenix Arrow."],
+            "completedText": ["마법을 사용하라.", "부양하는 불꽃 불사조 화살을 만들어라."],
             "itemRequirements": [
                 {
                     "key": "fieryphoenixarrow",
@@ -57,17 +57,17 @@
             "spell": "levitation",
             "item": "levitatingfieryphoenixarrow",
             "npc": "elandrial",
-            "completedText": ["Once enchanted, return to me with the arrow.", "We're close to completing the dish!"]
+            "completedText": ["마법을 부여한 후 화살을 가지고 돌아오라.", "요리 완성이 멀지 않았다!"]
         },
         "5": {
             "task": "talk",
             "npc": "elandrial",
             "hasItemText": [
-                "This is it, adventurer! The final step.",
-                "Now, using your cooking skills, combine the Icecap Mushroom and the Levitating Fiery Phoenix Arrow.",
-                "The result will be a dish never seen before!"
+                "드디어, 모험가여! 마지막 단계다.",
+                "이제 요리 기술로 빙관 버섯과 부양하는 불꽃 불사조 화살을 결합하라.",
+                "그 결과는 일찍이 본 적 없는 요리가 될 것이다!"
             ],
-            "completedText": ["Unite the elements through cooking.", "Create the Elemental Dish."],
+            "completedText": ["요리로 원소를 합쳐라.", "원소 요리를 만들어라."],
             "itemRequirements": [
                 {
                     "key": "levitatingfieryphoenixarrow",
@@ -80,8 +80,8 @@
             "recipe": "elementaldish",
             "npc": "elandrial",
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@The Elemental Gastronomy@green@. You've been awarded an @crimson@Elemental Dish@green@ and experience in Cooking, Fletching, and Magic!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 방금 @crimson@원소의 미식@green@을 완료했습니다. @crimson@원소 요리@green@와 요리·궁시 제작·마법 분야의 경험치를 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

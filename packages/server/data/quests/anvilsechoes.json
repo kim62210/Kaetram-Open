@@ -1,35 +1,35 @@
 {
-    "name": "Anvil's Echoes",
-    "description": "The local blacksmith has lost his hammer and needs your help.|Seriously, he was just using it and now it's gone. I'm sure he'll be offering you a very nice reward for it if you help him out. Just go talk to him, he should be located somewhere in Mudwich, like right in the centre or something.",
-    "rewards": ["Blacksmith's Boots", "420 Smithing experience", "Access to the Smithing skill"],
+    "name": "모루의 메아리",
+    "description": "마을 대장장이가 망치를 잃어버려 도움이 필요하다.|진짜로, 방금까지 쓰던 망치가 갑자기 사라져버렸다. 도와주면 분명 꽤 괜찮은 보상을 줄 것이다. 그냥 가서 얘기해 봐라. 머드위치 한가운데 어디쯤에 있을 거다.",
+    "rewards": ["대장장이의 부츠", "대장기술 경험치 420", "대장기술 스킬 해금"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "blacksmith",
             "text": [
-                "Dear adventurer, I have a huge problem.",
-                "My ancestral hammer has been stolen by a thief.",
-                "Without it I cannot produce some of my finest work.",
-                "I'm now stuck having to use this old hammer.",
-                "Listen, if you help me out I will give you something cool.",
-                "How about some smithing boots? They will help you smith faster.",
-                "It's definitely not some voodoo magic, I promise.",
-                "I last seen it when I was trying to smith on the beach.",
-                "I looked away for a second and it was gone.",
-                "I think you should start there and see if you can find any clues."
+                "모험가 양반, 큰 문제가 생겼소.",
+                "조상 대대로 내려온 내 망치를 도둑이 훔쳐갔다오.",
+                "그게 없으면 내 최고의 작품을 만들 수가 없어.",
+                "이제 이 낡은 망치로 일할 수밖에 없게 됐지.",
+                "이봐, 도와주면 멋진 걸 하나 주겠소.",
+                "대장기술 부츠 어떻소? 더 빠르게 대장일을 할 수 있게 해줄 거요.",
+                "절대 부두술 같은 건 아니오, 약속하지.",
+                "마지막으로 본 게 해변에서 대장일 하던 때였소.",
+                "잠깐 한눈판 사이에 사라져 버렸지.",
+                "거기서부터 단서를 찾아보는 게 좋을 거요."
             ],
-            "completedText": ["Please, go check out the beach for any clues."]
+            "completedText": ["부탁이오, 해변에 가서 단서를 찾아봐 주시오."]
         },
         "1": {
             "task": "talk",
             "npc": "blacksmith",
-            "text": ["Please, go check out the beach for any clues."],
+            "text": ["부탁이오, 해변에 가서 단서를 찾아봐 주시오."],
             "hasItemText": [
-                "Oh! My wonderful hammer!",
-                "I can finally get back to break- I mean smithing.",
-                "Here, take these smithing boots as a reward.",
-                "You can also use my anvil to smith anything you want.",
-                "I'm sure you'll find it useful."
+                "오! 내 사랑스러운 망치!",
+                "이제 다시 부수… 아니, 대장일에 복귀할 수 있겠군.",
+                "자, 보상으로 이 대장기술 부츠를 받으시오.",
+                "내 모루도 마음껏 사용해서 원하는 건 뭐든 만들어 보시오.",
+                "분명 유용하게 쓰일 거요."
             ],
             "skillRewards": [
                 {
@@ -50,8 +50,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've been awarded @crimson@3000 Smithing experience@green@ and @crimson@Smithing Gloves@green@.",
+                "title": "퀘스트 완료!",
+                "text": "@green@@crimson@대장기술 경험치 3000@green@과 @crimson@대장기술 장갑@green@을 획득했습니다.",
                 "colour": "#33cc33"
             }
         }

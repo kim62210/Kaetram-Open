@@ -1,36 +1,36 @@
 {
-    "name": "Llama Drama",
-    "description": "Spit happens.|Larry's llama ran away after a silly argument about the best grass flavor. Help him find his spitting buddy.",
+    "name": "라마 드라마",
+    "description": "침 좀 튀길 수도 있지.|라리의 라마가 가장 맛있는 풀맛에 대해 사소한 다툼을 벌인 끝에 도망쳐 버렸다. 침 동무를 찾아주도록 도와주자.",
     "rewards": ["llama-wool", "spit-proof cloak"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "larry",
             "text": [
-                "I just can't believe it! Lulu and I had such a petty squabble!",
-                "Please, find her for me. I think she headed towards the clover fields."
+                "도무지 믿을 수가 없다오! 룰루와 정말 별것도 아닌 일로 다퉜는데!",
+                "제발, 그 친구를 찾아주오. 클로버 들판 쪽으로 갔을 거요."
             ],
-            "completedText": ["Locate Lulu in the clover fields."]
+            "completedText": ["클로버 들판에서 룰루를 찾아라."]
         },
         "1": {
             "task": "talk",
             "npc": "lulu",
             "text": [
-                "*spits* You're here to bring me back, aren't you?",
-                "Tell Larry mint-flavored grass is superior, and I might consider it!"
+                "*퉤* 날 데려가려고 왔지?",
+                "라리에게 박하 풀이 최고라고 전해. 그러면 다시 생각해 볼게!"
             ],
-            "completedText": ["Inform Larry of Lulu's demands."]
+            "completedText": ["라리에게 룰루의 요구를 전하라."]
         },
         "2": {
             "task": "talk",
             "npc": "larry",
-            "text": ["Mint, really? I guess I can give it a try...", "Bring her back and I'll reward you!"],
-            "completedText": ["Lead Lulu back to Larry."]
+            "text": ["박하라고? 흠, 한번 시도는 해봐야겠지...", "데려와 주면 보상하리다!"],
+            "completedText": ["룰루를 라리에게 데려가라."]
         },
         "3": {
             "task": "talk",
             "npc": "lulu",
-            "text": ["Well, alright, if he's trying mint...", "Let's go back, and thanks!"],
+            "text": ["흠, 좋아, 박하를 시도한다면야...", "돌아가자, 고마워!"],
             "itemRewards": [
                 {
                     "key": "llama-wool",
@@ -42,8 +42,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@Lulu and Larry are reunited, and it feels so good! Enjoy your @crimson@llama-wool@green@ and stay dry with the spit-proof cloak.",
+                "title": "퀘스트 완료!",
+                "text": "@green@룰루와 라리가 다시 만났고, 그 기분은 정말 좋습니다! @crimson@라마 양털@green@을 즐기고 침 방지 망토로 안전하게 지내세요.",
                 "colour": "#33cc33"
             }
         }

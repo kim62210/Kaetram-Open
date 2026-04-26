@@ -1,40 +1,40 @@
 {
-    "name": "The Great Pie Heist",
-    "description": "Pie's gone missing!|Someone in town has taken Mrs. Berry's award-winning blueberry pie. It's up to you to follow the crumbs and solve this tasty mystery!",
+    "name": "위대한 파이 도둑 사건",
+    "description": "파이가 사라졌다!|마을 누군가가 베리 부인의 우승 블루베리 파이를 가져갔다. 부스러기를 따라가 이 맛있는 미스터리를 풀어내자!",
     "rewards": ["sliceofpie"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "mrsberry",
             "text": [
-                "Adventurer! My blueberry pie is gone!",
-                "I was going to enter it in the competition tomorrow!",
-                "Find it and there's a slice in it for you."
+                "모험가여! 내 블루베리 파이가 사라졌다오!",
+                "내일 대회에 출품하려고 했는데!",
+                "찾아주면 한 조각 떼어주리다."
             ],
-            "completedText": ["Sniff out the pie thief!"]
+            "completedText": ["파이 도둑의 냄새를 쫓아라!"]
         },
         "1": {
             "task": "talk",
             "npc": "piecrumbs",
             "text": [
-                "Following the trail of pie crumbs, you stumble upon a suspicious-looking squirrel.",
-                "It seems to be enjoying... a blueberry?"
+                "파이 부스러기 흔적을 따라가다 수상해 보이는 다람쥐와 마주친다.",
+                "녀석이 즐기고 있는 게... 블루베리?"
             ],
-            "completedText": ["Confront the squirrel."]
+            "completedText": ["다람쥐를 추궁하라."]
         },
         "2": {
             "task": "talk",
             "npc": "squirrelnapper",
             "text": [
-                "Okay, okay! I took the pie! But it was for a good cause!",
-                "There's a party in the tree tonight. Want to join?"
+                "알겠어, 알겠다고! 내가 파이를 가져갔어! 하지만 좋은 이유가 있었거든!",
+                "오늘 밤 나무에서 파티가 열려. 같이 갈래?"
             ],
-            "completedText": ["Return the pie... or party first?"]
+            "completedText": ["파이를 돌려줄까... 아니면 파티가 먼저?"]
         },
         "3": {
             "task": "talk",
             "npc": "mrsberry",
-            "text": ["You brought it back! Thank you, dear!", "Now, about that slice I promised..."],
+            "text": ["파이를 가져왔구나! 고마워, 정말!", "약속한 한 조각 말이지..."],
             "itemRewards": [
                 {
                     "key": "sliceofpie",
@@ -42,8 +42,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have cracked @crimson@The Great Pie Heist@green@. Enjoy your well-deserved slice of pie!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 @crimson@위대한 파이 도둑 사건@green@을 해결했습니다. 마땅히 받을 만한 파이 한 조각을 즐기세요!",
                 "colour": "#33cc33"
             }
         }

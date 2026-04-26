@@ -188,37 +188,37 @@ export default class Crafting extends Menu {
         }
 
         // Update the craft button text according to the type of interface.
-        let text = 'Craft';
+        let text = '제작';
 
         switch (type) {
             case Modules.Skills.Cooking: {
-                text = 'Cook';
+                text = '요리';
                 break;
             }
 
             case Modules.Skills.Chiseling:
             case Modules.Skills.Crafting: {
-                text = 'Craft';
+                text = '제작';
                 break;
             }
 
             case Modules.Skills.Fletching: {
-                text = 'Fletch';
+                text = '활제작';
                 break;
             }
 
             case Modules.Skills.Smithing: {
-                text = 'Smith';
+                text = '대장간';
                 break;
             }
 
             case Modules.Skills.Smelting: {
-                text = 'Smelt';
+                text = '제련';
                 break;
             }
 
             case Modules.Skills.Alchemy: {
-                text = 'Brew';
+                text = '연금술';
                 break;
             }
         }

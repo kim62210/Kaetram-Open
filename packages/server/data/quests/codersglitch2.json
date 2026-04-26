@@ -1,7 +1,7 @@
 {
-    "name": "The Coder's Glitch II",
-    "description": "The coder yet again needs your help with his silly glitches.|He's done it again, well, more like, he already has done it and is waiting on you to get strong enough so that you can actually help him out with the tasks at hand. Probably something more about slaying stuff, you know, the generic things.",
-    "rewards": ["7500 Accuracy experience", "4500 Strength experience", "3000 Defense experience", "A surprise shield"],
+    "name": "코더의 글리치 II",
+    "description": "코더가 또다시 자신의 어이없는 글리치 문제로 도움이 필요하다.|또 일을 저질렀다. 정확히 말하면 이미 저질러놨고, 네가 충분히 강해져서 도와줄 수 있을 때까지 기다리고 있는 거다. 아마 또 뭔가를 잡으러 다니는 그런 흔한 일이겠지.",
+    "rewards": ["정확도 경험치 7500", "힘 경험치 4500", "방어 경험치 3000", "깜짝 방패"],
     "questRequirements": ["codersglitch", "minersquest", "scavenger"],
     "skillRequirements": {
         "accuracy": 25,
@@ -19,20 +19,20 @@
             "task": "talk",
             "npc": "coder",
             "text": [
-                "Okay, so like, I need more of those glitchy things defeated.",
-                "Listen, they are slowly deteriorating these lands so we must hurry.",
-                "Because I want this quest to waste as much of your time as possible,",
-                "I will require you bring me three talismans in order to continue.",
-                "But here's the catch, I also want you to defeat the said bosses.",
-                "That way you can't just sneak in there and pick up the talismans.",
-                "I'm not sure how you would do that, but I'm sure you would find a way.",
-                "Anyways, I want you to defeat the following bosses:",
-                "The Ogre Lord, the Queen Ant, and the Forest Dragon.",
-                "You must defeat the bosses in order."
+                "그래서, 그 글리치들을 더 처치해야 해.",
+                "잘 들어, 그놈들이 이 땅을 서서히 망가뜨리고 있으니까 서둘러야 해.",
+                "이 퀘스트가 네 시간을 최대한 잡아먹게 만들고 싶으니까,",
+                "계속 진행하려면 부적 세 개를 가져와 줘야 해.",
+                "근데 함정은, 해당 보스들도 직접 처치해야 한다는 거야.",
+                "그래야 몰래 들어가서 부적만 챙기는 짓을 못하지.",
+                "어떻게 그게 가능한지는 모르겠지만 너라면 분명 방법을 찾을 거야.",
+                "아무튼, 다음 보스들을 처치해 줘:",
+                "오우거 로드, 퀸 앤트, 그리고 포레스트 드래곤.",
+                "보스들은 순서대로 처치해야 해."
             ],
             "completedText": [
-                "Head out and defeat the Ogre Lord, the Queen Ant, and the Forest Dragon.",
-                "You must defeat the bosses in order."
+                "출발해서 오우거 로드, 퀸 앤트, 포레스트 드래곤을 처치하라.",
+                "보스들은 순서대로 처치해야 한다."
             ]
         },
         "1": {
@@ -54,10 +54,10 @@
             "task": "talk",
             "npc": "coder",
             "hasItemText": [
-                "Wonderful, the anti-coder will surely be displeased- Oh sorry, amazing job man!",
-                "Your work is surely masterful and very exquisite, I must say.",
-                "No I'm not losing my mind haha, you are. I'm perfectly fine the way I am.",
-                "Regardless, thank you for your help."
+                "훌륭해, 안티 코더가 분명 불쾌해할… 아 미안, 멋진 작업이었어!",
+                "네 솜씨는 정말 거장답고 아주 정교했다고 말할 수 있겠군.",
+                "아니, 나 정신줄 안 놨어 ㅎㅎ. 너야말로 정신줄 놓은 거지. 난 멀쩡해.",
+                "아무튼, 도와줘서 고맙다."
             ],
 
             "itemRequirements": [

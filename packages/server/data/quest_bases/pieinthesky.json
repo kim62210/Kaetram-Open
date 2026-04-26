@@ -1,29 +1,29 @@
 {
-    "name": "Pie in the Sky",
-    "description": "Dreamy desserts.|Patty Pie-maker dreams of a pie so light it floats. Help her create this culinary marvel.",
+    "name": "하늘의 파이",
+    "description": "꿈같은 디저트.|파이 장인 패티는 너무 가벼워서 떠오르는 파이를 꿈꾼다. 그녀가 이 요리의 기적을 만들도록 도와주자.",
     "rewards": ["floating-pie", "recipe-scroll"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "pattypie",
             "text": [
-                "I have a dream of a pie that floats! But I need cloud-fluff...",
-                "Could you ascend the Floating Peaks and grab me some?"
+                "둥둥 떠다니는 파이가 꿈이라네! 하지만 구름 솜털이 필요해...",
+                "공중 봉우리에 올라가서 좀 가져다줄 수 있겠어?"
             ],
-            "completedText": ["Collect cloud-fluff from the Floating Peaks."]
+            "completedText": ["공중 봉우리에서 구름 솜털을 모아라."]
         },
         "1": {
             "task": "talk",
             "npc": "cloudsprite",
-            "text": ["Oh my! You want some of my fluff?", "Only if you tickle me first! Tee-hee!"],
-            "completedText": ["Engage in a tickle fight with the Cloud Sprite!"]
+            "text": ["오 이런! 내 솜털을 원한다고?", "먼저 나를 간지럽혀야 해! 호호!"],
+            "completedText": ["구름 정령과 간지럼 싸움을 벌여라!"]
         },
         "2": {
             "task": "talk",
             "npc": "pattypie",
             "text": [
-                "You've got it! Now to bake the masterpiece...",
-                "Voilà! A floating pie! And here's the recipe too."
+                "구해왔구나! 자, 이제 걸작을 구워보자...",
+                "짠! 떠다니는 파이! 그리고 비법서도 함께!"
             ],
             "itemRewards": [
                 {
@@ -36,8 +36,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've created culinary history! Relish your @crimson@floating-pie@green@ and perhaps bake your own with the recipe scroll.",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 요리의 역사를 만들었습니다! @crimson@떠다니는 파이@green@를 즐기고, 비법 두루마리로 직접 구워보세요.",
                 "colour": "#33cc33"
             }
         }

@@ -1,7 +1,7 @@
 {
-    "name": "Elemental Archery",
-    "description": "Legends speak of arrows imbued with the essence of nature's elements. Master Archer Elandrial holds the secrets of crafting such arrows but needs assistance in gathering the components.",
-    "rewards": ["Ability to craft Elemental Arrows", "3000 Archery experience"],
+    "name": "원소의 궁술",
+    "description": "전설에 따르면 자연의 원소가 깃든 화살이 있다고 한다. 마스터 궁수 엘란드리얼이 그 화살을 만드는 비법을 알고 있지만, 재료를 모으기 위해 도움이 필요하다.",
+    "rewards": ["원소 화살 제작 능력", "궁술 경험치 3000"],
     "skillRequirements": {
         "archery": 25
     },
@@ -10,27 +10,27 @@
             "task": "talk",
             "npc": "elandrial",
             "text": [
-                "Ah, a fellow archer! I've been trying to recreate the legendary elemental arrows.",
-                "These arrows were once used by ancient archers to battle the forces of darkness.",
-                "To craft these, I require special elements from the land. Will you help me?"
+                "오, 동료 궁수여! 나는 전설의 원소 화살을 재현하려 애쓰고 있다네.",
+                "이 화살은 옛 궁수들이 어둠의 세력에 맞서 사용했던 화살이지.",
+                "이걸 만들려면 이 땅의 특별한 원소들이 필요해. 도와주겠나?"
             ],
-            "completedText": ["The journey won't be easy.", "Are you sure you're up for the task?"]
+            "completedText": ["여정은 쉽지 않을 것이다.", "정말 이 임무를 맡을 준비가 되었는가?"]
         },
         "1": {
             "task": "talk",
             "npc": "elandrial",
             "text": [
-                "First, we'll need the 'Heart of Flame' from the Fire Pits deep within the Inferno Caverns.",
-                "This will be used to craft the Fire Arrows. Be cautious, the caverns are treacherous."
+                "먼저 인페르노 동굴 깊숙한 곳, 화염 구덩이에서 '불꽃의 심장'을 가져와야 한다.",
+                "이걸로 화염 화살을 만들 거야. 조심해라, 그곳은 위험천만한 곳이니."
             ],
-            "completedText": ["Have you retrieved the Heart of Flame?", "It's vital for crafting the Fire Arrows."]
+            "completedText": ["불꽃의 심장은 가져왔는가?", "화염 화살을 만드는 데 꼭 필요하다."]
         },
         "2": {
             "task": "talk",
             "npc": "elandrial",
             "hasItemText": [
-                "Excellent work! Next, we need the 'Tear of Frost' from the Ice Spirit residing atop the Frosted Peaks.",
-                "With it, we can craft the Ice Arrows."
+                "훌륭하군! 다음으로는 서리 봉우리 정상에 사는 얼음 정령에게서 '서리의 눈물'을 얻어야 한다.",
+                "그것이 있어야 얼음 화살을 만들 수 있어."
             ],
             "itemRequirements": [
                 {
@@ -43,9 +43,9 @@
             "task": "talk",
             "npc": "elandrial",
             "hasItemText": [
-                "You've proven your dedication! Now for the final element: 'Whisper of Wind'.",
-                "This can be found in the Whispering Woods, where the trees converse with the wind.",
-                "Retrieve it, and we'll have everything to craft the Wind Arrows."
+                "헌신을 증명했군! 이제 마지막 원소, '바람의 속삭임'이다.",
+                "나무들이 바람과 대화하는 속삭이는 숲에서 찾을 수 있어.",
+                "그것을 가져오면 바람 화살을 만들 모든 재료가 갖춰지는 셈이지."
             ],
             "itemRequirements": [
                 {
@@ -58,9 +58,9 @@
             "task": "talk",
             "npc": "elandrial",
             "hasItemText": [
-                "With the Whisper of Wind, we now have all the components.",
-                "I'll now pass on the knowledge to craft Elemental Arrows.",
-                "Use them wisely, for with great power comes great responsibility."
+                "바람의 속삭임으로 모든 재료가 모였군.",
+                "이제 원소 화살을 만드는 비법을 전수해 주겠다.",
+                "현명하게 사용하라. 위대한 힘에는 큰 책임이 따르는 법이니."
             ],
             "itemRequirements": [
                 {
@@ -75,8 +75,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Elemental Archery@green@. You've been awarded @crimson@3000@green@ Archery experience and the @crimson@Ability to craft Elemental Arrows@green@!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 방금 @crimson@원소의 궁술@green@을 완료했습니다. @crimson@3000@green@ 궁술 경험치와 @crimson@원소 화살 제작 능력@green@을 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

@@ -1,30 +1,30 @@
 {
-    "name": "The Lost Laugh",
-    "description": "Comic relief.|Jester Jestin has lost his ability to laugh! Find the tickling feather that can restore his jovial spirit.",
+    "name": "잃어버린 웃음",
+    "description": "한바탕 웃음이 필요할 때.|광대 제스틴이 웃는 능력을 잃어버렸다! 그의 흥겨운 정신을 되찾아 줄 간지럼 깃털을 찾아주자.",
     "rewards": ["giggly-potion", "jester-boots"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "jesterjestin",
             "text": [
-                "Woe is me! My laugh, my joy, it's all gone!",
-                "Legend says a mystical tickling feather can bring it back.",
-                "Would you be a dear and find it for me?"
+                "오, 슬프도다! 내 웃음, 내 기쁨, 모두 사라졌네!",
+                "전설에 따르면 신비한 간지럼 깃털이 그것을 되찾아 준다고 하지.",
+                "친절을 베풀어 그것을 찾아 주겠는가?"
             ],
-            "completedText": ["Search for the legendary tickling feather."]
+            "completedText": ["전설의 간지럼 깃털을 찾아라."]
         },
         "1": {
             "task": "talk",
             "npc": "oldchicken",
-            "text": ["Bawk! Oh, the tickling feather? I might have it...", "But I need some worms first. Bawk!"],
-            "completedText": ["Fetch some worms for the old chicken."]
+            "text": ["꼬꼬댁! 오, 간지럼 깃털 말이지? 가지고 있을지도 몰라...", "하지만 먼저 지렁이가 좀 필요해. 꼬꼬댁!"],
+            "completedText": ["늙은 닭에게 줄 지렁이를 가져와라."]
         },
         "2": {
             "task": "talk",
             "npc": "jesterjestin",
             "text": [
-                "Ha-HA! That's the stuff! I feel giggly already!",
-                "Here's a potion to share the giggles and some jester boots."
+                "하-하! 바로 그거야! 벌써 킬킬거리고 싶구나!",
+                "킬킬 웃음을 나누어 줄 물약과 광대 부츠를 받아라."
             ],
             "itemRewards": [
                 {
@@ -37,8 +37,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@Jester Jestin's laugh is back, all thanks to you! Enjoy spreading giggles with the @crimson@giggly-potion@green@ and strut in your new jester boots.",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신 덕분에 광대 제스틴의 웃음이 돌아왔습니다! @crimson@킬킬 물약@green@으로 웃음을 퍼뜨리고 새 광대 부츠로 멋지게 거니세요.",
                 "colour": "#33cc33"
             }
         }

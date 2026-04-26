@@ -257,7 +257,7 @@ export default class Settings extends Menu {
 
         let { serverId } = this.game.player;
         document.querySelector('#game-info-world')!.textContent =
-            serverId === -1 ? 'Unknown' : serverId.toString();
+            serverId === -1 ? '알 수 없음' : serverId.toString();
     }
 
     /**

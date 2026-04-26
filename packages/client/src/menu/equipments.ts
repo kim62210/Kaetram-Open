@@ -265,7 +265,16 @@ export default class Equipments extends Menu {
         }
 
         let stats = ['Crush', 'Slash', 'Stab', 'Archery', 'Magic'],
-            statBonuses = ['Accuracy', 'Strength', 'Archery', 'Magic'];
+            statBonuses = ['Accuracy', 'Strength', 'Archery', 'Magic'],
+            statLabels: { [key: string]: string } = {
+                Crush: '강타',
+                Slash: '참격',
+                Stab: '찌르기',
+                Archery: '활쏘기',
+                Magic: '마법',
+                Accuracy: '명중',
+                Strength: '힘'
+            };
 
         for (let stat of stats) {
             let lStat = stat.toLowerCase(),
@@ -274,8 +283,8 @@ export default class Equipments extends Menu {
                 attackStat = attackStats[lStat as keyof Stats],
                 defenseStat = defenseStats[lStat as keyof Stats];
 
-            attackElement.textContent = `${stat}: ${attackStat > 0 ? '+' : ''}${attackStat}`;
-            defenseElement.textContent = `${stat}: ${defenseStat > 0 ? '+' : ''}${defenseStat}`;
+            attackElement.textContent = `${statLabels[stat]}: ${attackStat > 0 ? '+' : ''}${attackStat}`;
+            defenseElement.textContent = `${statLabels[stat]}: ${defenseStat > 0 ? '+' : ''}${defenseStat}`;
         }
 
         for (let bonus of statBonuses) {
@@ -283,7 +292,7 @@ export default class Equipments extends Menu {
                 bonusElement = this.bonuses.querySelector(`.${lBonus.toLowerCase()}`)!,
                 bonusStat = bonuses[lBonus as keyof Bonuses];
 
-            bonusElement.textContent = `${bonus}: ${bonusStat > 0 ? '+' : ''}${bonusStat}`;
+            bonusElement.textContent = `${statLabels[bonus]}: ${bonusStat > 0 ? '+' : ''}${bonusStat}`;
         }
     }
 

@@ -1,22 +1,22 @@
 {
-    "name": "Royal Pet",
-    "description": "The king needs your help with distributing the good news to the people of Kaetram.|The king has asked you personally, yes, you, to run a couple errands for him. You must deliver some stuff and whatnot. Actually why don't you go talk to him instead of reading this description and spoiling the surprise. By surprise I mean you have to run around the place doing stupid stuff, but whatever, who cares, that's why you signed up on this game didn't you. Or was it because you wanted to grind but your addiction to being a completionist leads you to complete these useless quests. Oh well, this description is long enough.",
-    "rewards": ["A cute little pet kitty"],
+    "name": "왕실 애완동물",
+    "description": "왕이 케트람 주민들에게 좋은 소식을 전하는 데 당신의 도움이 필요하다.|왕이 직접, 그래 바로 너에게 잔심부름을 부탁했다. 이것저것 배달해야 한다. 사실 이 설명을 읽어서 깜짝선물을 망치지 말고 그냥 가서 왕이랑 얘기하지 그래. 깜짝선물이라는 건 결국 이리저리 뛰어다니며 시답잖은 일을 하는 거지만, 뭐 어때, 어차피 그래서 이 게임 시작한 거 아니냐. 아니면 그라인딩하고 싶었는데 완벽주의자 중독 때문에 이런 쓸데없는 퀘스트들을 다 깨야 하는 거든가. 어쨌든, 이 설명은 충분히 길었다.",
+    "rewards": ["귀여운 새끼 고양이 펫"],
     "questRequirements": ["royaldrama"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "king",
             "text": [
-                "Hello fellow idiot, I mean adventurer.",
-                "I must distribute the good news to the residents of Kaetram",
-                "I have all these books that I must hand out. Would you be so kind",
-                "as to deliver these to some of Kaetram's residents.",
-                "There should be a couple located throughout the city and in the swamp."
+                "어이 멍청… 아니, 모험가여.",
+                "케트람 주민들에게 좋은 소식을 전해야 하노라.",
+                "이 책들을 다 나눠줘야 하는데. 이걸 케트람 주민 몇 명에게",
+                "전해주는 친절을 베풀어주겠나?",
+                "도시 곳곳과 늪지대에 몇 명 있을 것이다."
             ],
             "completedText": [
-                "Please deliver the books to residents of Kaetram. They're located",
-                "throughout the city and in the swamp."
+                "케트람 주민들에게 책을 전해주십시오. 그들은",
+                "도시 곳곳과 늪지대에 있습니다."
             ],
             "itemRewards": [
                 {
@@ -31,14 +31,14 @@
                 {
                     "task": "talk",
                     "npc": "shepherdboy",
-                    "text": ["Oh hello there adventurer!"],
+                    "text": ["오 안녕하세요 모험가님!"],
                     "hasItemText": [
-                        "Hello there adventurer!",
-                        "Oh, you have a book from the king?",
-                        "Is he hiring random people to hand out pamphlets again?",
-                        "Oh well, I'll take it I guess."
+                        "안녕하세요 모험가님!",
+                        "오, 왕이 보낸 책이 있으시네요?",
+                        "또 아무나 고용해서 전단지 돌리고 있나 보네요?",
+                        "그래, 받아두긴 할게요."
                     ],
-                    "completedText": ["Thank you for the book I guess."],
+                    "completedText": ["책 고마워요, 그런 셈 치고."],
                     "itemRequirements": [
                         {
                             "key": "book",
@@ -49,13 +49,13 @@
                 {
                     "task": "talk",
                     "npc": "redbikinigirlnpc",
-                    "text": ["Oh hello!"],
+                    "text": ["오 안녕하세요!"],
                     "hasItemText": [
-                        "Oh, hello there, what are you doing here?",
-                        "Oh, you have more propagan- I mean, news from the king?",
-                        "Okay well thank you I guess..."
+                        "오, 안녕하세요. 여긴 어쩐 일이세요?",
+                        "오, 왕한테서 또 다른 프로파간… 아니, 소식이 왔다고요?",
+                        "그래요, 받을게요…"
                     ],
-                    "completedText": ["Oh hello adventurer."],
+                    "completedText": ["오 안녕하세요 모험가님."],
                     "itemRequirements": [
                         {
                             "key": "book",
@@ -66,13 +66,13 @@
                 {
                     "task": "talk",
                     "npc": "fisherman",
-                    "text": ["Oh hello there adventurer!"],
+                    "text": ["오 안녕하세요 모험가님!"],
                     "hasItemText": [
-                        "Oh, hello there, what are you doing here?",
-                        "Oh, you have more propagan- I mean, news from the king?",
-                        "Okay well thank you I guess..."
+                        "오, 안녕하세요. 여긴 어쩐 일이세요?",
+                        "오, 왕한테서 또 다른 프로파간… 아니, 소식이 왔다고요?",
+                        "그래요, 받을게요…"
                     ],
-                    "completedText": ["Oh hello adventurer."],
+                    "completedText": ["오 안녕하세요 모험가님."],
                     "itemRequirements": [
                         {
                             "key": "book",
@@ -86,10 +86,10 @@
             "task": "talk",
             "npc": "king",
             "text": [
-                "Thank you for delivering the books adventurer.",
-                "I have a special reward for you.",
-                "I have this cute little kitty that I want to give to you.",
-                "I hope you enjoy it."
+                "책을 전해줘서 고맙구나, 모험가여.",
+                "특별한 보상을 준비했노라.",
+                "이 귀여운 새끼 고양이를 그대에게 주겠다.",
+                "잘 길러보길 바라노라."
             ],
             "itemRewards": [
                 {
@@ -98,8 +98,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Royal Pet@green@. You have gained a cute little pet kitty!",
+                "title": "퀘스트 완료!",
+                "text": "@green@@crimson@왕실 애완동물@green@을 완료했습니다. 귀여운 새끼 고양이 펫을 얻었습니다!",
                 "colour": "#33cc33"
             }
         }

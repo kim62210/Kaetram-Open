@@ -1,27 +1,27 @@
 {
-    "name": "Coral Crisis",
-    "description": "Mirela, a concerned mermaid, needs your assistance.|The coral reefs in the underwater world are dying. Mirela believes a dark sorcerer is poisoning the waters and has sought your help to put an end to this malevolent act.",
-    "rewards": ["1500 gold", "coralcrown"],
+    "name": "산호초의 위기",
+    "description": "걱정 가득한 인어 미렐라가 도움을 청한다.|수중 세계의 산호초들이 죽어가고 있다. 미렐라는 어둠의 마법사가 물을 오염시키고 있다고 믿으며, 그 악행을 멈추고자 당신의 도움을 요청한다.",
+    "rewards": ["1500 골드", "coralcrown"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "mirela",
             "text": [
-                "Adventurer! It's a relief to see you!",
-                "The corals are dying and I believe it's no natural occurrence.",
-                "I suspect a dark sorcerer is poisoning the waters. Can you help?"
+                "모험가여! 그대를 만나서 정말 다행이오!",
+                "산호들이 죽어가고 있는데, 자연스러운 일이 아닌 듯하오.",
+                "어둠의 마법사가 물을 오염시키고 있는 것 같소. 도와주겠소?"
             ],
-            "completedText": ["You must investigate the situation!"]
+            "completedText": ["상황을 조사해야 한다!"]
         },
         "1": {
             "task": "talk",
             "npc": "darksorcerer",
             "text": [
-                "Heh! The little mermaid sent you?",
-                "Yes, I poisoned the water, and no, you can't stop me.",
-                "But if you're so eager to try, meet me at the Forbidden Caves!"
+                "흥! 그 작은 인어가 보냈군?",
+                "그래, 내가 물을 오염시켰고, 너희는 막을 수 없다.",
+                "하지만 그렇게 막고 싶거든 금단의 동굴로 와라!"
             ],
-            "completedText": ["Prove yourself, if you dare!"]
+            "completedText": ["용기가 있다면 자신을 증명하라!"]
         },
         "2": {
             "task": "kill",
@@ -32,19 +32,19 @@
             "task": "talk",
             "npc": "mirela",
             "text": [
-                "You did it! The water seems to be purifying.",
-                "But we need the purecoralessence to fully heal the corals. Can you get it?"
+                "해냈군요! 물이 정화되는 것 같아요.",
+                "허나 산호를 완전히 치유하려면 순수 산호 정수가 필요하오. 가져다줄 수 있겠소?"
             ],
-            "completedText": ["Find the purecoralessence in the Shimmering Grotto."]
+            "completedText": ["반짝이는 동굴에서 순수 산호 정수를 찾아라."]
         },
         "4": {
             "task": "talk",
             "npc": "guardianofgrotto",
             "text": [
-                "Seeking the purecoralessence, are you?",
-                "To earn it, you must prove your worth by defeating me!"
+                "순수 산호 정수를 찾는다고?",
+                "그것을 얻으려면 나를 처치하여 자격을 증명해야 한다!"
             ],
-            "completedText": ["Prepare for battle!"]
+            "completedText": ["전투를 준비하라!"]
         },
         "5": {
             "task": "kill",
@@ -71,8 +71,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Coral Crisis@green@. You have gained 1500 gold and a Coral Crown!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 방금 @crimson@산호초의 위기@green@를 완료했습니다. 1500 골드와 산호 왕관을 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

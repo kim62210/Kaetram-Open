@@ -1,42 +1,42 @@
 {
-    "name": "Keros' Chicken Conundrum",
-    "description": "The fix had some... side effects.|After resolving Keros' hat-based hiccup, it seems not everything reverted correctly. Now, there's a realm where chickens rule. Dive into the Feathery Realm to restore balance.",
+    "name": "케로스의 닭 난제",
+    "description": "수정에는 부작용이 따르는 법이다.|케로스의 모자 사고를 해결한 뒤, 모든 것이 제대로 되돌아오지 않은 듯하다. 이제 닭들이 지배하는 영역이 생겨버렸다. 깃털 영역으로 들어가 균형을 되찾자.",
     "rewards": ["chicken slayer title", "feathered cape"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "keros",
             "text": [
-                "So, remember that tiny mistake with the chickens?",
-                "It looks like when we fixed it, a new realm formed where chickens rule the land.",
-                "And they aren't happy about losing their status in our realm!",
-                "Can you venture in and negotiate peace with the Chicken King?"
+                "있잖아, 그 닭으로 변한 사소한 실수 기억하지?",
+                "그걸 고치는 동안 닭들이 지배하는 새 영역이 생긴 것 같아.",
+                "그리고 우리 영역에서 지위를 잃은 게 영 마음에 안 드는 모양이야!",
+                "거기 가서 닭 왕과 평화 협상을 해 볼 수 있을까?"
             ],
-            "completedText": ["Enter the Feathery Realm portal to the east."]
+            "completedText": ["동쪽의 깃털 영역 차원문으로 들어가라."]
         },
         "1": {
             "task": "talk",
             "npc": "chickenking",
             "text": [
-                "Bawk! Bawk! Who dares enter the realm of the mighty Chicken King?",
-                "Ah, you're from Keros' realm. We won't forget his... adjustments.",
-                "To prove you come in peace, I challenge you to a game of... Feathered Fetch!"
+                "꼬꼬댁! 꼬꼬댁! 누가 감히 위대한 닭 왕의 영역에 들어왔는가?",
+                "오, 케로스의 영역에서 왔군. 우리는 그의 '조정'을 잊지 않았다.",
+                "평화로 왔음을 증명하려거든 깃털 줍기 게임에 도전하라!"
             ],
-            "completedText": ["Play Feathered Fetch with the Chicken King."]
+            "completedText": ["닭 왕과 깃털 줍기 게임을 하라."]
         },
         "2": {
             "task": "talk",
             "npc": "keros",
-            "text": ["You've played the game? That's great news!", "Did you manage to win the Chicken King's trust?"],
-            "completedText": ["Share your experience with Keros."]
+            "text": ["게임을 했어? 좋은 소식이네!", "닭 왕의 신뢰를 얻었어?"],
+            "completedText": ["케로스에게 경험을 공유하라."]
         },
         "3": {
             "task": "talk",
             "npc": "chickenking",
             "text": [
-                "You've shown me that not all from Keros' realm are bad.",
-                "In recognition of your efforts, I grant you the title of Chicken Slayer.",
-                "Use it well, and may our realms coexist in peace!"
+                "케로스의 영역 출신이 모두 나쁜 건 아님을 보여주었군.",
+                "그대의 노력을 인정하여 닭 사냥꾼의 칭호를 수여하노라.",
+                "잘 사용하라. 그리고 우리 두 영역이 평화롭게 공존하기를!"
             ],
             "itemRewards": [
                 {
@@ -49,8 +49,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've bridged the gap between realms and earned the respect of the Chicken King. Wear your @crimson@feathered cape@green@ as a symbol of unity.",
+                "title": "퀘스트 완료!",
+                "text": "@green@두 영역의 가교를 놓고 닭 왕의 존중을 얻었습니다. 단합의 상징으로 @crimson@깃털 망토@green@를 두르세요.",
                 "colour": "#33cc33"
             }
         }

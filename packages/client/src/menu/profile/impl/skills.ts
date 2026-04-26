@@ -178,10 +178,10 @@ export default class Skills extends Menu {
 
         // Update the details of the skill.
         details.innerHTML = `
-            <span><strong>Level:</strong> ${skill.level}</span>
-            <span><strong>Exp:</strong> ${skill.experience}</span>
-            <span><strong>Next Exp:</strong> ${skill.nextExperience}</span>
-            <span><strong>Percent:</strong> ${(skill.percentage * 100).toFixed(3)}%</span>
+            <span><strong>레벨:</strong> ${skill.level}</span>
+            <span><strong>경험치:</strong> ${skill.experience}</span>
+            <span><strong>다음 경험치:</strong> ${skill.nextExperience}</span>
+            <span><strong>진행률:</strong> ${(skill.percentage * 100).toFixed(3)}%</span>
         `;
 
         this.selectedSkill = skill;

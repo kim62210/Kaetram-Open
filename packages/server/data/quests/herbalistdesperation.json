@@ -1,35 +1,35 @@
 {
-    "name": "Herbalist's Desperation",
-    "description": "A local herbalist is in dire need of rare herbs.|The small village of Lakesworld relies on the potions of a local herbalist for their daily needs. However, the herbalist has run out of their most important ingredients and seeks the aid of a brave adventurer. Travel to the Misty Marshlands and obtain these elusive herbs for them.",
-    "rewards": ["Mystical Potion", "1500 Foraging experience"],
+    "name": "약초사의 절박함",
+    "description": "동네 약초사가 희귀한 약초가 절실히 필요하다.|레이크스월드의 작은 마을은 일상에 필요한 물약을 약초사에게 의존하고 있다. 하지만 약초사는 가장 중요한 재료가 떨어져 용감한 모험가의 도움을 구하고 있다. 안개 자욱한 늪지로 가서 그 귀한 약초들을 구해와라.",
+    "rewards": ["신비의 물약", "채집 경험치 1500"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "herbalist",
             "text": [
-                "Ah, adventurer! Just the person I was hoping to see.",
-                "You see, I have a bit of a predicament.",
-                "The herbs I need for my potions are all gone!",
-                "Could you fetch me 3 Blue Lilies?",
-                "I would go myself, but the marshes are treacherous and I am no fighter."
+                "아, 모험가님! 마침 만나고 싶었던 분이에요.",
+                "사실 좀 곤란한 상황이라서요.",
+                "물약 만들 약초가 다 떨어졌어요!",
+                "푸른 백합 3송이만 가져다 주실 수 있나요?",
+                "직접 가고 싶지만, 늪은 위험하고 저는 싸움꾼이 아니거든요."
             ],
             "completedText": [
-                "The villagers are crossing their fingers, toes, and spaghetti noodles in anticipation.",
-                "Please bring back 3 Blue Lilies."
+                "마을 사람들이 손가락, 발가락, 스파게티 면까지 꼬아가며 기다리고 있어요.",
+                "푸른 백합 3송이를 가져와 주세요."
             ]
         },
         "1": {
             "task": "talk",
             "npc": "herbalist",
             "hasItemText": [
-                "Ah! These are perfect! However...",
-                "It seems I've omitted to mention a few more ingredients.",
-                "My bad, it's been a wacky day.",
-                "Could you kindly round up 2 paprikas and 2 tomatoes for me?",
-                "I have a hunch they're lurking nearby",
-                "I promise, this will be the last request."
+                "아! 완벽해요! 그런데…",
+                "재료 몇 가지를 깜빡하고 말 안 했네요.",
+                "죄송해요, 정신없는 하루였어요.",
+                "파프리카 2개와 토마토 2개도 좀 구해다 주실 수 있을까요?",
+                "근처에 있을 것 같은 느낌이 들어요.",
+                "약속해요, 이게 마지막 부탁이에요."
             ],
-            "completedText": ["The villagers are getting restless.", "Please bring back 2 paprikas and 2 tomatoes."],
+            "completedText": ["마을 사람들이 점점 안절부절못하고 있어요.", "파프리카 2개와 토마토 2개를 가져와 주세요."],
             "itemRequirements": [
                 {
                     "key": "bluelily",
@@ -41,9 +41,9 @@
             "task": "talk",
             "npc": "herbalist",
             "hasItemText": [
-                "You've done it! The potions can now be made.",
-                "Thank you, brave adventurer. Take this potion as a token of my never-ending gratitude.",
-                "See you around!"
+                "해내셨군요! 이제 물약을 만들 수 있어요.",
+                "고마워요, 용감한 모험가님. 끝없는 감사의 표시로 이 물약을 받아주세요.",
+                "또 봐요!"
             ],
             "itemRequirements": [
                 {
@@ -68,8 +68,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Herbalist's Desperation@green@. You've been awarded a @crimson@Hot Sauce@green@ and @crimson@1500@green@ Foragingexperience!",
+                "title": "퀘스트 완료!",
+                "text": "@green@@crimson@약초사의 절박함@green@을 완료했습니다. @crimson@핫소스@green@와 @crimson@1500@green@ 채집 경험치를 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

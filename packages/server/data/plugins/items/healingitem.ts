@@ -18,7 +18,7 @@ export default class HealingItem implements Plugin {
     public onUse(player: Player): boolean {
         if (this.manaAmount) {
             if (player.mana.isFull()) {
-                player.notify(`You are already at full mana.`);
+                player.notify(`마나가 이미 가득 차 있다.`);
                 return false;
             }
 
@@ -27,7 +27,7 @@ export default class HealingItem implements Plugin {
 
         if (this.healAmount || this.healPercent) {
             if (player.hitPoints.isFull()) {
-                player.notify(`You are already at full health.`);
+                player.notify(`체력이 이미 가득 차 있다.`);
                 return false;
             }
 

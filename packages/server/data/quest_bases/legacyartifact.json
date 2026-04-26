@@ -1,18 +1,18 @@
 {
-    "name": "The Legacy Artifact",
-    "description": "In an ancient legend, an artifact of immense power was torn apart and scattered. The pieces, when brought together and reforged, promise unimaginable might. Take on this challenging quest, drawing upon a multitude of skills, to bring the artifact back to life.",
-    "rewards": ["Magic Lamp"],
+    "name": "유산의 유물",
+    "description": "고대 전설에 따르면, 엄청난 힘을 지닌 유물이 산산이 부서져 흩어졌다고 한다. 그 조각들을 다시 모아 재단조하면 상상을 초월하는 위력을 발휘한다고 한다. 다양한 기술을 활용하는 이 도전적인 퀘스트에 도전해 유물을 되살려라.",
+    "rewards": ["마법의 램프"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "elderMage",
             "text": [
-                "Greetings, adventurer. Legends speak of a powerful artifact,",
-                "one that requires mastery of various skills to restore.",
-                "The first part is the Elemental Ore, a mineral buried deep within",
-                "the earth. Mine it so we can begin our journey."
+                "안녕하시오, 모험가여. 전설에 따르면 강력한 유물이 있었으니,",
+                "그것을 복원하려면 다양한 기술의 숙련이 필요하다고 한다.",
+                "첫 번째 부분은 원소석으로, 땅속 깊이 묻혀 있다.",
+                "그것을 채광하여 우리 여정을 시작하자."
             ],
-            "completedText": ["Have you found the Elemental Ore yet?"]
+            "completedText": ["원소석은 찾았는가?"]
         },
         "1": {
             "task": "mine",
@@ -22,10 +22,10 @@
                     "count": 1
                 }
             ],
-            "nextStage": "Using the elemental ore, you must now combine it with your knowledge of smithing to forge the Elemental Blade Base.",
+            "nextStage": "원소석을 가지고 대장간 기술을 발휘해 원소 검의 기반을 단조해야 한다.",
             "popup": {
-                "title": "Stage completed!",
-                "text": "@green@You have mined the @crimson@Elemental Ore@green@. Proceed to the next step to smith the blade base.",
+                "title": "단계 완료!",
+                "text": "@green@당신은 @crimson@원소석@green@을 채광했습니다. 다음 단계로 나아가 검의 기반을 단조하세요.",
                 "colour": "#33cc33"
             }
         },
@@ -37,10 +37,10 @@
                     "count": 1
                 }
             ],
-            "nextStage": "With the Elemental Blade Base crafted, it's time to move onto fletching. Craft an Elemental Bowstring using ancient woods.",
+            "nextStage": "원소 검 기반을 만들었으니, 이제 궁시 제작으로 넘어가라. 고대 목재로 원소 활시위를 만들어라.",
             "popup": {
-                "title": "Stage completed!",
-                "text": "@green@You have smithed the @crimson@Elemental Blade Base@green@. Proceed to the next step to craft the bowstring.",
+                "title": "단계 완료!",
+                "text": "@green@당신은 @crimson@원소 검 기반@green@을 단조했습니다. 다음 단계로 나아가 활시위를 만드세요.",
                 "colour": "#33cc33"
             }
         },
@@ -52,10 +52,10 @@
                     "count": 1
                 }
             ],
-            "nextStage": "Now that you have the Elemental Bowstring, combine it with the Blade Base to create the Elemental Bow Frame using crafting.",
+            "nextStage": "원소 활시위가 생겼으니, 이를 검의 기반과 결합하여 제작 기술로 원소 활 프레임을 만들어라.",
             "popup": {
-                "title": "Stage completed!",
-                "text": "@green@You have fletched the @crimson@Elemental Bowstring@green@. Proceed to the next step to craft the bow frame.",
+                "title": "단계 완료!",
+                "text": "@green@당신은 @crimson@원소 활시위@green@를 만들었습니다. 다음 단계로 나아가 활 프레임을 제작하세요.",
                 "colour": "#33cc33"
             }
         },
@@ -67,10 +67,10 @@
                     "count": 1
                 }
             ],
-            "nextStage": "With the Elemental Bow Frame in hand, the final step is to infuse it with magic using alchemy to unlock its true potential.",
+            "nextStage": "원소 활 프레임을 손에 넣었으니, 마지막 단계는 연금술로 마법을 주입해 진정한 잠재력을 끌어내는 것이다.",
             "popup": {
-                "title": "Stage completed!",
-                "text": "@green@You have crafted the @crimson@Elemental Bow Frame@green@. Proceed to the final step to infuse it with magic.",
+                "title": "단계 완료!",
+                "text": "@green@당신은 @crimson@원소 활 프레임@green@을 제작했습니다. 마지막 단계로 나아가 마법을 주입하세요.",
                 "colour": "#33cc33"
             }
         },
@@ -83,8 +83,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@Congratulations! You have successfully combined all the components and crafted the @crimson@Legacy Artifact@green@. As a reward, you've been given a @crimson@Magic Lamp@green@!",
+                "title": "퀘스트 완료!",
+                "text": "@green@축하합니다! 모든 부품을 성공적으로 결합하여 @crimson@유산의 유물@green@을 만들었습니다. 보상으로 @crimson@마법의 램프@green@를 받았습니다!",
                 "colour": "#33cc33"
             }
         }

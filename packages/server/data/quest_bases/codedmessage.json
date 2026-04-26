@@ -1,43 +1,43 @@
 {
-    "name": "The Coded Message",
-    "description": "Decipher the mysterious scroll.",
-    "rewards": ["500 Gold", "Scholar's Ring"],
+    "name": "암호화된 메시지",
+    "description": "신비로운 두루마리를 해독하라.",
+    "rewards": ["골드 500", "학자의 반지"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "oldscholar",
             "text": [
-                "Ah, young traveler! I've found this old scroll, but I can't seem to decode its message.",
-                "It might lead to an ancient treasure. Will you assist me?"
+                "오, 젊은 여행자여! 이 오래된 두루마리를 발견했지만 메시지를 해독할 수 없구나.",
+                "고대의 보물로 이어질 수도 있다네. 도와주겠나?"
             ],
-            "completedText": ["Please decipher the coded scroll.", "I believe it hides a clue."]
+            "completedText": ["암호 두루마리를 해독해 주게.", "단서가 숨어 있을 거라 믿네."]
         },
         "1": {
             "task": "decode",
             "item": "mysteriousscroll",
-            "completedText": ["Once decoded, return to me with the message."]
+            "completedText": ["해독한 후 메시지를 가지고 돌아오라."]
         },
         "2": {
             "task": "talk",
             "npc": "oldscholar",
             "hasItemText": [
-                "Fascinating! This indeed is a map. Let's find this treasure together!",
-                "Follow the clues and retrieve what's hidden."
+                "흥미롭군! 이건 분명 지도다. 함께 보물을 찾아보세!",
+                "단서를 따라가 숨겨진 것을 가져오게."
             ],
-            "completedText": ["Return once you have found the treasure."]
+            "completedText": ["보물을 찾았다면 다시 돌아오라."]
         },
         "3": {
             "task": "explore",
             "location": "ancientruins",
             "findItem": "ancientartifact",
-            "completedText": ["Return to the scholar with the artifact."]
+            "completedText": ["유물을 가지고 학자에게 돌아가라."]
         },
         "4": {
             "task": "talk",
             "npc": "oldscholar",
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@The Coded Message@green@ quest and received @crimson@500 Gold@green@ and a @crimson@Scholar's Ring@green@.",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 방금 @crimson@암호화된 메시지@green@ 퀘스트를 완료하고 @crimson@500 골드@green@와 @crimson@학자의 반지@green@를 받았습니다.",
                 "colour": "#33cc33"
             }
         }

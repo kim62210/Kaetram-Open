@@ -1,7 +1,7 @@
 {
-    "name": "Royal Drama",
-    "description": "The king of Kaetram is in need of your help.|The king of Kaetram is missing and no one knows about his whereabouts. Perhaps you should go speak to the guards and see what they might not know about him.",
-    "rewards": ["Access to the castle"],
+    "name": "왕실 드라마",
+    "description": "케트람의 왕이 도움을 필요로 한다.|케트람의 왕이 실종됐고 행방을 아는 사람이 아무도 없다. 가서 경비병들과 얘기해 보고 그들이 모르는 게 뭔지 알아내야 할 것 같다.",
+    "rewards": ["성 입장 권한"],
     "hideNPCs": {
         "king": "before",
         "king2": "after",
@@ -12,39 +12,39 @@
             "task": "talk",
             "npc": "royalguard2",
             "text": [
-                "Sir, please, you must help us.",
-                "We were moving the king around to this new and improved castle",
-                "and then we lost him.",
-                "We were walking over the local sewers",
-                "and I think he may have fallen off into the sewers.",
-                "We didn't notice until we got here, honest to god!",
-                "You should try searching the sewers and see if you can find any clues."
+                "기사님, 부탁드립니다, 도와주셔야 합니다.",
+                "왕을 새롭고 더 멋진 성으로 모시고 가던 중에",
+                "그분을 잃어버렸습니다.",
+                "마을 하수도 위를 지나가던 중이었는데",
+                "아마 하수도로 떨어지신 것 같습니다.",
+                "여기 도착할 때까지 알아채지 못했어요, 정말입니다!",
+                "하수도를 수색해서 단서를 찾아봐 주세요."
             ],
             "completedText": [
-                "Please, you must help us find the king.",
-                "Look into the sewers and see if you can find any clues."
+                "부탁입니다, 왕을 찾도록 도와주세요.",
+                "하수도를 살펴보고 단서를 찾아보세요."
             ]
         },
         "1": {
             "task": "talk",
             "npc": "ratnpc",
             "text": [
-                "No please don't hit me.",
-                "Listen I'll tell you everything I know about the king.",
-                "I saw him fall into the sewers, and he went into one of these pipes.",
-                "I know there should be a way to get deeper into the sewers from here.",
-                "That's all I know I swear!"
+                "안 돼, 제발 때리지 마.",
+                "왕에 대해 내가 아는 거 다 말할게.",
+                "그가 하수도로 떨어지는 걸 봤어. 이 파이프 중 하나로 들어갔지.",
+                "여기서 하수도 더 깊은 곳으로 가는 길이 있을 거야.",
+                "내가 아는 건 그게 전부야, 진짜야!"
             ],
-            "completedText": ["I'm telling you everything I know about the king!", "Just look deeper into the sewer."]
+            "completedText": ["내가 왕에 대해 아는 건 다 말했다고!", "그냥 하수도 더 깊은 곳을 살펴봐."]
         },
         "2": {
             "task": "talk",
             "npc": "king2",
             "text": [
-                "Oh dear adventurer, thank you so much for finding me.",
-                "Those filthy guards threw me in the sewers and didn't look back.",
-                "I will reward you greatly for your help.",
-                "Now I have to go back to the castle and get my affairs in order."
+                "오 친애하는 모험가여, 나를 찾아줘서 정말 고맙구나.",
+                "그 더러운 경비병 놈들이 나를 하수도에 던져버리고 뒤도 안 돌아봤다.",
+                "그대의 도움에 후한 보상을 내리겠노라.",
+                "이제 성으로 돌아가서 일을 정리해야겠구나."
             ],
             "itemRewards": [
                 {
@@ -53,8 +53,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Royal Drama@green@. You have gained 10000 gold!",
+                "title": "퀘스트 완료!",
+                "text": "@green@@crimson@왕실 드라마@green@를 완료했습니다. 10000 골드를 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

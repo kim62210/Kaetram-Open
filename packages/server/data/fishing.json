@@ -1,6 +1,6 @@
 {
     "shrimpspot": {
-        "name": "Shrimp Fishing Spot",
+        "name": "새우 낚시터",
         "levelRequirement": 1,
         "experience": 20,
         "difficulty": 7,
@@ -9,7 +9,7 @@
     },
 
     "tutorialshrimpspot": {
-        "name": "Shrimp Fishing Spot",
+        "name": "새우 낚시터",
         "levelRequirement": 1,
         "experience": 15,
         "difficulty": 7,
@@ -19,7 +19,7 @@
     },
 
     "tunaspot": {
-        "name": "Tuna Fishing Spot",
+        "name": "참치 낚시터",
         "levelRequirement": 1,
         "experience": 20,
         "difficulty": 15,
@@ -28,7 +28,7 @@
     },
 
     "jellyfishspot": {
-        "name": "Jellyfish Fishing Spot",
+        "name": "해파리 낚시터",
         "levelRequirement": 5,
         "experience": 35,
         "difficulty": 25,
@@ -36,7 +36,7 @@
     },
 
     "clamspot": {
-        "name": "Clam Fishing Spot",
+        "name": "조개 채취터",
         "levelRequirement": 10,
         "experience": 55,
         "difficulty": 40,

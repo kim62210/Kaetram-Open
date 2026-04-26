@@ -1,7 +1,7 @@
 {
     "coppersword": {
         "type": "weapon",
-        "name": "Copper Sword",
+        "name": "구리 검",
         "weaponType": "sword",
         "attackStats": {
             "crush": 2,
@@ -26,7 +26,7 @@
     },
     "tinsword": {
         "type": "weapon",
-        "name": "Tin Sword",
+        "name": "주석 검",
         "weaponType": "sword",
         "attackStats": {
             "crush": 1,
@@ -51,7 +51,7 @@
     },
     "bronzesword": {
         "type": "weapon",
-        "name": "Bronze Sword",
+        "name": "청동 검",
         "weaponType": "sword",
         "skill": "accuracy",
         "level": 5,
@@ -78,7 +78,7 @@
     },
     "ironsword": {
         "type": "weapon",
-        "name": "Iron Sword",
+        "name": "철 검",
         "weaponType": "sword",
         "skill": "accuracy",
         "level": 10,
@@ -105,7 +105,7 @@
     },
     "goldsword": {
         "type": "weapon",
-        "name": "Gold Sword",
+        "name": "금 검",
         "weaponType": "sword",
         "skill": "accuracy",
         "level": 20,
@@ -132,7 +132,7 @@
     },
     "nisocsword": {
         "type": "weapon",
-        "name": "Nisoc Sword",
+        "name": "나이속 검",
         "weaponType": "sword",
         "skill": "accuracy",
         "level": 15,
@@ -159,7 +159,7 @@
     },
     "cinnabarsword": {
         "type": "weapon",
-        "name": "Cinnabar Sword",
+        "name": "진사 검",
         "weaponType": "sword",
         "skill": "accuracy",
         "level": 20,
@@ -186,7 +186,7 @@
     },
     "pytharsword": {
         "type": "weapon",
-        "name": "Pythar Sword",
+        "name": "파이타르 검",
         "weaponType": "sword",
         "skill": "accuracy",
         "level": 25,
@@ -213,7 +213,7 @@
     },
     "ibosword": {
         "type": "weapon",
-        "name": "Ibo Sword",
+        "name": "이보 검",
         "weaponType": "sword",
         "skill": "accuracy",
         "level": 35,
@@ -240,7 +240,7 @@
     },
     "icesword": {
         "type": "weapon",
-        "name": "Ice Sword",
+        "name": "얼음 검",
         "weaponType": "sword",
         "skill": "accuracy",
         "level": 17,
@@ -267,7 +267,7 @@
     },
     "nightsword": {
         "type": "weapon",
-        "name": "Night Sword",
+        "name": "밤의 검",
         "weaponType": "sword",
         "skill": "accuracy",
         "level": 25,
@@ -294,7 +294,7 @@
     },
     "sentinelsword": {
         "type": "weapon",
-        "name": "Sentinel Sword",
+        "name": "센티넬 검",
         "weaponType": "sword",
         "skill": "accuracy",
         "level": 36,
@@ -321,7 +321,7 @@
     },
     "hellhoundfang": {
         "type": "weapon",
-        "name": "Hellhound Fang",
+        "name": "헬하운드 송곳니",
         "weaponType": "sword",
         "skill": "strength",
         "level": 40,
@@ -348,7 +348,7 @@
     },
     "bronzespear": {
         "type": "weapon",
-        "name": "Bronze Spear",
+        "name": "청동 창",
         "weaponType": "spear",
         "skill": "accuracy",
         "level": 5,
@@ -375,7 +375,7 @@
     },
     "ironspear": {
         "type": "weapon",
-        "name": "Iron Spear",
+        "name": "철 창",
         "weaponType": "spear",
         "skill": "accuracy",
         "level": 10,
@@ -400,10 +400,9 @@
             "magic": 0
         }
     },
-
     "goldspear": {
         "type": "weapon",
-        "name": "Gold Spear",
+        "name": "금 창",
         "weaponType": "spear",
         "skill": "accuracy",
         "level": 20,
@@ -428,10 +427,9 @@
             "magic": 0
         }
     },
-
     "cobaltspear": {
         "type": "weapon",
-        "name": "Cobalt Spear",
+        "name": "코발트 창",
         "weaponType": "spear",
         "skill": "accuracy",
         "level": 15,
@@ -456,10 +454,9 @@
             "magic": 0
         }
     },
-
     "bronzescythe": {
         "type": "weapon",
-        "name": "Bronze Scythe",
+        "name": "청동 낫",
         "weaponType": "scythe",
         "skill": "accuracy",
         "level": 5,
@@ -486,7 +483,7 @@
     },
     "ironscythe": {
         "type": "weapon",
-        "name": "Iron Scythe",
+        "name": "철 낫",
         "weaponType": "scythe",
         "skill": "accuracy",
         "level": 10,
@@ -513,7 +510,7 @@
     },
     "goldscythe": {
         "type": "weapon",
-        "name": "Gold Scythe",
+        "name": "금 낫",
         "weaponType": "scythe",
         "skill": "accuracy",
         "level": 20,
@@ -540,7 +537,7 @@
     },
     "cobaltscythe": {
         "type": "weapon",
-        "name": "Cobalt Scythe",
+        "name": "코발트 낫",
         "weaponType": "scythe",
         "skill": "accuracy",
         "level": 15,
@@ -567,7 +564,7 @@
     },
     "bronzepickaxe": {
         "type": "weapon",
-        "name": "Bronze Pickaxe",
+        "name": "청동 곡괭이",
         "weaponType": "pickaxe",
         "mining": 1,
         "price": 100,
@@ -594,7 +591,7 @@
     },
     "ironpickaxe": {
         "type": "weapon",
-        "name": "Iron Pickaxe",
+        "name": "철 곡괭이",
         "weaponType": "pickaxe",
         "mining": 10,
         "price": 200,
@@ -621,7 +618,7 @@
     },
     "goldpickaxe": {
         "type": "weapon",
-        "name": "Gold Pickaxe",
+        "name": "금 곡괭이",
         "weaponType": "pickaxe",
         "mining": 20,
         "price": 400,
@@ -646,10 +643,9 @@
             "magic": 0
         }
     },
-
     "cobaltpickaxe": {
         "type": "weapon",
-        "name": "Cobalt Pickaxe",
+        "name": "코발트 곡괭이",
         "weaponType": "pickaxe",
         "mining": 15,
         "price": 800,
@@ -674,10 +670,9 @@
             "magic": 0
         }
     },
-
     "bonepickaxe": {
         "type": "weapon",
-        "name": "Bone Pickaxe",
+        "name": "뼈 곡괭이",
         "weaponType": "pickaxe",
         "mining": 30,
         "price": 1600,
@@ -702,10 +697,9 @@
             "magic": 0
         }
     },
-
     "cursedpickaxe": {
         "type": "weapon",
-        "name": "Cursed Pickaxe",
+        "name": "저주받은 곡괭이",
         "weaponType": "pickaxe",
         "mining": 40,
         "price": 3200,
@@ -730,10 +724,9 @@
             "magic": 0
         }
     },
-
     "cursedsapphirepickaxe": {
         "type": "weapon",
-        "name": "Cursed Sapphire Pickaxe",
+        "name": "저주받은 사파이어 곡괭이",
         "weaponType": "pickaxe",
         "mining": 55,
         "price": 6400,
@@ -758,10 +751,9 @@
             "magic": 0
         }
     },
-
     "heavyberylpickaxe": {
         "type": "weapon",
-        "name": "Heavy Beryl Pickaxe",
+        "name": "묵직한 녹주석 곡괭이",
         "weaponType": "pickaxe",
         "mining": 65,
         "price": 12800,
@@ -788,7 +780,7 @@
     },
     "bronzeaxe": {
         "type": "weapon",
-        "name": "Bronze Axe",
+        "name": "청동 도끼",
         "weaponType": "axe",
         "lumberjacking": 1,
         "price": 100,
@@ -815,7 +807,7 @@
     },
     "ironaxe": {
         "type": "weapon",
-        "name": "Iron Axe",
+        "name": "철 도끼",
         "weaponType": "axe",
         "lumberjacking": 1,
         "price": 100,
@@ -844,7 +836,7 @@
     },
     "cobaltaxe": {
         "type": "weapon",
-        "name": "Cobalt Axe",
+        "name": "코발트 도끼",
         "weaponType": "axe",
         "skill": "strength",
         "level": 15,
@@ -873,7 +865,7 @@
     },
     "goldaxe": {
         "type": "weapon",
-        "name": "Gold Axe",
+        "name": "금 도끼",
         "weaponType": "axe",
         "lumberjacking": 5,
         "price": 400,
@@ -900,10 +892,9 @@
             "magic": 0
         }
     },
-
     "adamantitesworth": {
         "type": "weapon",
-        "name": "Adamantite's Worth",
+        "name": "아다만타이트의 가치",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -931,7 +922,7 @@
     },
     "adeptsrapier": {
         "type": "weapon",
-        "name": "Adept's Rapier",
+        "name": "숙련자의 레이피어",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -959,7 +950,7 @@
     },
     "alchemistalimony": {
         "type": "weapon",
-        "name": "Alchemist's Alimony",
+        "name": "연금술사의 위자료",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -987,7 +978,7 @@
     },
     "ancientshovel": {
         "type": "weapon",
-        "name": "Ancient Shovel",
+        "name": "고대의 삽",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1015,7 +1006,7 @@
     },
     "angelicblade": {
         "type": "weapon",
-        "name": "Angelic Blade",
+        "name": "천사의 검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1043,7 +1034,7 @@
     },
     "berserkerssanity": {
         "type": "weapon",
-        "name": "Berserker's Sanity",
+        "name": "광전사의 광기",
         "weaponType": "sword",
         "price": 5000,
         "skill": "accuracy",
@@ -1071,7 +1062,7 @@
     },
     "bident": {
         "type": "weapon",
-        "name": "Bident",
+        "name": "바이덴트",
         "weaponType": "sword",
         "price": 5000,
         "skill": "accuracy",
@@ -1099,7 +1090,7 @@
     },
     "bladeofdarkness": {
         "type": "weapon",
-        "name": "Blade of Darkness",
+        "name": "암흑의 검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "accuracy",
@@ -1127,7 +1118,7 @@
     },
     "bluelightsaber": {
         "type": "weapon",
-        "name": "Blue Lightsaber",
+        "name": "푸른 광선검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1155,7 +1146,7 @@
     },
     "bonebonker": {
         "type": "weapon",
-        "name": "Bone Bonker",
+        "name": "본 봉커",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1183,7 +1174,7 @@
     },
     "brutishblade": {
         "type": "weapon",
-        "name": "Brutish Blade",
+        "name": "야만의 검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1211,7 +1202,7 @@
     },
     "club": {
         "type": "weapon",
-        "name": "Club",
+        "name": "곤봉",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1239,7 +1230,7 @@
     },
     "dragonscale": {
         "type": "weapon",
-        "name": "Dragon Scale",
+        "name": "드래곤 비늘",
         "weaponType": "bigsword",
         "price": 5000,
         "skill": "strength",
@@ -1267,7 +1258,7 @@
     },
     "etherialblade": {
         "type": "weapon",
-        "name": "Etherial Blade",
+        "name": "에테르의 검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1295,7 +1286,7 @@
     },
     "executionershammer": {
         "type": "weapon",
-        "name": "Executioner's Squeaky Hammer",
+        "name": "처형인의 삑삑이 망치",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1323,7 +1314,7 @@
     },
     "eyesword": {
         "type": "weapon",
-        "name": "Eye Sword",
+        "name": "눈알 검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1351,7 +1342,7 @@
     },
     "firesword": {
         "type": "weapon",
-        "name": "Firesword",
+        "name": "화염 검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1379,7 +1370,7 @@
     },
     "golemsmace": {
         "type": "weapon",
-        "name": "Golem's Mace",
+        "name": "골렘의 철퇴",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1407,7 +1398,7 @@
     },
     "goldgolemsmace": {
         "type": "weapon",
-        "name": "Gold Golem's Mace",
+        "name": "황금 골렘의 철퇴",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1435,7 +1426,7 @@
     },
     "greenlightsaber": {
         "type": "weapon",
-        "name": "Green Lightsaber",
+        "name": "초록 광선검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1463,7 +1454,7 @@
     },
     "hellsword": {
         "type": "weapon",
-        "name": "Hell Sword",
+        "name": "지옥의 검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1491,7 +1482,7 @@
     },
     "moongreataxe": {
         "type": "weapon",
-        "name": "Moon Greataxe",
+        "name": "달의 대도끼",
         "weaponType": "axe",
         "price": 5000,
         "skill": "strength",
@@ -1519,7 +1510,7 @@
     },
     "oldonesblade": {
         "type": "weapon",
-        "name": "Old One's Blade",
+        "name": "고대 존재의 검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1547,7 +1538,7 @@
     },
     "peddlepounder": {
         "type": "weapon",
-        "name": "Peddle Pounder",
+        "name": "행상인의 망치",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1575,7 +1566,7 @@
     },
     "pinklightsaber": {
         "type": "weapon",
-        "name": "Pink Lightsaber",
+        "name": "분홍 광선검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1603,7 +1594,7 @@
     },
     "redlightsaber": {
         "type": "weapon",
-        "name": "Red Lightsaber",
+        "name": "붉은 광선검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1631,7 +1622,7 @@
     },
     "royalrapier": {
         "type": "weapon",
-        "name": "Royal Rapier",
+        "name": "왕실 레이피어",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1659,7 +1650,7 @@
     },
     "scimitar": {
         "type": "weapon",
-        "name": "Scimitar",
+        "name": "시미터",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1687,7 +1678,7 @@
     },
     "smithshammer": {
         "type": "weapon",
-        "name": "Smith's Hammer",
+        "name": "대장장이의 망치",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1715,7 +1706,7 @@
     },
     "sunrisegreataxe": {
         "type": "weapon",
-        "name": "Sunrise Greataxe",
+        "name": "여명의 대도끼",
         "weaponType": "axe",
         "price": 5000,
         "skill": "strength",
@@ -1743,7 +1734,7 @@
     },
     "swashbuckler": {
         "type": "weapon",
-        "name": "Swash Buckler",
+        "name": "스워시버클러",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1771,7 +1762,7 @@
     },
     "swordofliberty": {
         "type": "weapon",
-        "name": "Sword of Liberty",
+        "name": "자유의 검",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1799,7 +1790,7 @@
     },
     "sycophant": {
         "type": "weapon",
-        "name": "Sycophant",
+        "name": "아첨꾼",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1827,7 +1818,7 @@
     },
     "timelessglaive": {
         "type": "weapon",
-        "name": "Timeless Glaive",
+        "name": "영원의 글레이브",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1855,7 +1846,7 @@
     },
     "twilightgreataxe": {
         "type": "weapon",
-        "name": "Twilight Greataxe",
+        "name": "황혼의 대도끼",
         "weaponType": "axe",
         "price": 5000,
         "skill": "strength",
@@ -1883,7 +1874,7 @@
     },
     "zweipiercer": {
         "type": "weapon",
-        "name": "Zwei Piercer",
+        "name": "쯔바이 피어서",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -1909,10 +1900,9 @@
             "magic": 0
         }
     },
-
     "bronzebattleaxe": {
         "type": "weapon",
-        "name": "Bronze Battle Axe",
+        "name": "청동 전투 도끼",
         "weaponType": "axe",
         "price": 100,
         "skill": "strength",
@@ -1940,7 +1930,7 @@
     },
     "ironbattleaxe": {
         "type": "weapon",
-        "name": "Iron Battle Axe",
+        "name": "철 전투 도끼",
         "weaponType": "axe",
         "price": 100,
         "skill": "strength",
@@ -1968,7 +1958,7 @@
     },
     "goldbattleaxe": {
         "type": "weapon",
-        "name": "Gold Battle Axe",
+        "name": "금 전투 도끼",
         "weaponType": "axe",
         "price": 400,
         "skill": "strength",
@@ -1996,7 +1986,7 @@
     },
     "cobaltbattleaxe": {
         "type": "weapon",
-        "name": "Cobalt Battle Axe",
+        "name": "코발트 전투 도끼",
         "weaponType": "axe",
         "price": 200,
         "skill": "strength",
@@ -2024,7 +2014,7 @@
     },
     "cursedbattleaxe": {
         "type": "weapon",
-        "name": "Cursed Battle Axe",
+        "name": "저주받은 전투 도끼",
         "weaponType": "axe",
         "price": 200,
         "skill": "strength",
@@ -2052,7 +2042,7 @@
     },
     "fishingpole": {
         "type": "weapon",
-        "name": "Fishing Pole",
+        "name": "낚싯대",
         "fishing": 1,
         "price": 100,
         "attackStats": {
@@ -2078,7 +2068,7 @@
     },
     "leatherhelmet": {
         "type": "helmet",
-        "name": "Leather Helmet",
+        "name": "가죽 투구",
         "price": 100,
         "attackStats": {
             "crush": 0,
@@ -2103,7 +2093,7 @@
     },
     "copperhelmet": {
         "type": "helmet",
-        "name": "Copper Helmet",
+        "name": "구리 투구",
         "price": 100,
         "attackStats": {
             "crush": 1,
@@ -2128,7 +2118,7 @@
     },
     "tinhelmet": {
         "type": "helmet",
-        "name": "Tin Helmet",
+        "name": "주석 투구",
         "price": 100,
         "attackStats": {
             "crush": 2,
@@ -2153,7 +2143,7 @@
     },
     "bronzehelmet": {
         "type": "helmet",
-        "name": "Bronze Helmet",
+        "name": "청동 투구",
         "price": 100,
         "skill": "defense",
         "level": 5,
@@ -2180,7 +2170,7 @@
     },
     "ironhelmet": {
         "type": "helmet",
-        "name": "Iron Helmet",
+        "name": "철 투구",
         "price": 100,
         "skill": "defense",
         "level": 10,
@@ -2207,7 +2197,7 @@
     },
     "goldhelmet": {
         "type": "helmet",
-        "name": "Gold Helmet",
+        "name": "금 투구",
         "price": 100,
         "skill": "defense",
         "level": 20,
@@ -2234,7 +2224,7 @@
     },
     "cobalthelmet": {
         "type": "helmet",
-        "name": "Cobalt Helmet",
+        "name": "코발트 투구",
         "price": 200,
         "skill": "defense",
         "level": 15,
@@ -2261,7 +2251,7 @@
     },
     "nighthelm": {
         "type": "helmet",
-        "name": "Night Helm",
+        "name": "밤의 투구",
         "price": 200,
         "skill": "defense",
         "level": 25,
@@ -2288,7 +2278,7 @@
     },
     "moonhelm": {
         "type": "helmet",
-        "name": "Moon Helm",
+        "name": "달의 투구",
         "price": 200,
         "skill": "defense",
         "level": 27,
@@ -2315,7 +2305,7 @@
     },
     "redmoonhelm": {
         "type": "helmet",
-        "name": "Red Moon Helm",
+        "name": "붉은 달의 투구",
         "price": 200,
         "skill": "defense",
         "level": 29,
@@ -2342,7 +2332,7 @@
     },
     "demonichelm": {
         "type": "helmet",
-        "name": "Demonic Helm",
+        "name": "악마의 투구",
         "price": 200,
         "skill": "defense",
         "level": 29,
@@ -2369,7 +2359,7 @@
     },
     "wolfhelmet": {
         "type": "helmet",
-        "name": "Wolf Helmet",
+        "name": "늑대 투구",
         "price": 200,
         "skill": "defense",
         "level": 29,
@@ -2396,7 +2386,7 @@
     },
     "helmofliberty": {
         "type": "helmet",
-        "name": "Helm of Liberty",
+        "name": "자유의 투구",
         "price": 200,
         "skill": "defense",
         "level": 55,
@@ -2423,7 +2413,7 @@
     },
     "helmofhaste": {
         "type": "helmet",
-        "name": "Helm of Haste",
+        "name": "신속의 투구",
         "price": 200,
         "skill": "defense",
         "level": 30,
@@ -2451,7 +2441,7 @@
     },
     "sapphirehelm": {
         "type": "helmet",
-        "name": "Sapphire Helm",
+        "name": "사파이어 투구",
         "price": 200,
         "skill": "defense",
         "level": 33,
@@ -2478,7 +2468,7 @@
     },
     "amethysthelm": {
         "type": "helmet",
-        "name": "Amethyst Helm",
+        "name": "자수정 투구",
         "price": 200,
         "skill": "defense",
         "level": 35,
@@ -2505,7 +2495,7 @@
     },
     "midnightamethysthelm": {
         "type": "helmet",
-        "name": "Midnight Amethyst Helm",
+        "name": "심야의 자수정 투구",
         "price": 200,
         "skill": "defense",
         "level": 37,
@@ -2532,7 +2522,7 @@
     },
     "rubyhelm": {
         "type": "helmet",
-        "name": "Ruby Helm",
+        "name": "루비 투구",
         "price": 200,
         "skill": "defense",
         "level": 39,
@@ -2559,7 +2549,7 @@
     },
     "magmahelm": {
         "type": "helmet",
-        "name": "Magma Helm",
+        "name": "용암 투구",
         "price": 200,
         "skill": "defense",
         "level": 43,
@@ -2586,7 +2576,7 @@
     },
     "hellkeeperhelm": {
         "type": "helmet",
-        "name": "Hellkeeper Helm",
+        "name": "지옥지기 투구",
         "price": 200,
         "skill": "defense",
         "level": 49,
@@ -2613,7 +2603,7 @@
     },
     "sentinelhelm": {
         "type": "helmet",
-        "name": "Sentinel Helm",
+        "name": "센티넬 투구",
         "price": 200,
         "skill": "defense",
         "level": 36,
@@ -2640,7 +2630,7 @@
     },
     "mushroomhat": {
         "type": "helmet",
-        "name": "Mushroom Hat",
+        "name": "버섯 모자",
         "price": 1000,
         "skill": "defense",
         "level": 35,
@@ -2667,7 +2657,7 @@
     },
     "wizardhatblue": {
         "type": "helmet",
-        "name": "Blue Wizard Hat",
+        "name": "파란 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1,
@@ -2694,77 +2684,77 @@
     },
     "wizardhatblack": {
         "type": "helmet",
-        "name": "Black Wizard Hat",
+        "name": "검은 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1
     },
     "wizardhatcrimson": {
         "type": "helmet",
-        "name": "Crimson Wizard Hat",
+        "name": "진홍 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1
     },
     "wizardhatdarkblue": {
         "type": "helmet",
-        "name": "Dark Blue Wizard Hat",
+        "name": "짙은 파랑 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1
     },
     "wizardhatgreen": {
         "type": "helmet",
-        "name": "Green Wizard Hat",
+        "name": "초록 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1
     },
     "wizardhatpink": {
         "type": "helmet",
-        "name": "Pink Wizard Hat",
+        "name": "분홍 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1
     },
     "wizardhatpurple": {
         "type": "helmet",
-        "name": "Purple Wizard Hat",
+        "name": "보라 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1
     },
     "wizardhatred": {
         "type": "helmet",
-        "name": "Red Wizard Hat",
+        "name": "빨강 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1
     },
     "wizardhatturquoise": {
         "type": "helmet",
-        "name": "Turquoise Wizard Hat",
+        "name": "청록 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1
     },
     "wizardhatwhite": {
         "type": "helmet",
-        "name": "White Wizard Hat",
+        "name": "하얀 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1
     },
     "wizardhatyellow": {
         "type": "helmet",
-        "name": "Yellow Wizard Hat",
+        "name": "노랑 마법사 모자",
         "price": 1000,
         "skill": "magic",
         "level": 1
     },
     "pilgrimhat": {
         "type": "helmet",
-        "name": "Pilgrim Hat",
+        "name": "순례자 모자",
         "price": 1000,
         "skill": "magic",
         "level": 20,
@@ -2791,7 +2781,7 @@
     },
     "pilgrimhatpink": {
         "type": "helmet",
-        "name": "Pink Pilgrim Hat",
+        "name": "분홍 순례자 모자",
         "price": 1000,
         "skill": "magic",
         "level": 25,
@@ -2818,7 +2808,7 @@
     },
     "witchhat": {
         "type": "helmet",
-        "name": "Witch Hat",
+        "name": "마녀 모자",
         "price": 1000,
         "skill": "magic",
         "level": 15,
@@ -2845,7 +2835,7 @@
     },
     "witchhatblue": {
         "type": "helmet",
-        "name": "Blue Witch Hat",
+        "name": "파란 마녀 모자",
         "price": 1000,
         "skill": "magic",
         "level": 25,
@@ -2872,7 +2862,7 @@
     },
     "darkmagehood": {
         "type": "helmet",
-        "name": "Dark Mage Hood",
+        "name": "흑마법사 후드",
         "price": 1000,
         "skill": "magic",
         "level": 30,
@@ -2899,7 +2889,7 @@
     },
     "darkmagehoodblue": {
         "type": "helmet",
-        "name": "Dark Mage Hood",
+        "name": "흑마법사 후드",
         "price": 1000,
         "skill": "magic",
         "level": 30,
@@ -2926,7 +2916,7 @@
     },
     "darkmagehoodgreen": {
         "type": "helmet",
-        "name": "Dark Mage Hood",
+        "name": "흑마법사 후드",
         "price": 1000,
         "skill": "magic",
         "level": 30,
@@ -2953,7 +2943,7 @@
     },
     "darkmagehoodgold": {
         "type": "helmet",
-        "name": "Dark Mage Hood",
+        "name": "흑마법사 후드",
         "price": 1000,
         "skill": "magic",
         "level": 30,
@@ -2980,7 +2970,7 @@
     },
     "crystalhood": {
         "type": "helmet",
-        "name": "Crystal Hood",
+        "name": "크리스탈 후드",
         "price": 1000,
         "skill": "magic",
         "level": 30,
@@ -3007,7 +2997,7 @@
     },
     "demoniccrystalhood": {
         "type": "helmet",
-        "name": "Demonic Crystal Hood",
+        "name": "악마의 크리스탈 후드",
         "price": 1000,
         "skill": "magic",
         "level": 32,
@@ -3034,7 +3024,7 @@
     },
     "naturecrystalhood": {
         "type": "helmet",
-        "name": "Nature Crystal Hood",
+        "name": "자연의 크리스탈 후드",
         "price": 1000,
         "skill": "magic",
         "level": 32,
@@ -3061,7 +3051,7 @@
     },
     "sunshinecrystalhood": {
         "type": "helmet",
-        "name": "Sunshine Crystal Hood",
+        "name": "햇살의 크리스탈 후드",
         "price": 1000,
         "skill": "magic",
         "level": 32,
@@ -3088,7 +3078,7 @@
     },
     "fishbowl": {
         "type": "helmet",
-        "name": "Fishbowl",
+        "name": "어항",
         "price": 100,
         "skill": "defense",
         "level": 5,
@@ -3115,7 +3105,7 @@
     },
     "froghelm": {
         "type": "helmet",
-        "name": "Frog Helm",
+        "name": "개구리 투구",
         "price": 100,
         "skill": "defense",
         "level": 5,
@@ -3142,7 +3132,7 @@
     },
     "bearhelm": {
         "type": "helmet",
-        "name": "Bear Helm",
+        "name": "곰 투구",
         "price": 100,
         "skill": "defense",
         "level": 5,
@@ -3169,7 +3159,7 @@
     },
     "skeletonhelm": {
         "type": "helmet",
-        "name": "Dark Skeleton Helm",
+        "name": "어두운 스켈레톤 투구",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3196,7 +3186,7 @@
     },
     "darkskeletonhelm": {
         "type": "helmet",
-        "name": "Dark Skeleton Helm",
+        "name": "어두운 스켈레톤 투구",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3223,7 +3213,7 @@
     },
     "flamehelmet": {
         "type": "helmet",
-        "name": "Flame Helmet",
+        "name": "화염 투구",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3250,7 +3240,7 @@
     },
     "flameblackhelmet": {
         "type": "helmet",
-        "name": "Black Flame Helmet",
+        "name": "검은 화염 투구",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3277,7 +3267,7 @@
     },
     "flamebluehelmet": {
         "type": "helmet",
-        "name": "Blue Flame Helmet",
+        "name": "푸른 화염 투구",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3304,7 +3294,7 @@
     },
     "flamecursehelmet": {
         "type": "helmet",
-        "name": "Cursed Flame Helmet",
+        "name": "저주받은 화염 투구",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3331,7 +3321,7 @@
     },
     "jesterhat": {
         "type": "helmet",
-        "name": "Jester Hat",
+        "name": "광대 모자",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3358,7 +3348,7 @@
     },
     "refinedsapphirehelmet": {
         "type": "helmet",
-        "name": "Refined Sapphire Helmet",
+        "name": "정제된 사파이어 투구",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3385,7 +3375,7 @@
     },
     "scholarshat": {
         "type": "helmet",
-        "name": "Sholar's Hat",
+        "name": "학자의 모자",
         "price": 100,
         "skill": "magic",
         "level": 1,
@@ -3412,7 +3402,7 @@
     },
     "scholarshatblack": {
         "type": "helmet",
-        "name": "Black Sholar's Hat",
+        "name": "검은 학자의 모자",
         "price": 100,
         "skill": "magic",
         "level": 1,
@@ -3439,7 +3429,7 @@
     },
     "scholarshatgreen": {
         "type": "helmet",
-        "name": "Green Sholar's Hat",
+        "name": "초록 학자의 모자",
         "price": 100,
         "skill": "magic",
         "level": 1,
@@ -3466,7 +3456,7 @@
     },
     "scholarshatred": {
         "type": "helmet",
-        "name": "Red Sholar's Hat",
+        "name": "빨강 학자의 모자",
         "price": 100,
         "skill": "magic",
         "level": 1,
@@ -3493,7 +3483,7 @@
     },
     "scholarshatyellow": {
         "type": "helmet",
-        "name": "Yellow Sholar's Hat",
+        "name": "노랑 학자의 모자",
         "price": 100,
         "skill": "magic",
         "level": 1,
@@ -3520,7 +3510,7 @@
     },
     "slimehelmet": {
         "type": "helmet",
-        "name": "Slime Helmet",
+        "name": "슬라임 투구",
         "price": 100,
         "skill": "archery",
         "level": 1,
@@ -3547,7 +3537,7 @@
     },
     "slimekinghelmet": {
         "type": "helmet",
-        "name": "Slime King Helmet",
+        "name": "슬라임 왕 투구",
         "price": 100,
         "skill": "archery",
         "level": 1,
@@ -3574,7 +3564,7 @@
     },
     "slimekingrarehelmet": {
         "type": "helmet",
-        "name": "Rare Slime King Helmet",
+        "name": "희귀한 슬라임 왕 투구",
         "price": 100,
         "skill": "archery",
         "level": 1,
@@ -3601,7 +3591,7 @@
     },
     "slimepurplehelmet": {
         "type": "helmet",
-        "name": "Purple Slime Helmet",
+        "name": "보라 슬라임 투구",
         "price": 100,
         "skill": "archery",
         "level": 1,
@@ -3628,7 +3618,7 @@
     },
     "slimeredhelmet": {
         "type": "helmet",
-        "name": "Red Slime Helmet",
+        "name": "빨강 슬라임 투구",
         "price": 100,
         "skill": "archery",
         "level": 1,
@@ -3655,7 +3645,7 @@
     },
     "slimetealhelmet": {
         "type": "helmet",
-        "name": "Teal Slime Helmet",
+        "name": "청록 슬라임 투구",
         "price": 100,
         "skill": "archery",
         "level": 1,
@@ -3682,7 +3672,7 @@
     },
     "knighthelmet": {
         "type": "helmet",
-        "name": "Knight Helmet",
+        "name": "기사 투구",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3709,7 +3699,7 @@
     },
     "paladinhelmet": {
         "type": "helmet",
-        "name": "Paladin Helmet",
+        "name": "팔라딘 투구",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3736,7 +3726,7 @@
     },
     "samuraihelmet": {
         "type": "helmet",
-        "name": "Samurai Helmet",
+        "name": "사무라이 투구",
         "price": 100,
         "skill": "defense",
         "level": 1,
@@ -3763,7 +3753,7 @@
     },
     "conquerorhelmet": {
         "type": "helmet",
-        "name": "Conqueror Helmet",
+        "name": "정복자 투구",
         "price": 100,
         "skill": "defense",
         "level": 55,
@@ -3790,7 +3780,7 @@
     },
     "scarabhelmet": {
         "type": "helmet",
-        "name": "Scarab Helmet",
+        "name": "스카라베 투구",
         "price": 100,
         "skill": "archery",
         "level": 35,
@@ -3817,7 +3807,7 @@
     },
     "minitaurshelmet": {
         "type": "helmet",
-        "name": "Minitaur's Helmet",
+        "name": "미니타우르스의 투구",
         "price": 100,
         "skill": "archery",
         "level": 40,
@@ -3844,7 +3834,7 @@
     },
     "elfhelmet": {
         "type": "helmet",
-        "name": "Elf Helmet",
+        "name": "엘프 투구",
         "price": 100,
         "skill": "archery",
         "level": 40,
@@ -3871,7 +3861,7 @@
     },
     "elfhelmetgrown": {
         "type": "helmet",
-        "name": "Grown Elf Helmet",
+        "name": "성숙한 엘프 투구",
         "price": 100,
         "skill": "magic",
         "level": 40,
@@ -3898,32 +3888,32 @@
     },
     "oldmanmask": {
         "type": "helmet",
-        "name": "Old Man's Face",
+        "name": "노인의 얼굴",
         "price": 100
     },
     "artistcrown": {
         "type": "helmet",
-        "name": "Artist Helmet",
+        "name": "예술가 투구",
         "price": 100
     },
     "toyhat": {
         "type": "helmet",
-        "name": "Toy Hat",
+        "name": "장난감 모자",
         "price": 100
     },
     "toyhatprogrammer": {
         "type": "helmet",
-        "name": "Toy Hat Programmer",
+        "name": "프로그래머 장난감 모자",
         "price": 100
     },
     "toyhatwhite": {
         "type": "helmet",
-        "name": "White Toy Hat",
+        "name": "하얀 장난감 모자",
         "price": 100
     },
     "leatherchest": {
         "type": "chestplate",
-        "name": "Leather Chestpiece",
+        "name": "가죽 갑옷",
         "price": 100,
         "attackStats": {
             "crush": 1,
@@ -3948,7 +3938,7 @@
     },
     "mysticchest": {
         "type": "chestplate",
-        "name": "Mystic Chestpiece",
+        "name": "신비한 갑옷",
         "price": 100,
         "attackStats": {
             "crush": 2,
@@ -3973,7 +3963,7 @@
     },
     "bluemysticchest": {
         "type": "chestplate",
-        "name": "Blue Mystic Chestpiece",
+        "name": "푸른 신비한 갑옷",
         "price": 100,
         "skill": "magic",
         "level": 5,
@@ -4000,7 +3990,7 @@
     },
     "greenmysticchest": {
         "type": "chestplate",
-        "name": "Green Mystic Chestpiece",
+        "name": "초록 신비한 갑옷",
         "price": 100,
         "skill": "magic",
         "level": 10,
@@ -4025,10 +4015,9 @@
             "magic": 8
         }
     },
-
     "copperchestplate": {
         "type": "chestplate",
-        "name": "Copper Chestplate",
+        "name": "구리 판금 갑옷",
         "price": 100,
         "attackStats": {
             "crush": 1,
@@ -4053,7 +4042,7 @@
     },
     "tinchestplate": {
         "type": "chestplate",
-        "name": "Tin Chestplate",
+        "name": "주석 판금 갑옷",
         "price": 100,
         "attackStats": {
             "crush": 1,
@@ -4078,7 +4067,7 @@
     },
     "bronzechestplate": {
         "type": "chestplate",
-        "name": "Bronze Chestplate",
+        "name": "청동 판금 갑옷",
         "price": 100,
         "skill": "defense",
         "level": 5,
@@ -4105,7 +4094,7 @@
     },
     "ironchestplate": {
         "type": "chestplate",
-        "name": "Iron Chestplate",
+        "name": "철 판금 갑옷",
         "price": 100,
         "skill": "defense",
         "level": 10,
@@ -4132,7 +4121,7 @@
     },
     "goldchestplate": {
         "type": "chestplate",
-        "name": "Gold Chestplate",
+        "name": "금 판금 갑옷",
         "price": 100,
         "skill": "defense",
         "level": 20,
@@ -4159,7 +4148,7 @@
     },
     "cobaltchestplate": {
         "type": "chestplate",
-        "name": "Cobalt Chestplate",
+        "name": "코발트 판금 갑옷",
         "price": 100,
         "skill": "defense",
         "level": 15,
@@ -4186,7 +4175,7 @@
     },
     "nightchestplate": {
         "type": "chestplate",
-        "name": "Night Chestplate",
+        "name": "밤의 판금 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 25,
@@ -4213,7 +4202,7 @@
     },
     "sapphirechestplate": {
         "type": "chestplate",
-        "name": "Sapphire Chestplate",
+        "name": "사파이어 판금 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 33,
@@ -4238,10 +4227,9 @@
             "magic": 4
         }
     },
-
     "refinedsapphirechestplate": {
         "type": "chestplate",
-        "name": "Refined Sapphire Chestplate",
+        "name": "정제된 사파이어 판금 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 43,
@@ -4268,7 +4256,7 @@
     },
     "amethystchestplate": {
         "type": "chestplate",
-        "name": "Amethyst Chestplate",
+        "name": "자수정 판금 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 35,
@@ -4295,7 +4283,7 @@
     },
     "midnightamethystchestplate": {
         "type": "chestplate",
-        "name": "Midnight Amethyst Chestplate",
+        "name": "심야의 자수정 판금 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 37,
@@ -4322,7 +4310,7 @@
     },
     "rubychestplate": {
         "type": "chestplate",
-        "name": "Ruby Chestplate",
+        "name": "루비 판금 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 39,
@@ -4349,7 +4337,7 @@
     },
     "hellkeeperchestplate": {
         "type": "chestplate",
-        "name": "Hellkeeper Chestplate",
+        "name": "지옥지기 판금 갑옷",
         "price": 100,
         "skill": "defense",
         "level": 49,
@@ -4376,7 +4364,7 @@
     },
     "sentinelchestplate": {
         "type": "chestplate",
-        "name": "Sentinel Chestplate",
+        "name": "센티넬 판금 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 36,
@@ -4403,7 +4391,7 @@
     },
     "paladinchestplate": {
         "type": "chestplate",
-        "name": "Paladin Chestplate",
+        "name": "팔라딘 판금 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 36,
@@ -4430,7 +4418,7 @@
     },
     "samuraichestplate": {
         "type": "chestplate",
-        "name": "Samurai Chestplate",
+        "name": "사무라이 판금 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 36,
@@ -4457,7 +4445,7 @@
     },
     "knightchestplate": {
         "type": "chestplate",
-        "name": "Knight Chestplate",
+        "name": "기사 판금 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 36,
@@ -4484,7 +4472,7 @@
     },
     "minitaurschest": {
         "type": "chestplate",
-        "name": "Minitaur's Chest",
+        "name": "미니타우르스의 갑옷",
         "price": 100,
         "skill": "archery",
         "level": 40,
@@ -4511,7 +4499,7 @@
     },
     "scarabchest": {
         "type": "chestplate",
-        "name": "Scarab's Chest",
+        "name": "스카라베의 갑옷",
         "price": 100,
         "skill": "archery",
         "level": 35,
@@ -4538,7 +4526,7 @@
     },
     "conquerorchestplate": {
         "type": "helmet",
-        "name": "Conqueror Chestplate",
+        "name": "정복자 판금 갑옷",
         "price": 100,
         "skill": "defense",
         "level": 55,
@@ -4565,7 +4553,7 @@
     },
     "leatherleggings": {
         "type": "legplates",
-        "name": "Leather Leggings",
+        "name": "가죽 각반",
         "price": 100,
         "attackStats": {
             "crush": 1,
@@ -4590,7 +4578,7 @@
     },
     "copperlegplates": {
         "type": "legplates",
-        "name": "Copper Legplates",
+        "name": "구리 다리 갑옷",
         "price": 100,
         "attackStats": {
             "crush": 1,
@@ -4615,7 +4603,7 @@
     },
     "tinlegplates": {
         "type": "legplates",
-        "name": "Tin Legplates",
+        "name": "주석 다리 갑옷",
         "price": 100,
         "attackStats": {
             "crush": 2,
@@ -4640,7 +4628,7 @@
     },
     "bronzelegplates": {
         "type": "legplates",
-        "name": "Bronze Legplates",
+        "name": "청동 다리 갑옷",
         "price": 100,
         "skill": "defense",
         "level": 5,
@@ -4667,7 +4655,7 @@
     },
     "ironlegplates": {
         "type": "legplates",
-        "name": "Iron Legplates",
+        "name": "철 다리 갑옷",
         "price": 100,
         "skill": "defense",
         "level": 10,
@@ -4694,7 +4682,7 @@
     },
     "goldlegplates": {
         "type": "legplates",
-        "name": "Gold Legplates",
+        "name": "금 다리 갑옷",
         "price": 100,
         "skill": "defense",
         "level": 20,
@@ -4721,7 +4709,7 @@
     },
     "cobaltlegplates": {
         "type": "legplates",
-        "name": "Cobalt Legplates",
+        "name": "코발트 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 15,
@@ -4748,7 +4736,7 @@
     },
     "nightlegplates": {
         "type": "legplates",
-        "name": "Night Legplates",
+        "name": "밤의 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 25,
@@ -4775,7 +4763,7 @@
     },
     "sapphirelegplates": {
         "type": "legplates",
-        "name": "Sapphire Legplates",
+        "name": "사파이어 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 33,
@@ -4802,7 +4790,7 @@
     },
     "amethystlegplates": {
         "type": "legplates",
-        "name": "Amethyst Legplates",
+        "name": "자수정 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 35,
@@ -4829,7 +4817,7 @@
     },
     "midnightamethystlegplates": {
         "type": "legplates",
-        "name": "Midnight Amethyst Legplates",
+        "name": "심야의 자수정 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 37,
@@ -4856,7 +4844,7 @@
     },
     "rubylegplates": {
         "type": "legplates",
-        "name": "Ruby Legplates",
+        "name": "루비 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 39,
@@ -4883,7 +4871,7 @@
     },
     "hellkeeperlegplates": {
         "type": "legplates",
-        "name": "Hellkeeper Legplates",
+        "name": "지옥지기 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 49,
@@ -4910,7 +4898,7 @@
     },
     "sentinellegplates": {
         "type": "legplates",
-        "name": "Sentinel Legplates",
+        "name": "센티넬 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 36,
@@ -4937,7 +4925,7 @@
     },
     "paladinlegplates": {
         "type": "legplates",
-        "name": "Paladin Legplates",
+        "name": "팔라딘 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 36,
@@ -4964,7 +4952,7 @@
     },
     "samurailegplates": {
         "type": "legplates",
-        "name": "Samurai Legplates",
+        "name": "사무라이 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 36,
@@ -4991,7 +4979,7 @@
     },
     "knightlegplates": {
         "type": "legplates",
-        "name": "Knight Legplates",
+        "name": "기사 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 36,
@@ -5018,7 +5006,7 @@
     },
     "refinedsapphirelegplates": {
         "type": "legplates",
-        "name": "Refined Sapphire Legplates",
+        "name": "정제된 사파이어 다리 갑옷",
         "price": 200,
         "skill": "defense",
         "level": 36,
@@ -5045,7 +5033,7 @@
     },
     "wings": {
         "type": "cape",
-        "name": "Wings",
+        "name": "날개",
         "price": 200,
         "skill": "defense",
         "level": 15,
@@ -5072,7 +5060,7 @@
     },
     "wingsdark": {
         "type": "cape",
-        "name": "Dark Wings",
+        "name": "암흑의 날개",
         "price": 200,
         "skill": "defense",
         "level": 45,
@@ -5099,7 +5087,7 @@
     },
     "bronzeboots": {
         "type": "boots",
-        "name": "Bronze Boots",
+        "name": "청동 부츠",
         "skill": "defense",
         "level": 5,
         "price": 100,
@@ -5126,7 +5114,7 @@
     },
     "ironboots": {
         "type": "boots",
-        "name": "Iron Boots",
+        "name": "철 부츠",
         "skill": "defense",
         "level": 10,
         "price": 100,
@@ -5153,7 +5141,7 @@
     },
     "goldboots": {
         "type": "boots",
-        "name": "Golden Boots",
+        "name": "황금 부츠",
         "skill": "defense",
         "level": 20,
         "price": 200,
@@ -5180,7 +5168,7 @@
     },
     "leatherboots": {
         "type": "boots",
-        "name": "Leather Boots",
+        "name": "가죽 부츠",
         "price": 150,
         "attackStats": {
             "crush": 1,
@@ -5205,7 +5193,7 @@
     },
     "steelboots": {
         "type": "boots",
-        "name": "Steel Boots",
+        "name": "강철 부츠",
         "price": 3500,
         "attackStats": {
             "crush": 6,
@@ -5230,7 +5218,7 @@
     },
     "swiftboots": {
         "type": "boots",
-        "name": "Swift Boots",
+        "name": "신속의 부츠",
         "price": 7500,
         "movementModifier": 0.95,
         "attackStats": {
@@ -5256,7 +5244,7 @@
     },
     "lavaboots": {
         "type": "boots",
-        "name": "Lava Boots",
+        "name": "용암 부츠",
         "price": 2250,
         "skill": "defense",
         "level": 28,
@@ -5283,7 +5271,7 @@
     },
     "magmaboots": {
         "type": "boots",
-        "name": "Magma Boots",
+        "name": "마그마 부츠",
         "price": 2350,
         "skill": "defense",
         "level": 35,
@@ -5310,7 +5298,7 @@
     },
     "nightboots": {
         "type": "boots",
-        "name": "Night Boots",
+        "name": "밤의 부츠",
         "price": 1850,
         "skill": "defense",
         "level": 25,
@@ -5337,7 +5325,7 @@
     },
     "sapphireboots": {
         "type": "boots",
-        "name": "Sapphire Boots",
+        "name": "사파이어 부츠",
         "price": 1850,
         "skill": "defense",
         "level": 33,
@@ -5364,7 +5352,7 @@
     },
     "refinedsapphireboots": {
         "type": "boots",
-        "name": "Refined Sapphire Boots",
+        "name": "정제된 사파이어 부츠",
         "price": 1850,
         "skill": "defense",
         "level": 36,
@@ -5391,7 +5379,7 @@
     },
     "amethystboots": {
         "type": "boots",
-        "name": "Amethyst Boots",
+        "name": "자수정 부츠",
         "price": 1850,
         "skill": "defense",
         "level": 35,
@@ -5418,7 +5406,7 @@
     },
     "midnightamethystboots": {
         "type": "boots",
-        "name": "Midnight Amethyst Boots",
+        "name": "심야의 자수정 부츠",
         "price": 1850,
         "skill": "defense",
         "level": 37,
@@ -5445,7 +5433,7 @@
     },
     "rubyboots": {
         "type": "boots",
-        "name": "Ruby Boots",
+        "name": "루비 부츠",
         "price": 1850,
         "skill": "defense",
         "level": 39,
@@ -5472,7 +5460,7 @@
     },
     "hellkeeperboots": {
         "type": "boots",
-        "name": "Hellkeeper Boots",
+        "name": "지옥지기 부츠",
         "price": 1850,
         "skill": "defense",
         "level": 45,
@@ -5499,7 +5487,7 @@
     },
     "sentinelboots": {
         "type": "boots",
-        "name": "Sentinel Boots",
+        "name": "센티넬 부츠",
         "price": 1850,
         "skill": "defense",
         "level": 36,
@@ -5526,7 +5514,7 @@
     },
     "bronzering": {
         "type": "ring",
-        "name": "Bronze Ring",
+        "name": "청동 반지",
         "price": 100,
         "skill": "defense",
         "level": 20,
@@ -5553,7 +5541,7 @@
     },
     "ironring": {
         "type": "ring",
-        "name": "Iron Ring",
+        "name": "철 반지",
         "price": 100,
         "skill": "defense",
         "level": 10,
@@ -5580,7 +5568,7 @@
     },
     "ringbronzeberyl": {
         "type": "ring",
-        "name": "Beryl Gold Ring",
+        "name": "녹주석 청동 반지",
         "price": 1000,
         "skill": "accuracy",
         "level": 20,
@@ -5607,7 +5595,7 @@
     },
     "ringbronzeemerald": {
         "type": "ring",
-        "name": "Emerald Bronze Ring",
+        "name": "에메랄드 청동 반지",
         "price": 1000,
         "skill": "archery",
         "level": 20,
@@ -5634,7 +5622,7 @@
     },
     "ringbronzepythar": {
         "type": "ring",
-        "name": "Pythar Bronze Ring",
+        "name": "파이타르 청동 반지",
         "price": 1000,
         "skill": "defense",
         "level": 20,
@@ -5661,7 +5649,7 @@
     },
     "ringbronzeruby": {
         "type": "ring",
-        "name": "Ruby Bronze Ring",
+        "name": "루비 청동 반지",
         "price": 1000,
         "skill": "strength",
         "level": 20,
@@ -5688,7 +5676,7 @@
     },
     "ringbronzesapphire": {
         "type": "ring",
-        "name": "Sapphire Bronze Ring",
+        "name": "사파이어 청동 반지",
         "price": 1000,
         "skill": "magic",
         "level": 20,
@@ -5715,7 +5703,7 @@
     },
     "ringsilverberyl": {
         "type": "ring",
-        "name": "Beryl Silver Ring",
+        "name": "녹주석 은 반지",
         "price": 2500,
         "skill": "accuracy",
         "level": 30,
@@ -5742,7 +5730,7 @@
     },
     "ringsilveremerald": {
         "type": "ring",
-        "name": "Emerald Silver Ring",
+        "name": "에메랄드 은 반지",
         "price": 2500,
         "skill": "archery",
         "level": 40,
@@ -5769,7 +5757,7 @@
     },
     "ringsilverpythar": {
         "type": "ring",
-        "name": "Pythar Silver Ring",
+        "name": "파이타르 은 반지",
         "price": 2500,
         "skill": "defense",
         "level": 30,
@@ -5796,7 +5784,7 @@
     },
     "ringsilverruby": {
         "type": "ring",
-        "name": "Ruby Silver Ring",
+        "name": "루비 은 반지",
         "price": 2500,
         "skill": "strength",
         "level": 30,
@@ -5823,7 +5811,7 @@
     },
     "ringsilversapphire": {
         "type": "ring",
-        "name": "Sapphire Silver Ring",
+        "name": "사파이어 은 반지",
         "price": 2500,
         "skill": "defense",
         "level": 30,
@@ -5850,7 +5838,7 @@
     },
     "ringgoldberyl": {
         "type": "ring",
-        "name": "Beryl Gold Ring",
+        "name": "녹주석 금 반지",
         "price": 3650,
         "skill": "accuracy",
         "level": 50,
@@ -5877,7 +5865,7 @@
     },
     "ringgoldemerald": {
         "type": "ring",
-        "name": "Emerald Gold Ring",
+        "name": "에메랄드 금 반지",
         "price": 3650,
         "skill": "archery",
         "level": 50,
@@ -5904,7 +5892,7 @@
     },
     "ringgoldpythar": {
         "type": "ring",
-        "name": "Pythar Gold Ring",
+        "name": "파이타르 금 반지",
         "price": 3650,
         "skill": "defense",
         "level": 50,
@@ -5931,7 +5919,7 @@
     },
     "ringgoldruby": {
         "type": "ring",
-        "name": "Ruby Gold Ring",
+        "name": "루비 금 반지",
         "price": 3650,
         "skill": "strength",
         "level": 50,
@@ -5958,7 +5946,7 @@
     },
     "ringgoldsapphire": {
         "type": "ring",
-        "name": "Sapphire Gold Ring",
+        "name": "사파이어 금 반지",
         "price": 3650,
         "skill": "magic",
         "level": 50,
@@ -5985,7 +5973,7 @@
     },
     "pendantbronzeberyl": {
         "type": "pendant",
-        "name": "Beryl Gold Pendant",
+        "name": "녹주석 청동 펜던트",
         "price": 1500,
         "skill": "accuracy",
         "level": 20,
@@ -6012,7 +6000,7 @@
     },
     "pendantbronzeemerald": {
         "type": "pendant",
-        "name": "Emerald Bronze Pendant",
+        "name": "에메랄드 청동 펜던트",
         "price": 1500,
         "skill": "archery",
         "level": 20,
@@ -6039,7 +6027,7 @@
     },
     "pendantbronzepythar": {
         "type": "pendant",
-        "name": "Pythar Bronze Pendant",
+        "name": "파이타르 청동 펜던트",
         "price": 1500,
         "skill": "defense",
         "level": 20,
@@ -6066,7 +6054,7 @@
     },
     "pendantbronzeruby": {
         "type": "pendant",
-        "name": "Ruby Bronze Pendant",
+        "name": "루비 청동 펜던트",
         "price": 1500,
         "skill": "strength",
         "level": 20,
@@ -6093,7 +6081,7 @@
     },
     "pendantbronzesapphire": {
         "type": "pendant",
-        "name": "Sapphire Bronze Pendant",
+        "name": "사파이어 청동 펜던트",
         "price": 1500,
         "skill": "magic",
         "level": 20,
@@ -6120,7 +6108,7 @@
     },
     "pendantsilverberyl": {
         "type": "pendant",
-        "name": "Beryl Silver Pendant",
+        "name": "녹주석 은 펜던트",
         "price": 2500,
         "skill": "accuracy",
         "level": 30,
@@ -6147,7 +6135,7 @@
     },
     "pendantsilveremerald": {
         "type": "pendant",
-        "name": "Emerald Silver Pendant",
+        "name": "에메랄드 은 펜던트",
         "price": 2500,
         "skill": "archery",
         "level": 40,
@@ -6174,7 +6162,7 @@
     },
     "pendantsilverpythar": {
         "type": "pendant",
-        "name": "Pythar Silver Pendant",
+        "name": "파이타르 은 펜던트",
         "price": 2500,
         "skill": "defense",
         "level": 30,
@@ -6201,7 +6189,7 @@
     },
     "pendantsilverruby": {
         "type": "pendant",
-        "name": "Ruby Silver Pendant",
+        "name": "루비 은 펜던트",
         "price": 2500,
         "skill": "strength",
         "level": 30,
@@ -6228,7 +6216,7 @@
     },
     "pendantsilversapphire": {
         "type": "pendant",
-        "name": "Sapphire Silver Pendant",
+        "name": "사파이어 은 펜던트",
         "price": 2500,
         "skill": "defense",
         "level": 30,
@@ -6255,7 +6243,7 @@
     },
     "pendantgoldberyl": {
         "type": "pendant",
-        "name": "Beryl Gold Pendant",
+        "name": "녹주석 금 펜던트",
         "price": 3650,
         "skill": "accuracy",
         "level": 50,
@@ -6282,7 +6270,7 @@
     },
     "pendantgoldemerald": {
         "type": "pendant",
-        "name": "Emerald Gold Pendant",
+        "name": "에메랄드 금 펜던트",
         "price": 3650,
         "skill": "archery",
         "level": 50,
@@ -6309,7 +6297,7 @@
     },
     "pendantgoldpythar": {
         "type": "pendant",
-        "name": "Pythar Gold Pendant",
+        "name": "파이타르 금 펜던트",
         "price": 3650,
         "skill": "defense",
         "level": 50,
@@ -6336,7 +6324,7 @@
     },
     "pendantgoldruby": {
         "type": "pendant",
-        "name": "Ruby Gold Pendant",
+        "name": "루비 금 펜던트",
         "price": 3650,
         "skill": "strength",
         "level": 50,
@@ -6363,7 +6351,7 @@
     },
     "pendantgoldsapphire": {
         "type": "pendant",
-        "name": "Sapphire Gold Pendant",
+        "name": "사파이어 금 펜던트",
         "price": 3650,
         "skill": "magic",
         "level": 50,
@@ -6390,7 +6378,7 @@
     },
     "braceletbronzeberyl": {
         "type": "ring",
-        "name": "Beryl Bronze Bracelet",
+        "name": "녹주석 청동 팔찌",
         "price": 1000,
         "skill": "accuracy",
         "level": 20,
@@ -6417,7 +6405,7 @@
     },
     "braceletbronzeemerald": {
         "type": "ring",
-        "name": "Emerald Bronze Bracelet",
+        "name": "에메랄드 청동 팔찌",
         "price": 1000,
         "skill": "archery",
         "level": 20,
@@ -6444,7 +6432,7 @@
     },
     "braceletbronzepythar": {
         "type": "ring",
-        "name": "Pythar Bronze Bracelet",
+        "name": "파이타르 청동 팔찌",
         "price": 1000,
         "skill": "defense",
         "level": 20,
@@ -6471,7 +6459,7 @@
     },
     "braceletbronzeruby": {
         "type": "ring",
-        "name": "Ruby Bronze Bracelet",
+        "name": "루비 청동 팔찌",
         "price": 1000,
         "skill": "strength",
         "level": 20,
@@ -6498,7 +6486,7 @@
     },
     "braceletbronzesapphire": {
         "type": "ring",
-        "name": "Sapphire Bronze Bracelet",
+        "name": "사파이어 청동 팔찌",
         "price": 1000,
         "skill": "magic",
         "level": 20,
@@ -6525,7 +6513,7 @@
     },
     "braceletsilverberyl": {
         "type": "ring",
-        "name": "Beryl Silver Bracelet",
+        "name": "녹주석 은 팔찌",
         "price": 2500,
         "skill": "accuracy",
         "level": 30,
@@ -6552,7 +6540,7 @@
     },
     "braceletsilveremerald": {
         "type": "ring",
-        "name": "Emerald Silver Bracelet",
+        "name": "에메랄드 은 팔찌",
         "price": 2500,
         "skill": "archery",
         "level": 30,
@@ -6579,7 +6567,7 @@
     },
     "braceletsilverpythar": {
         "type": "ring",
-        "name": "Pythar Silver Bracelet",
+        "name": "파이타르 은 팔찌",
         "price": 2500,
         "skill": "defense",
         "level": 30,
@@ -6606,7 +6594,7 @@
     },
     "braceletsilverruby": {
         "type": "ring",
-        "name": "Ruby Silver Bracelet",
+        "name": "루비 은 팔찌",
         "price": 2500,
         "skill": "strength",
         "level": 30,
@@ -6633,7 +6621,7 @@
     },
     "braceletsilversapphire": {
         "type": "ring",
-        "name": "Sapphire Silver Bracelet",
+        "name": "사파이어 은 팔찌",
         "price": 2500,
         "skill": "defense",
         "level": 30,
@@ -6660,7 +6648,7 @@
     },
     "braceletgoldberyl": {
         "type": "ring",
-        "name": "Beryl Gold Bracelet",
+        "name": "녹주석 금 팔찌",
         "price": 2500,
         "skill": "accuracy",
         "level": 50,
@@ -6687,7 +6675,7 @@
     },
     "braceletgoldemerald": {
         "type": "ring",
-        "name": "Emerald Gold Bracelet",
+        "name": "에메랄드 금 팔찌",
         "price": 3650,
         "skill": "archery",
         "level": 50,
@@ -6714,7 +6702,7 @@
     },
     "braceletgoldpythar": {
         "type": "ring",
-        "name": "Pythar Gold Bracelet",
+        "name": "파이타르 금 팔찌",
         "price": 3650,
         "skill": "defense",
         "level": 50,
@@ -6741,7 +6729,7 @@
     },
     "braceletgoldruby": {
         "type": "ring",
-        "name": "Ruby Gold Bracelet",
+        "name": "루비 금 팔찌",
         "price": 3650,
         "skill": "strength",
         "level": 50,
@@ -6768,7 +6756,7 @@
     },
     "braceletgoldsapphire": {
         "type": "ring",
-        "name": "Sapphire Gold Bracelet",
+        "name": "사파이어 금 팔찌",
         "price": 3650,
         "skill": "magic",
         "level": 50,
@@ -6795,7 +6783,7 @@
     },
     "woodenbow": {
         "type": "weaponarcher",
-        "name": "Wooden Bow",
+        "name": "나무 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100,
@@ -6820,122 +6808,121 @@
             "magic": -1
         }
     },
-
     "bowbamboo": {
         "type": "weaponarcher",
-        "name": "Bamboo Bow",
+        "name": "대나무 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowdeuteranom": {
         "type": "weaponarcher",
-        "name": "Deuteranom Bow",
+        "name": "듀테라놈 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "boweggplant": {
         "type": "weaponarcher",
-        "name": "Wooden Bow",
+        "name": "나무 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowfleshflinger": {
         "type": "weaponarcher",
-        "name": "Flesh Flinger Bow",
+        "name": "살점 투척 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowiceicemaybe": {
         "type": "weaponarcher",
-        "name": "Ice Ice Maybe",
+        "name": "얼음얼음 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowillmuscal": {
         "type": "weaponarcher",
-        "name": "Ill Muscal Bow",
+        "name": "일머스칼 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowkelpysburden": {
         "type": "weaponarcher",
-        "name": "Kelpy's Burden",
+        "name": "켈피의 짐",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowmagiccool": {
         "type": "weaponarcher",
-        "name": "Cool Magic Bow",
+        "name": "시원한 마법 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowmagichot": {
         "type": "weaponarcher",
-        "name": "Hot Magic Bow",
+        "name": "뜨거운 마법 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowmoon": {
         "type": "weaponarcher",
-        "name": "Moon Bow",
+        "name": "달의 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowocean": {
         "type": "weaponarcher",
-        "name": "Ocean Bow",
+        "name": "바다의 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowpine": {
         "type": "weaponarcher",
-        "name": "Pine Bow",
+        "name": "소나무 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowsky": {
         "type": "weaponarcher",
-        "name": "Sky Bow",
+        "name": "하늘의 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowsun": {
         "type": "weaponarcher",
-        "name": "Sun Bow",
+        "name": "태양의 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowswineslayer": {
         "type": "weaponarcher",
-        "name": "Swine Slayer Bow",
+        "name": "스와인슬레이어 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "bowwillowtwine": {
         "type": "weaponarcher",
-        "name": "Willow Twine Bow",
+        "name": "버드나무 가지 활",
         "weaponType": "bow",
         "twoHanded": true,
         "price": 100
     },
     "magichamberge": {
         "type": "weaponmagic",
-        "name": "Magic Hamberge",
+        "name": "매직 함버지",
         "skill": "magic",
         "level": 20,
         "price": 200,
@@ -6960,10 +6947,9 @@
             "magic": 4
         }
     },
-
     "aquastaff": {
         "type": "weaponmagic",
-        "name": "Aqua Staff",
+        "name": "물의 지팡이",
         "weaponType": "staff",
         "price": 1500,
         "manaCost": 2,
@@ -6985,7 +6971,7 @@
     },
     "lightningstaff": {
         "type": "weaponmagic",
-        "name": "Lightning Staff",
+        "name": "번개 지팡이",
         "weaponType": "staff",
         "skill": "magic",
         "price": 7500,
@@ -7009,7 +6995,7 @@
     },
     "naturestaff": {
         "type": "weaponmagic",
-        "name": "Nature Staff",
+        "name": "자연의 지팡이",
         "weaponType": "staff",
         "skill": "magic",
         "price": 12500,
@@ -7033,7 +7019,7 @@
     },
     "firestaff": {
         "type": "weaponmagic",
-        "name": "Fire Staff",
+        "name": "화염 지팡이",
         "weaponType": "staff",
         "skill": "magic",
         "price": 22500,
@@ -7057,7 +7043,7 @@
     },
     "cursestaff": {
         "type": "weaponmagic",
-        "name": "Ice Staff",
+        "name": "얼음 지팡이",
         "weaponType": "staff",
         "skill": "magic",
         "price": 40000,
@@ -7081,7 +7067,7 @@
     },
     "bluemoonstaff": {
         "type": "weapon",
-        "name": "Bluemoon Staff",
+        "name": "푸른 달의 지팡이",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -7109,7 +7095,7 @@
     },
     "demonicstaff": {
         "type": "weapon",
-        "name": "Demonic Staff",
+        "name": "악마의 지팡이",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -7137,7 +7123,7 @@
     },
     "sunshinestaff": {
         "type": "weapon",
-        "name": "Sunshine Staff",
+        "name": "햇살의 지팡이",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -7165,7 +7151,7 @@
     },
     "witchsstaffancient": {
         "type": "weapon",
-        "name": "Ancient Witch's Staff",
+        "name": "고대 마녀의 지팡이",
         "weaponType": "staff",
         "price": 5000,
         "skill": "magic",
@@ -7195,7 +7181,7 @@
     },
     "witchsstaffblood": {
         "type": "weapon",
-        "name": "Witch's Staff of Blood",
+        "name": "핏빛 마녀의 지팡이",
         "weaponType": "staff",
         "price": 5000,
         "skill": "magic",
@@ -7225,7 +7211,7 @@
     },
     "witchsstaffdemonic": {
         "type": "weapon",
-        "name": "Demonic Witch's Staff",
+        "name": "악마 마녀의 지팡이",
         "weaponType": "staff",
         "price": 5000,
         "skill": "magic",
@@ -7255,7 +7241,7 @@
     },
     "witchsstaffmoon": {
         "type": "weapon",
-        "name": "Witch's Staff of the Moon",
+        "name": "달빛 마녀의 지팡이",
         "weaponType": "staff",
         "price": 5000,
         "skill": "magic",
@@ -7285,7 +7271,7 @@
     },
     "witchsstaffsunshine": {
         "type": "weapon",
-        "name": "Witch's Staff of Sunshine",
+        "name": "햇살 마녀의 지팡이",
         "weaponType": "staff",
         "price": 5000,
         "skill": "magic",
@@ -7315,7 +7301,7 @@
     },
     "bloodmoonstaff": {
         "type": "weapon",
-        "name": "Bloodmoon Staff",
+        "name": "핏빛 달의 지팡이",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -7343,7 +7329,7 @@
     },
     "ancientstaff": {
         "type": "weapon",
-        "name": "Ancient Staff",
+        "name": "고대의 지팡이",
         "weaponType": "sword",
         "price": 5000,
         "skill": "strength",
@@ -7371,7 +7357,7 @@
     },
     "coppershield": {
         "type": "shield",
-        "name": "Copper Shield",
+        "name": "구리 방패",
         "price": 100,
         "defenseStats": {
             "crush": 4,
@@ -7389,7 +7375,7 @@
     },
     "tinshield": {
         "type": "shield",
-        "name": "Tin Shield",
+        "name": "주석 방패",
         "price": 100,
         "defenseStats": {
             "crush": 5,
@@ -7407,7 +7393,7 @@
     },
     "woodenshield": {
         "type": "shield",
-        "name": "Wooden Shield",
+        "name": "나무 방패",
         "price": 420,
         "defenseStats": {
             "crush": 6,
@@ -7425,7 +7411,7 @@
     },
     "ironshield": {
         "type": "shield",
-        "name": "Iron Shield",
+        "name": "철 방패",
         "price": 420,
         "skill": "defense",
         "level": 10,
@@ -7445,7 +7431,7 @@
     },
     "ironroundshield": {
         "type": "shield",
-        "name": "Iron Round Shield",
+        "name": "철 라운드 방패",
         "price": 420,
         "skill": "defense",
         "level": 23,
@@ -7465,7 +7451,7 @@
     },
     "cobaltshield": {
         "type": "shield",
-        "name": "Cobalt Shield",
+        "name": "코발트 방패",
         "price": 420,
         "skill": "defense",
         "level": 15,
@@ -7485,7 +7471,7 @@
     },
     "goldshield": {
         "type": "shield",
-        "name": "Gold Shield",
+        "name": "금 방패",
         "price": 420,
         "skill": "defense",
         "level": 20,
@@ -7505,7 +7491,7 @@
     },
     "shieldofliberty": {
         "type": "shield",
-        "name": "Shield of Liberty",
+        "name": "자유의 방패",
         "price": 420,
         "skill": "defense",
         "level": 55,
@@ -7525,7 +7511,7 @@
     },
     "shieldofglory": {
         "type": "shield",
-        "name": "Shield of Glory",
+        "name": "영광의 방패",
         "price": 420,
         "skill": "defense",
         "level": 36,
@@ -7545,7 +7531,7 @@
     },
     "lantern": {
         "type": "shield",
-        "name": "Lantern",
+        "name": "랜턴",
         "price": 1000,
         "light": {
             "outer": {
@@ -7577,7 +7563,7 @@
     },
     "lantern2": {
         "type": "shield",
-        "name": "Lantern 2",
+        "name": "랜턴 2",
         "price": 1000,
         "light": {
             "outer": {
@@ -7609,7 +7595,7 @@
     },
     "lanternarcan": {
         "type": "shield",
-        "name": "Arcan Lantern",
+        "name": "아르칸 랜턴",
         "price": 1000,
         "light": {
             "outer": {
@@ -7641,87 +7627,87 @@
     },
     "cellobello": {
         "type": "weaponskin",
-        "name": "Cello Bello"
+        "name": "첼로 벨로"
     },
     "lolipop": {
         "type": "weaponskin",
-        "name": "Lolipop",
+        "name": "막대사탕",
         "price": 5000
     },
     "spoon": {
         "type": "weaponskin",
-        "name": "Spoon"
+        "name": "숟가락"
     },
     "danbo": {
         "type": "skin",
-        "name": "Danbo"
+        "name": "단보"
     },
     "danboblue": {
         "type": "skin",
-        "name": "Danbo"
+        "name": "단보"
     },
     "danbogreen": {
         "type": "skin",
-        "name": "Danbo"
+        "name": "단보"
     },
     "danbored": {
         "type": "skin",
-        "name": "Danbo"
+        "name": "단보"
     },
     "taekwondo": {
         "type": "skin",
-        "name": "Taekwondo"
+        "name": "태권도"
     },
     "skeletonskin": {
         "type": "skin",
-        "name": "SkellyMcNelly"
+        "name": "스켈리맥넬리"
     },
     "darkskeletonskin": {
         "type": "skin",
-        "name": "SkellyMcSpooky"
+        "name": "스켈리맥스푸키"
     },
     "oldmanskin": {
         "type": "skin",
-        "name": "Old Man's Skin"
+        "name": "노인의 외피"
     },
     "balloonblue": {
         "type": "weapon",
-        "name": "Blue Balloon",
+        "name": "파란 풍선",
         "weaponType": "sword"
     },
     "balloongreen": {
         "type": "weapon",
-        "name": "Green Balloon",
+        "name": "초록 풍선",
         "weaponType": "sword"
     },
     "balloonpink": {
         "type": "weapon",
-        "name": "Pink Balloon",
+        "name": "분홍 풍선",
         "weaponType": "sword"
     },
     "balloonyellow": {
         "type": "weapon",
-        "name": "Yellow Balloon",
+        "name": "노랑 풍선",
         "weaponType": "sword"
     },
     "balloonturquoise": {
         "type": "weapon",
-        "name": "Turquoise Balloon",
+        "name": "청록 풍선",
         "weaponType": "sword"
     },
     "balloonwhite": {
         "type": "weapon",
-        "name": "White Balloon",
+        "name": "하얀 풍선",
         "weaponType": "sword"
     },
     "gun": {
         "type": "weapon",
-        "name": "Gun",
+        "name": "총",
         "weaponType": "sword"
     },
     "pendant1": {
         "type": "pendant",
-        "name": "Pendant",
+        "name": "펜던트",
         "price": 1650,
         "attackStats": {
             "crush": 8,
@@ -7746,7 +7732,7 @@
     },
     "greenpendant": {
         "type": "pendant",
-        "name": "Jade Pendant",
+        "name": "비취 펜던트",
         "price": 2500,
         "attackStats": {
             "crush": 11,
@@ -7771,7 +7757,7 @@
     },
     "pearlpendant": {
         "type": "pendant",
-        "name": "Pearl Pendant",
+        "name": "진주 펜던트",
         "price": 4450,
         "attackStats": {
             "crush": 16,
@@ -7796,7 +7782,7 @@
     },
     "berylpendant": {
         "type": "pendant",
-        "name": "Beryl Pendant",
+        "name": "녹주석 펜던트",
         "price": 1200,
         "attackStats": {
             "crush": 18,
@@ -7821,7 +7807,7 @@
     },
     "rubypendant": {
         "type": "pendant",
-        "name": "Ruby Pendant",
+        "name": "루비 펜던트",
         "price": 1500,
         "attackStats": {
             "crush": 3,
@@ -7846,7 +7832,7 @@
     },
     "emeraldpendant": {
         "type": "pendant",
-        "name": "Emerald Pendant",
+        "name": "에메랄드 펜던트",
         "price": 1800,
         "attackStats": {
             "crush": 2,
@@ -7871,27 +7857,27 @@
     },
     "goldring": {
         "type": "ring",
-        "name": "Gold Ring",
+        "name": "금 반지",
         "price": 2250
     },
     "goldring2": {
         "type": "ring",
-        "name": "Slotted Gold Ring",
+        "name": "홈이 파인 금 반지",
         "price": 2250
     },
     "silverring": {
         "type": "ring",
-        "name": "Silver Ring",
+        "name": "은 반지",
         "price": 1250
     },
     "silverring2": {
         "type": "ring",
-        "name": "Slotted Silver Ring",
+        "name": "홈이 파인 은 반지",
         "price": 1250
     },
     "ring1": {
         "type": "ring",
-        "name": "Emerald Ring",
+        "name": "에메랄드 반지",
         "price": 1500,
         "attackStats": {
             "crush": 8,
@@ -7916,7 +7902,7 @@
     },
     "sproutring": {
         "type": "ring",
-        "name": "Sprout Ring",
+        "name": "새싹 반지",
         "price": 2350,
         "attackStats": {
             "crush": 10,
@@ -7941,7 +7927,7 @@
     },
     "pearlring": {
         "type": "ring",
-        "name": "Pearl Ring",
+        "name": "진주 반지",
         "price": 3600,
         "attackStats": {
             "crush": 16,
@@ -7966,7 +7952,7 @@
     },
     "topazring": {
         "type": "ring",
-        "name": "Topaz Ring",
+        "name": "토파즈 반지",
         "price": 9800,
         "attackStats": {
             "crush": 18,
@@ -7991,7 +7977,7 @@
     },
     "spiritring": {
         "type": "ring",
-        "name": "Spirit Ring",
+        "name": "영혼의 반지",
         "price": 10050,
         "attackStats": {
             "crush": 12,
@@ -8016,7 +8002,7 @@
     },
     "essentialrage": {
         "type": "ring",
-        "name": "Essential Rage",
+        "name": "본질의 분노",
         "price": 15500,
         "attackStats": {
             "crush": 22,
@@ -8041,7 +8027,7 @@
     },
     "rubyring": {
         "type": "ring",
-        "name": "Ruby Ring",
+        "name": "루비 반지",
         "skill": "magic",
         "level": 10,
         "price": 12500,
@@ -8068,7 +8054,7 @@
     },
     "sapphirering": {
         "type": "ring",
-        "name": "Sapphire Ring",
+        "name": "사파이어 반지",
         "skill": "magic",
         "level": 20,
         "price": 8650,
@@ -8095,7 +8081,7 @@
     },
     "emeraldring": {
         "type": "ring",
-        "name": "Emerald Ring",
+        "name": "에메랄드 반지",
         "skill": "magic",
         "level": 30,
         "price": 2200,
@@ -8122,7 +8108,7 @@
     },
     "dolring": {
         "type": "ring",
-        "name": "Fragmented Ring",
+        "name": "조각난 반지",
         "skill": "magic",
         "level": 40,
         "price": 11000,
@@ -8149,7 +8135,7 @@
     },
     "diamondring": {
         "type": "ring",
-        "name": "Diamond Ring",
+        "name": "다이아몬드 반지",
         "skill": "magic",
         "level": 50,
         "price": 16500,
@@ -8176,7 +8162,7 @@
     },
     "pytharring": {
         "type": "ring",
-        "name": "Pythar Ring",
+        "name": "파이타르 반지",
         "skill": "strength",
         "level": 50,
         "price": 7500,
@@ -8203,7 +8189,7 @@
     },
     "nisocring": {
         "type": "ring",
-        "name": "Nisoc Ring",
+        "name": "나이속 반지",
         "skill": "accuracy",
         "level": 41,
         "price": 7800,
@@ -8230,8 +8216,8 @@
     },
     "flask": {
         "type": "object",
-        "name": "Flask",
-        "description": "A flask used to increment your health from one point to another. How much does it increment it by? +100 HP!",
+        "name": "물약",
+        "description": "체력을 회복시켜 주는 물약. 얼마나 회복되냐고? +100 HP!",
         "storeCount": 10,
         "price": 40,
         "stackable": true,
@@ -8242,16 +8228,16 @@
     },
     "hotsauce": {
         "type": "object",
-        "name": "Hot Sauce",
-        "description": "It's really weird why random mobs would be carrying this item. Like what could they possibly use this for?",
+        "name": "핫 소스",
+        "description": "왜 잡몹들이 이런 걸 들고 다니는지 정말 의문이야. 도대체 어디다 쓰려고?",
         "price": 150,
         "edible": true,
         "plugin": "hotsauce"
     },
     "cure": {
         "type": "object",
-        "name": "Antidote",
-        "description": "Are you poisoned? Have you been involved in a fight with a poisonous snake or venomous spider? Well this is the cure for you!",
+        "name": "해독제",
+        "description": "독에 중독됐어? 독사나 독거미와 한 판 붙었어? 그렇다면 이 해독제가 답이야!",
         "storeCount": 10,
         "price": 150,
         "stackable": false,
@@ -8260,8 +8246,8 @@
     },
     "manaflask": {
         "type": "object",
-        "name": "Mana Flask",
-        "description": "A refreshing drink for those a little bit low on mana! +35 MP!",
+        "name": "마나 물약",
+        "description": "마나가 살짝 부족한 이들을 위한 상쾌한 한 잔! +35 MP!",
         "storeCount": 10,
         "price": 200,
         "stackable": true,
@@ -8272,8 +8258,8 @@
     },
     "burger": {
         "type": "object",
-        "name": "Burger",
-        "description": "How did a burger make its way into a fantasy world? Who knows, but it's delicious! +200 HP!",
+        "name": "버거",
+        "description": "판타지 세계에 어떻게 버거가 들어왔는지 모르겠지만, 어쨌든 맛있어! +200 HP!",
         "storeCount": 10,
         "price": 350,
         "stackable": true,
@@ -8284,8 +8270,8 @@
     },
     "bigflask": {
         "type": "object",
-        "name": "Big Flask",
-        "description": "It's like the other flask, except it's bigger, so obviously it must heal more! +250 HP!",
+        "name": "큰 물약",
+        "description": "다른 물약과 똑같지만 더 크니까, 당연히 회복량도 더 많겠지! +250 HP!",
         "storeCount": 10,
         "price": 600,
         "stackable": true,
@@ -8296,8 +8282,8 @@
     },
     "bigmanaflask": {
         "type": "object",
-        "name": "Big Mana Flask",
-        "description": "For those seriously thirsty for some mana! +95 MP!",
+        "name": "큰 마나 물약",
+        "description": "마나에 진심으로 목마른 이들을 위한 물약! +95 MP!",
         "storeCount": 10,
         "price": 600,
         "stackable": true,
@@ -8308,33 +8294,33 @@
     },
     "firepotion": {
         "type": "object",
-        "name": "Fire Potion",
+        "name": "화염 물약",
         "price": 250,
         "maxStackSize": 3,
-        "description": "Feeling a little hot? Have you been burnt to a crisp and can't seem to shake off that burning sensation? The fire potion is the answer to your ailments!",
+        "description": "몸이 좀 뜨거워? 바삭하게 타버려서 그 화끈거림이 가시질 않아? 화염 물약이 답이야!",
         "edible": true,
         "plugin": "firepotion"
     },
     "smallemptyvial": {
         "type": "object",
-        "name": "Small Empty Vial",
-        "description": "A relatively small vial used for storing any liquid really. You could probably put water in this and it'll be just fine."
+        "name": "작은 빈 병",
+        "description": "액체를 담아 두는 비교적 작은 병. 물 정도는 무난하게 담을 수 있어."
     },
     "bigemptyvial": {
         "type": "object",
-        "name": "Big Empty Vial",
-        "description": "A big vial used for storing any liquid really."
+        "name": "큰 빈 병",
+        "description": "액체를 담아 두는 큰 병."
     },
     "largeemptyvial": {
         "type": "object",
-        "name": "Large Empty Vial",
-        "description": "A large vial used for storing any liquid really."
+        "name": "대형 빈 병",
+        "description": "액체를 담아 두는 대형 병."
     },
     "snowpotion": {
         "type": "object",
-        "name": "Snow Potion",
+        "name": "눈의 물약",
         "price": 25,
-        "description": "A magical potion received by some weird monument. It temporarily prevents the player from taking damage from the cold.",
+        "description": "어떤 기묘한 기념비에서 얻은 마법 물약. 잠시 동안 추위 피해를 막아줘.",
         "stackable": true,
         "maxStackSize": 3,
         "respawnDelay": 120000,
@@ -8343,75 +8329,75 @@
     },
     "royalazalea": {
         "type": "object",
-        "name": "Royal Azalea"
+        "name": "왕실 진달래"
     },
     "blackpotion": {
         "type": "object",
-        "name": "Black Potion",
+        "name": "검은 물약",
         "price": 100,
-        "description": "This potion is not at all suspicious. Drink up, it's really yummy!",
+        "description": "전혀 수상하지 않은 물약이야. 마음껏 마셔, 진짜 맛있다니까!",
         "plugin": "blackpotion",
         "edible": true
     },
     "book": {
         "type": "object",
-        "name": "Book",
+        "name": "책",
         "undroppable": true
     },
     "cd": {
         "type": "object",
-        "name": "CD [Quest]",
-        "description": "A CD received by some dying soldier. Contains his last mixtape. I should probably get this to his wife or something.",
+        "name": "CD [퀘스트]",
+        "description": "죽어가는 병사가 남긴 CD. 그의 마지막 믹스테이프가 담겨 있어. 그의 아내한테 전해줘야 할 것 같은데.",
         "undroppable": true
     },
     "gold": {
         "type": "object",
-        "name": "Gold",
+        "name": "금",
         "stackable": true,
-        "description": "A very useful shiny metal that for some reason people like to exchange for goods."
+        "description": "왜인지는 몰라도 사람들이 물건과 바꾸려고 하는 아주 유용한 반짝이는 금속."
     },
     "token": {
         "type": "object",
-        "name": "Token",
+        "name": "토큰",
         "stackable": true,
-        "description": "A special token that can be exchanged for special stuff at a special store somewhere special."
+        "description": "특별한 어딘가에서 특별한 물건과 교환할 수 있는 특별한 토큰."
     },
     "banana": {
         "type": "object",
-        "name": "Banana",
-        "description": "A banana, a fruit that is yellow and long. It is a good source of potassium and fiber.",
+        "name": "바나나",
+        "description": "노랗고 길쭉한 과일, 바나나. 칼륨과 식이섬유의 좋은 공급원이야.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 700
     },
     "watermelon": {
         "type": "object",
-        "name": "Watermelon",
-        "description": "A watermelon, I should probably cut this up before eating it.",
+        "name": "수박",
+        "description": "수박이야. 먹기 전에 잘라야 할 것 같아.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 800
     },
     "apple": {
         "type": "object",
-        "name": "Apple",
-        "description": "An apple, an excellent source of energy!",
+        "name": "사과",
+        "description": "사과, 훌륭한 에너지원이지!",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 450
     },
     "orange": {
         "type": "object",
-        "name": "Orange",
-        "description": "It's funny, the name of the fruit is the same as the colour and its colour.",
+        "name": "오렌지",
+        "description": "재밌게도 이 과일의 이름은 색깔 이름과 같아, 색도 같고.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 750
     },
     "blueberry": {
         "type": "object",
-        "name": "Blueberry",
-        "description": "A blueberry, a fruit that is blue and round. It is a good source of antioxidants.",
+        "name": "블루베리",
+        "description": "파랗고 동그란 열매, 블루베리. 항산화 물질의 좋은 공급원이야.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 500
@@ -8419,236 +8405,236 @@
     "shardt1": {
         "type": "object",
         "price": 1500,
-        "name": "Shard - Tier 1",
+        "name": "파편 - 1단계",
         "stackable": true,
-        "description": "Shards are items used to enchant equipments. Each tier represents the maximum attainable enchantment level and chance of enchanting succeeding."
+        "description": "장비를 강화하는 데 쓰이는 파편. 단계가 높을수록 강화 가능한 최대 레벨과 성공 확률이 올라가."
     },
     "shardt2": {
         "type": "object",
         "price": 3000,
-        "name": "Shard - Tier 2",
+        "name": "파편 - 2단계",
         "stackable": true,
-        "description": "Shards are items used to enchant equipments. Each tier represents the maximum attainable enchantment level and chance of enchanting succeeding."
+        "description": "장비를 강화하는 데 쓰이는 파편. 단계가 높을수록 강화 가능한 최대 레벨과 성공 확률이 올라가."
     },
     "shardt3": {
         "type": "object",
         "price": 4500,
-        "name": "Shard - Tier 3",
+        "name": "파편 - 3단계",
         "stackable": true,
-        "description": "Shards are items used to enchant equipments. Each tier represents the maximum attainable enchantment level and chance of enchanting succeeding."
+        "description": "장비를 강화하는 데 쓰이는 파편. 단계가 높을수록 강화 가능한 최대 레벨과 성공 확률이 올라가."
     },
     "shardt4": {
         "type": "object",
         "price": 6000,
-        "name": "Shard - Tier 4",
+        "name": "파편 - 4단계",
         "stackable": true,
-        "description": "Shards are items used to enchant equipments. Each tier represents the maximum attainable enchantment level and chance of enchanting succeeding."
+        "description": "장비를 강화하는 데 쓰이는 파편. 단계가 높을수록 강화 가능한 최대 레벨과 성공 확률이 올라가."
     },
     "shardt5": {
         "type": "object",
         "price": 7500,
-        "name": "Shard - Tier 5",
+        "name": "파편 - 5단계",
         "stackable": true,
-        "description": "Shards are items used to enchant equipments. Each tier represents the maximum attainable enchantment level and chance of enchanting succeeding."
+        "description": "장비를 강화하는 데 쓰이는 파편. 단계가 높을수록 강화 가능한 최대 레벨과 성공 확률이 올라가."
     },
     "knife": {
         "type": "object",
-        "name": "Knife",
-        "description": "A versatile cutting tool that will primarily be used for fletching and stuff.",
+        "name": "칼",
+        "description": "주로 화살 만들기 같은 데 쓰이는 다용도 절단 도구.",
         "price": 50,
         "interactable": true,
         "plugin": "knife"
     },
     "chisel": {
         "type": "object",
-        "name": "Chisel",
-        "description": "A chisel used for crafting gems and stuff like that.",
+        "name": "끌",
+        "description": "보석을 가공하는 데 쓰는 끌.",
         "price": 50,
         "interactable": true,
         "plugin": "chisel"
     },
     "hammer": {
         "type": "object",
-        "name": "Hammer",
-        "description": "This looks like a mystical hammer from some blacksmith or something.",
+        "name": "망치",
+        "description": "대장장이의 신비한 망치 같아 보이네.",
         "price": 5
     },
     "string": {
         "type": "object",
-        "name": "String",
-        "description": "A piece of string, can probably be used to make things with it.",
+        "name": "실",
+        "description": "실 한 가닥. 뭔가 만드는 데 쓸 수 있을 거야.",
         "stackable": true,
         "price": 50
     },
     "logs": {
         "type": "object",
-        "name": "Logs",
-        "description": "Ah yes, the classic logs. Looking at them I can see that they're made out of wood.",
+        "name": "통나무",
+        "description": "아, 그래, 클래식한 통나무. 보아하니 나무로 만들어졌네.",
         "price": 65
     },
     "palmlogs": {
         "type": "object",
-        "name": "Palm Logs",
-        "description": "Funny enough, these logs are made out of palm wood. Which is not the same as the other kinds of wood.",
+        "name": "야자수 통나무",
+        "description": "재밌게도 이 통나무는 야자수로 만들어졌어. 다른 종류 나무하고는 또 달라.",
         "price": 75
     },
     "pinelogs": {
         "type": "object",
-        "name": "Pine Logs",
-        "description": "I think I found these when I accidentally swung my axe at a tree repeatedly until it fell down.",
+        "name": "소나무 통나무",
+        "description": "도끼를 나무에 대고 마구 휘두르다 보니 쓰러져서 얻었던 것 같아.",
         "price": 88
     },
     "icelogs": {
         "type": "object",
-        "name": "Ice Logs",
+        "name": "얼음 통나무",
         "price": 65,
-        "description": "These logs are made out of ice. They're very cold to the touch. No matter what, they will not thaw. I wonder what happens when you put it in fire."
+        "description": "얼음으로 된 통나무. 만지면 아주 차가워. 무슨 짓을 해도 녹지 않아. 불 속에 넣으면 어떻게 될지 궁금해."
     },
     "icepalmlogs": {
         "type": "object",
-        "name": "Ice Palm Logs",
+        "name": "얼음 야자수 통나무",
         "price": 50,
-        "description": "These logs are made out of ice and palm wood. They're very cold to the touch."
+        "description": "얼음과 야자수 나무로 된 통나무. 만지면 아주 차가워."
     },
     "icepinelogs": {
         "type": "object",
-        "name": "Ice Pine Logs",
-        "description": "I think I found these when I accidentally swung my axe at a tree repeatedly until it fell down.",
+        "name": "얼음 소나무 통나무",
+        "description": "도끼를 나무에 대고 마구 휘두르다 보니 쓰러져서 얻었던 것 같아.",
         "price": 85
     },
     "aquasilliuslogs": {
         "type": "object",
-        "name": "Aquasillius Logs",
+        "name": "아쿠아실리우스 통나무",
         "price": 350,
-        "description": "Mystical logs found in the forests of Kaetram. Can be used to craft powerful bows, granted that you have the requirements I guess."
+        "description": "카에트람의 숲에서 발견되는 신비로운 통나무. 조건만 맞으면 강력한 활을 만들 수 있어."
     },
     "alkythnlogs": {
         "type": "object",
-        "name": "Alkythn Logs",
+        "name": "알카이튼 통나무",
         "price": 350,
-        "description": "Mystical logs found in the forests of Kaetram. Can be used to craft powerful bows, granted that you have the requirements I guess."
+        "description": "카에트람의 숲에서 발견되는 신비로운 통나무. 조건만 맞으면 강력한 활을 만들 수 있어."
     },
     "heliphatitlogs": {
         "type": "object",
-        "name": "Heliphatit Logs",
+        "name": "헬리파팃 통나무",
         "price": 350,
-        "description": "Mystical logs found in the forests of Kaetram. Can be used to craft powerful bows, granted that you have the requirements I guess."
+        "description": "카에트람의 숲에서 발견되는 신비로운 통나무. 조건만 맞으면 강력한 활을 만들 수 있어."
     },
     "zoncillogs": {
         "type": "object",
-        "name": "Zoncil Logs",
+        "name": "존실 통나무",
         "price": 350,
-        "description": "Mystical logs found in the forests of Kaetram. Can be used to craft powerful bows, granted that you have the requirements I guess."
+        "description": "카에트람의 숲에서 발견되는 신비로운 통나무. 조건만 맞으면 강력한 활을 만들 수 있어."
     },
     "zondullogs": {
         "type": "object",
-        "name": "Zondul Logs",
+        "name": "존둘 통나무",
         "price": 350,
-        "description": "Mystical logs found in the forests of Kaetram. Can be used to craft powerful bows, granted that you have the requirements I guess."
+        "description": "카에트람의 숲에서 발견되는 신비로운 통나무. 조건만 맞으면 강력한 활을 만들 수 있어."
     },
     "bloodwoodlogs": {
         "type": "object",
-        "name": "Bloodwood Logs",
+        "name": "혈목 통나무",
         "price": 400,
-        "description": "It almost looks like they're crying blood."
+        "description": "꼭 피눈물을 흘리고 있는 것처럼 보여."
     },
     "nisocore": {
         "type": "object",
-        "name": "Nisoc Ore",
-        "description": "An ancient rock forming in volcanic areas. Generally used for crafting pendants and rings, and perhaps other things.",
+        "name": "나이속 광석",
+        "description": "화산 지대에서 형성되는 고대의 암석. 보통 펜던트나 반지 같은 걸 만드는 데 써.",
         "price": 250
     },
     "cinnabarore": {
         "type": "object",
-        "name": "Cinnabar Ore",
-        "description": "A red ore containing special metals. May be used for crafting of certain weapons.",
+        "name": "진사 광석",
+        "description": "특수 금속이 함유된 붉은 광석. 특정 무기를 제작하는 데 쓸 수 있어.",
         "price": 350
     },
     "pytharore": {
         "type": "object",
-        "name": "Pythar Ore",
-        "description": "A purple crystal with magical properties.",
+        "name": "파이타르 광석",
+        "description": "마법 속성을 지닌 보랏빛 결정.",
         "price": 500
     },
     "goldnugget": {
         "type": "object",
-        "name": "Gold Nugget",
-        "description": "A piece of pure gold. For some reason it still has to be processed before it can be used.",
+        "name": "금괴 덩어리",
+        "description": "순금 덩어리. 어째서인지 사용하려면 한 번 더 가공해야 해.",
         "price": 650
     },
     "iboore": {
         "type": "object",
-        "name": "Ibo Ore",
-        "description": "A peculiar ore. Its uses are not well understood, perhaps with further research it can be used for something.",
+        "name": "이보 광석",
+        "description": "특이한 광석. 용도가 명확하지 않지만, 더 연구해 보면 쓸모가 있을지도 몰라.",
         "price": 800
     },
     "moonrockore": {
         "type": "object",
-        "name": "Space Rock",
-        "description": "Part of an Astroid that fell from the sky 172,000 Earthling years ago. Must be special!",
+        "name": "우주 암석",
+        "description": "17만 2천 년 전에 하늘에서 떨어진 소행성의 일부. 분명 특별한 거겠지!",
         "price": 2400
     },
     "bead": {
         "type": "object",
-        "name": "Magic Bead",
+        "name": "마법 구슬",
         "price": 10,
         "stackable": true,
         "maxStackSize": 3,
-        "description": "A bead that emanates magical properties. Can be used in conjunction with other items to create magical items."
+        "description": "마법의 기운을 뿜는 구슬. 다른 재료들과 결합해 마법 아이템을 만들 수 있어."
     },
     "lightningbead": {
         "type": "object",
-        "name": "Lightning Bead",
-        "description": "A magical bead imbued with lightning properties. Can be used to craft magical items."
+        "name": "번개 구슬",
+        "description": "번개의 힘이 깃든 마법 구슬. 마법 아이템 제작에 쓰여."
     },
     "naturebead": {
         "type": "object",
-        "name": "Magic Bead",
-        "description": "A magical bead imbued with the power of nature. Can be used to craft magical items."
+        "name": "마법 구슬",
+        "description": "자연의 힘이 깃든 마법 구슬. 마법 아이템 제작에 쓰여."
     },
     "firebead": {
         "type": "object",
-        "name": "Magic Bead",
-        "description": "A magical bead imbued with fire. Can be used to craft magical items."
+        "name": "마법 구슬",
+        "description": "화염이 깃든 마법 구슬. 마법 아이템 제작에 쓰여."
     },
     "icebead": {
         "type": "object",
-        "name": "Magic Bead",
-        "description": "A strong magical bead perpetually frozen. Can be used to craft magical items."
+        "name": "마법 구슬",
+        "description": "영원히 얼어붙은 강력한 마법 구슬. 마법 아이템 제작에 쓰여."
     },
     "stick": {
         "type": "object",
-        "name": "Shaft",
+        "name": "나뭇가지",
         "price": 2,
         "stackable": true,
-        "description": "A stick. It's a stick. What else do you want me to say about it? You can probably use it to craft stuff now that it has been added in the game."
+        "description": "나뭇가지야. 그냥 나뭇가지. 더 뭐라고 해야 해? 이제 게임에 추가됐으니 뭔가 만드는 데 쓸 수는 있을 거야."
     },
     "feather": {
         "type": "object",
-        "name": "Feather",
+        "name": "깃털",
         "stackable": true,
         "price": 50,
-        "description": "A feather, I think it came off of a bird or something. You could make arrows with this thing."
+        "description": "깃털이야. 새한테서 떨어진 것 같아. 이걸로 화살을 만들 수도 있을걸."
     },
     "candykey": {
         "type": "object",
-        "name": "Candy Key",
+        "name": "사탕 열쇠",
         "price": 50,
-        "description": "A key that allows entrance into Santa's secret chamber. Crumbles upon entering."
+        "description": "산타의 비밀 방으로 들어갈 수 있게 해주는 열쇠. 사용하면 부서져 버려."
     },
     "speedpotion": {
         "type": "object",
-        "name": "Speed Potion",
+        "name": "신속 물약",
         "price": 2500,
-        "description": "Drinking this will probably speed up your attack rate for a short period of time. I think.",
+        "description": "이걸 마시면 잠시 동안 공격 속도가 올라갈 거야. 아마.",
         "edible": true,
         "plugin": "speedpotion"
     },
     "accuracypotion": {
         "type": "object",
-        "name": "Accuracy Potion",
+        "name": "명중 물약",
         "price": 1000,
-        "description": "If there's one thing I know is that potions in this world are always sketchy and do something else from what their name implies. I hope that's not the case here.",
+        "description": "이 세계의 물약은 항상 수상하고 이름과는 다른 효과를 내는 게 일쑤야. 이건 안 그랬으면 좋겠는데.",
         "edible": true,
         "effect": "accuracy",
         "duration": 60000,
@@ -8656,9 +8642,9 @@
     },
     "defensepotion": {
         "type": "object",
-        "name": "Defence Potion",
+        "name": "방어 물약",
         "price": 1000,
-        "description": "Drinking this will make give you some serious defense for a short period of time.",
+        "description": "이걸 마시면 잠시 동안 진지하게 단단해질 거야.",
         "edible": true,
         "effect": "defense",
         "duration": 60000,
@@ -8666,9 +8652,9 @@
     },
     "strengthpotion": {
         "type": "object",
-        "name": "Strength Potion",
+        "name": "힘의 물약",
         "price": 1000,
-        "description": "Do you wanna partake in maximum damage contests? This potion is probably your best friend.",
+        "description": "최대 데미지 콘테스트라도 나가고 싶어? 이 물약이 너의 든든한 친구가 되어 줄 거야.",
         "edible": true,
         "effect": "strength",
         "duration": 60000,
@@ -8676,23 +8662,23 @@
     },
     "beermug": {
         "type": "object",
-        "name": "Beer",
+        "name": "맥주",
         "price": 1000,
-        "description": "Nothing is quite as refreshing as a beer, though this may potentially inhibit your accuracy for a wee bit.",
+        "description": "맥주만큼 시원한 게 또 있을까. 다만 잠시 명중률이 떨어질 수도 있어.",
         "edible": true,
         "plugin": "beermug"
     },
     "clamobject": {
         "type": "object",
-        "name": "Clam",
+        "name": "조개",
         "price": 100,
-        "description": "It has a hard outer shell but I bet it's yummy inside."
+        "description": "겉껍질은 단단하지만, 속은 분명 맛있을 거야."
     },
     "clamchowder": {
         "type": "object",
-        "name": "Clam Chowder",
+        "name": "클램 차우더",
         "price": 1000,
-        "description": "A delicious soup made from clams. It's a bit salty though.",
+        "description": "조개로 만든 맛있는 수프. 살짝 짭조름해.",
         "edible": true,
         "smallBowl": true,
         "plugin": "healingitem",
@@ -8700,72 +8686,72 @@
     },
     "rawshrimp": {
         "type": "object",
-        "name": "Raw Shrimp",
+        "name": "날새우",
         "price": 100,
-        "description": "Maybe if I cook this it'll become something actually edible."
+        "description": "익히면 그래도 먹을 만한 게 될지도 몰라."
     },
     "cookedshrimp": {
         "type": "object",
-        "name": "Cooked Shrimp",
+        "name": "익힌 새우",
         "price": 200,
-        "description": "A singular cooked shrimp, alone and dead. But still delicious.",
+        "description": "외로이 익혀진 새우 한 마리. 그래도 맛은 있어.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 450
     },
     "jellyfish": {
         "type": "object",
-        "name": "Jellyfish",
+        "name": "해파리",
         "price": 100,
-        "description": "Did you know that jellyfish don't actually have a brain. So don't feel so bad about yourself!"
+        "description": "해파리는 사실 뇌가 없다는 거 알고 있었어? 그러니 너무 자책하지 마!"
     },
     "jellyfishsmoothie": {
         "type": "object",
-        "name": "Jellyfish Smoothie",
+        "name": "해파리 스무디",
         "price": 1000,
-        "description": "I can't believe someone would actually think up to create something like this.",
+        "description": "이런 걸 만들 생각을 하다니, 정말 믿기지 않아.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 750
     },
     "kelp": {
         "type": "object",
-        "name": "Kelp",
+        "name": "다시마",
         "price": 100,
-        "description": "Kelp is a type of seaweed that grows in water. It's pretty tasty when combined with other stuff."
+        "description": "다시마는 물속에서 자라는 해초의 일종이야. 다른 재료랑 같이 쓰면 꽤 맛있어."
     },
     "seed": {
         "type": "object",
-        "name": "Seed",
+        "name": "씨앗",
         "price": 100,
-        "description": "A seed that is used to plant things."
+        "description": "식물을 심을 때 쓰는 씨앗."
     },
     "rawbeef": {
         "type": "object",
-        "name": "Raw Beef",
+        "name": "날쇠고기",
         "price": 100,
-        "description": "A piece of raw beef. It's probably not the best idea to eat it raw."
+        "description": "날쇠고기 한 덩이. 날로 먹는 건 별로 좋은 생각이 아닐 거야."
     },
     "rawtuna": {
         "type": "object",
-        "name": "Raw Tuna",
+        "name": "날참치",
         "price": 100,
-        "description": "A fish that is commonly found in water. It's pretty tasty when cooked."
+        "description": "물에서 흔히 잡히는 생선. 익히면 꽤 맛있어."
     },
     "tunasushi": {
         "type": "object",
-        "name": "Tuna Sushi",
+        "name": "참치 초밥",
         "price": 1000,
-        "description": "A delicious sushi made from tuna. Probably the best in-game food at the moment, or not, who knows, I'm just a piece of text.",
+        "description": "참치로 만든 맛있는 초밥. 현재 게임 내 최고의 음식일지도, 아닐지도. 누가 알겠어, 난 그저 텍스트일 뿐인데.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 850
     },
     "seaweedroll": {
         "type": "object",
-        "name": "Seaweed Roll",
+        "name": "김말이",
         "price": 800,
-        "description": "A tasty seaweed roll filled with a variety of fresh ingredients. A popular choice for sushi lovers.",
+        "description": "신선한 재료를 듬뿍 넣은 맛있는 김말이. 초밥 애호가들에게 인기 만점.",
         "edible": true,
         "stackable": true,
         "maxStackSize": 10,
@@ -8774,20 +8760,20 @@
     },
     "barley": {
         "type": "object",
-        "name": "Barley",
-        "description": "It's a fruit, no it's a sald, no it's a grain. You can probably use it to make bread or something like that.",
+        "name": "보리",
+        "description": "과일이야, 아니 샐러드, 아니 곡물이야. 빵 같은 걸 만드는 데 쓸 수 있을 거야.",
         "price": 100
     },
     "horseradish": {
         "type": "object",
-        "name": "Horseraddish",
-        "description": "A horse's raddish, I think. I don't know, I'm not a botanist, I'm just a text prompt.",
+        "name": "서양고추냉이",
+        "description": "말의 무 같은 거. 잘 모르겠어, 난 식물학자가 아니라 그저 텍스트 프롬프트일 뿐이거든.",
         "price": 100
     },
     "blackberry": {
         "type": "object",
-        "name": "Blackberry",
-        "description": "A berry that grows on bushes. It's pretty tasty when cooked.",
+        "name": "블랙베리",
+        "description": "덤불에서 자라는 열매. 익히면 꽤 맛있어.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 200,
@@ -8795,68 +8781,68 @@
     },
     "borth": {
         "type": "object",
-        "name": "Borth",
-        "description": "A nice yummy warm and nice smelling... I really don't know what it is.",
+        "name": "보스",
+        "description": "따뜻하고 향긋하고 맛있는... 사실 이게 뭔지 잘 모르겠어.",
         "price": 100
     },
     "bronzebar": {
         "type": "object",
-        "name": "Bronze Bar",
-        "description": "A bar of bronze. It's pretty heavy.",
+        "name": "청동 주괴",
+        "description": "청동 주괴. 꽤 묵직해.",
         "price": 250
     },
     "bronzeore": {
         "type": "object",
-        "name": "Bronze Ore",
-        "description": "A piece of bronze ore. It's pretty heavy.",
+        "name": "청동 광석",
+        "description": "청동 광석 한 덩이. 꽤 묵직해.",
         "price": 100
     },
     "bucket": {
         "type": "object",
-        "name": "Bucket",
-        "description": "A bucket, you can use it to put a variety of liquids in it.",
+        "name": "양동이",
+        "description": "양동이. 다양한 액체를 담을 수 있어.",
         "price": 100
     },
     "cake": {
         "type": "object",
-        "name": "Cake",
-        "description": "A delicious cake. It's pretty tasty.",
+        "name": "케이크",
+        "description": "맛있는 케이크. 꽤 맛있어.",
         "price": 100
     },
     "cheese": {
         "type": "object",
-        "name": "Cheese",
-        "description": "A piece of cheese. I think it came from milk.",
+        "name": "치즈",
+        "description": "치즈 한 조각. 우유에서 나온 것 같아.",
         "price": 100
     },
     "leaf": {
         "type": "object",
-        "name": "Leaf",
-        "description": "A piece of cheese. I think it came from milk.",
+        "name": "나뭇잎",
+        "description": "치즈 한 조각. 우유에서 나온 것 같아.",
         "price": 100
     },
     "cilantro": {
         "type": "object",
-        "name": "Cilantro",
-        "description": "A leafy herb that is commonly used in Mexican cuisine. It's pretty tasty when cooked.",
+        "name": "고수",
+        "description": "멕시코 요리에 흔히 쓰이는 잎채소. 익히면 꽤 맛있어.",
         "price": 100
     },
     "cloudberry": {
         "type": "object",
-        "name": "Cloudberry",
-        "description": "A berry that grows on bushes. It's pretty tasty when cooked.",
+        "name": "진들딸기",
+        "description": "덤불에서 자라는 열매. 익히면 꽤 맛있어.",
         "price": 100
     },
     "rawchicken": {
         "type": "object",
-        "name": "Raw Chicken",
-        "description": "I think I should cook this before I eat it.",
+        "name": "날닭고기",
+        "description": "먹기 전에 익혀야 할 것 같아.",
         "price": 100
     },
     "cookedchicken": {
         "type": "object",
-        "name": "Cooked Chicken",
-        "description": "A delicious piece of chicken. It's pretty tasty.",
+        "name": "익힌 닭고기",
+        "description": "맛있는 닭고기 한 조각. 꽤 맛있어.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 400,
@@ -8864,8 +8850,8 @@
     },
     "cookedbeef": {
         "type": "object",
-        "name": "Cooked Beef",
-        "description": "A scrumptious piece of beef. You can eat it and it'll heal you.",
+        "name": "익힌 쇠고기",
+        "description": "맛있는 쇠고기 한 조각. 먹으면 체력이 회복돼.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 400,
@@ -8873,14 +8859,14 @@
     },
     "rawpork": {
         "type": "object",
-        "name": "Raw Pork",
-        "description": "I think I should cook this before I eat it.",
+        "name": "날돼지고기",
+        "description": "먹기 전에 익혀야 할 것 같아.",
         "price": 250
     },
     "cookedpork": {
         "type": "object",
-        "name": "Cooked Pork",
-        "description": "A delicious piece of pork. It's pretty tasty.",
+        "name": "익힌 돼지고기",
+        "description": "맛있는 돼지고기 한 조각. 꽤 맛있어.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 400,
@@ -8888,14 +8874,14 @@
     },
     "rawsausage": {
         "type": "object",
-        "name": "Raw Sausage",
-        "description": "I think I should cook this before I eat it.",
+        "name": "생소시지",
+        "description": "먹기 전에 익혀야 할 것 같아.",
         "price": 100
     },
     "cookedsausage": {
         "type": "object",
-        "name": "Cooked Sausage",
-        "description": "A delicious sausage. It's pretty tasty.",
+        "name": "익힌 소시지",
+        "description": "맛있는 소시지. 꽤 맛있어.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 650,
@@ -8903,80 +8889,80 @@
     },
     "corn": {
         "type": "object",
-        "name": "Corn",
-        "description": "It's corn, and it's on a cob.",
+        "name": "옥수수",
+        "description": "옥수수. 자루째 달려 있어.",
         "price": 100
     },
     "egg": {
         "type": "object",
-        "name": "Egg",
-        "description": "A wonderful sorta round egg, it came from a chicken, I think.",
+        "name": "달걀",
+        "description": "동그란 모양의 멋진 달걀. 닭한테서 나온 것 같아, 아마.",
         "price": 100
     },
     "gooseberry": {
         "type": "object",
-        "name": "Gooseberry",
-        "description": "A berry that grows on bushes. It's pretty tasty when cooked.",
+        "name": "구즈베리",
+        "description": "덤불에서 자라는 열매. 익히면 꽤 맛있어.",
         "price": 100
     },
     "ironbar": {
         "type": "object",
-        "name": "Iron Bar",
-        "description": "A bar of iron. It's pretty heavy.",
+        "name": "철 주괴",
+        "description": "철 주괴. 꽤 묵직해.",
         "price": 100
     },
     "mango": {
         "type": "object",
-        "name": "Mango",
-        "description": "A mango, it's a fruit and it's edible",
+        "name": "망고",
+        "description": "망고, 과일이고 먹을 수 있어.",
         "price": 100
     },
     "milkbottle": {
         "type": "object",
-        "name": "Milk Bottle",
-        "description": "A bottle of milk. It's pretty tasty when cooked.",
+        "name": "우유병",
+        "description": "우유 한 병. 익히면 꽤 맛있어.",
         "price": 100
     },
     "mulberry": {
         "type": "object",
-        "name": "Mulberry",
-        "description": "A berry that grows on or in bushes.",
+        "name": "오디",
+        "description": "덤불에서 자라는 오디.",
         "price": 100
     },
     "oat": {
         "type": "object",
-        "name": "Oat",
-        "description": "A grain that is commonly used in bread.",
+        "name": "귀리",
+        "description": "빵에 흔히 쓰이는 곡물.",
         "price": 100
     },
     "peach": {
         "type": "object",
-        "name": "Peach",
-        "description": "A peach, it's a fruit and it's edible",
+        "name": "복숭아",
+        "description": "복숭아, 과일이고 먹을 수 있어.",
         "price": 100
     },
     "pineapple": {
         "type": "object",
-        "name": "Pineapple",
-        "description": "A pineapple, it's a fruit and it's edible",
+        "name": "파인애플",
+        "description": "파인애플, 과일이고 먹을 수 있어.",
         "price": 100
     },
     "plum": {
         "type": "object",
-        "name": "Plum",
-        "description": "A plum, it's a fruit and it's edible",
+        "name": "자두",
+        "description": "자두, 과일이고 먹을 수 있어.",
         "price": 100
     },
     "quinoa": {
         "type": "object",
-        "name": "Quinoa",
-        "description": "Hello this is the developer, I really don't know what this is even used in so I can't come up with a witty description.",
+        "name": "퀴노아",
+        "description": "저기, 개발자인데, 이게 어디 쓰이는지 정말 모르겠어서 그럴듯한 설명을 못 만들겠어.",
         "price": 100
     },
     "raspberry": {
         "type": "object",
-        "name": "Raspberry",
-        "description": "A berry that grows on or around bushes..",
+        "name": "라즈베리",
+        "description": "덤불 근처에서 자라는 열매.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 150,
@@ -8984,8 +8970,8 @@
     },
     "kiwi": {
         "type": "object",
-        "name": "Kiwi",
-        "description": "A fruit that grows on or around bushes..",
+        "name": "키위",
+        "description": "덤불 근처에서 자라는 과일.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 150,
@@ -8993,74 +8979,74 @@
     },
     "rock": {
         "type": "object",
-        "name": "Rock",
-        "description": "A rock, it's a rock. What more do you want me to say.",
+        "name": "돌",
+        "description": "돌이야. 그냥 돌. 더 뭐라고 해야 해.",
         "price": 100
     },
     "rice": {
         "type": "object",
-        "name": "Rice",
-        "description": "You can eat this after you cook it for a bit.",
+        "name": "쌀",
+        "description": "잠깐 익혀서 먹을 수 있어.",
         "price": 100
     },
     "mustardplant": {
         "type": "object",
-        "name": "Mustard",
-        "description": "A plant found throughout the kingdom of Kaetram. Might be good for some ingredients.",
+        "name": "겨자",
+        "description": "카에트람 왕국 곳곳에서 자라는 식물. 양념 재료로 쓸 만할지도.",
         "price": 50
     },
     "cuminplant": {
         "type": "object",
-        "name": "Cumin",
-        "description": "A herb used in certain cooking recipes. Not sure I'm just a description.",
+        "name": "커민",
+        "description": "특정 요리법에 쓰이는 허브. 잘 모르겠어, 난 그저 설명일 뿐이라.",
         "price": 50
     },
     "paprika": {
         "type": "object",
-        "name": "Paprika",
-        "description": "A very nice vegetable used in very nice condiments.",
+        "name": "파프리카",
+        "description": "아주 좋은 양념에 쓰이는 아주 좋은 채소.",
         "price": 50
     },
     "dandelion": {
         "type": "object",
-        "name": "Dandelion",
-        "description": "A cute little yellow plant that grows in the grass. Or on tree stumps.",
+        "name": "민들레",
+        "description": "잔디밭이나 나무 그루터기에서 자라는 작고 귀여운 노란색 식물.",
         "price": 50
     },
     "strawberry": {
         "type": "object",
-        "name": "Strawberry",
-        "description": "A berry that grows on bushes.",
+        "name": "딸기",
+        "description": "덤불에서 자라는 열매.",
         "price": 100
     },
     "copperbar": {
         "type": "object",
-        "name": "Copper Bar",
-        "description": "A bar of copper. It's pretty heavy.",
+        "name": "구리 주괴",
+        "description": "구리 주괴. 꽤 묵직해.",
         "price": 100
     },
     "tinbar": {
         "type": "object",
-        "name": "Tin Bar",
-        "description": "A bar of tin. It's pretty heavy.",
+        "name": "주석 주괴",
+        "description": "주석 주괴. 꽤 묵직해.",
         "price": 100
     },
     "goldbar": {
         "type": "object",
-        "name": "Gold Bar",
-        "description": "A bar of gold. It's pretty heavy and shiny.",
+        "name": "금 주괴",
+        "description": "금 주괴. 꽤 묵직하고 반짝거려.",
         "price": 1200
     },
     "tofu": {
         "type": "object",
-        "name": "Tofu",
-        "description": "A block of tofu. I don't know what to do with this, I'm not vegan.",
+        "name": "두부",
+        "description": "두부 한 모. 어떻게 써야 할지 모르겠네, 난 비건이 아니라서.",
         "price": 100
     },
     "tomato": {
         "type": "object",
-        "name": "Tomato",
-        "description": "A tomato, it's a fruit and it's edible. Yes it's a fruit get over it.",
+        "name": "토마토",
+        "description": "토마토, 과일이고 먹을 수 있어. 그래, 과일 맞아, 받아들여.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 100,
@@ -9068,8 +9054,8 @@
     },
     "onion": {
         "type": "object",
-        "name": "Onion",
-        "description": "An onion, it has layers, like an ogre.",
+        "name": "양파",
+        "description": "양파, 오우거처럼 겹겹이 층이 있어.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 100,
@@ -9077,8 +9063,8 @@
     },
     "potato": {
         "type": "object",
-        "name": "Potato",
-        "description": "A potato, it's a vegetable and it's edible, though cooking it might be better.",
+        "name": "감자",
+        "description": "감자, 채소이고 먹을 수 있어. 익혀 먹는 게 더 좋을 수도.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 120,
@@ -9086,8 +9072,8 @@
     },
     "chilli": {
         "type": "object",
-        "name": "Chilli",
-        "description": "A chilli pepper, it's hot so be careful.",
+        "name": "고추",
+        "description": "고추, 매우니까 조심해.",
         "edible": true,
         "plugin": "healingitem",
         "healAmount": 100,
@@ -9095,128 +9081,128 @@
     },
     "waterbucket": {
         "type": "object",
-        "name": "Water Bucket",
-        "description": "A bucket of water. You can use it to cook stuff with it.",
+        "name": "물 양동이",
+        "description": "물 한 양동이. 이걸로 요리를 할 수 있어.",
         "price": 100
     },
     "bowlsmall": {
         "type": "object",
-        "name": "Small Bowl",
-        "description": "A small bowl. Can be used to cook stuff in it.",
+        "name": "작은 그릇",
+        "description": "작은 그릇. 안에 넣고 요리할 수 있어.",
         "price": 100
     },
     "bowlmedium": {
         "type": "object",
-        "name": "Medium Bowl",
-        "description": "A medium bowl. Can be used to cook stuff in it.",
+        "name": "중간 그릇",
+        "description": "중간 그릇. 안에 넣고 요리할 수 있어.",
         "price": 100
     },
     "copperore": {
         "type": "object",
-        "name": "Copper Ore",
-        "description": "A piece of copper ore. It's pretty heavy.",
+        "name": "구리 광석",
+        "description": "구리 광석 한 덩이. 꽤 묵직해.",
         "price": 100
     },
     "tinore": {
         "type": "object",
-        "name": "Tin Ore",
-        "description": "A piece of tin ore.",
+        "name": "주석 광석",
+        "description": "주석 광석 한 덩이.",
         "price": 100
     },
     "ironore": {
         "type": "object",
-        "name": "Iron Ore",
-        "description": "A piece of iron ore.",
+        "name": "철 광석",
+        "description": "철 광석 한 덩이.",
         "price": 100
     },
     "goldore": {
         "type": "object",
-        "name": "Gold Ore",
-        "description": "A piece of gold ore. It's pretty heavy.",
+        "name": "금 광석",
+        "description": "금 광석 한 덩이. 꽤 묵직해.",
         "price": 100
     },
     "coal": {
         "type": "object",
-        "name": "Coal",
-        "description": "A piece of coal. You can use it smelt ores.",
+        "name": "석탄",
+        "description": "석탄 한 조각. 광석을 제련하는 데 쓸 수 있어.",
         "price": 75
     },
     "topaz": {
         "type": "object",
-        "name": "Topaz",
-        "description": "A topaz gemstome, it's quite pretty.",
+        "name": "토파즈",
+        "description": "토파즈 보석. 꽤 예뻐.",
         "price": 350
     },
     "beryl": {
         "type": "object",
-        "name": "Beryl",
-        "description": "Beryl gemstone, it's quite pretty.",
+        "name": "녹주석",
+        "description": "녹주석. 꽤 예뻐.",
         "price": 650
     },
     "lapislazuli": {
         "type": "object",
-        "name": "Lapis Lazuli",
-        "description": "A semi-precious stone, it's quite pretty.",
+        "name": "청금석",
+        "description": "준보석. 꽤 예뻐.",
         "price": 800
     },
     "citrine": {
         "type": "object",
-        "name": "Citrine",
-        "description": "It's rather shiny and nice to hold.",
+        "name": "시트린",
+        "description": "꽤 반짝이고 손에 들면 기분 좋아.",
         "price": 1100
     },
     "taaffeite": {
         "type": "object",
-        "name": "Taaffeite",
-        "description": "A nice purple gemstone that is somewhat valuable I guess.",
+        "name": "타페이트",
+        "description": "꽤 가치 있어 보이는 멋진 보랏빛 보석.",
         "price": 1220
     },
     "ruby": {
         "type": "object",
-        "name": "Ruby",
-        "description": "A very nice gemstone that can be used to made rings or pendants.",
+        "name": "루비",
+        "description": "반지나 펜던트를 만드는 데 쓸 수 있는 아주 멋진 보석.",
         "price": 1300
     },
     "rubygem": {
         "type": "object",
-        "name": "Ruby Gem",
-        "description": "A nicely chiseled piece of rock that can actually be used to make fancy things with..",
+        "name": "루비 보석",
+        "description": "깔끔하게 다듬어진 돌 조각. 멋진 물건을 만드는 데 정말 쓸 수 있어.",
         "price": 1300
     },
     "peridot": {
         "type": "object",
-        "name": "Peridot",
-        "description": "A nice green gemstone that is somewhat valuable I guess.",
+        "name": "페리도트",
+        "description": "꽤 가치 있어 보이는 멋진 초록 보석.",
         "price": 1300
     },
     "opal": {
         "type": "object",
-        "name": "Opal",
-        "description": "A nice gemstone that is somewhat valuable I guess.",
+        "name": "오팔",
+        "description": "꽤 가치 있어 보이는 멋진 보석.",
         "price": 1300
     },
     "emerald": {
         "type": "object",
-        "name": "Emerald",
-        "description": "A very nice gemstone that can be used to made rings or pendants.",
+        "name": "에메랄드",
+        "description": "반지나 펜던트를 만드는 데 쓸 수 있는 아주 멋진 보석.",
         "price": 1400
     },
     "amethyst": {
         "type": "object",
-        "name": "Amethyst",
-        "description": "A nice purple gemstone that is somewhat valuable I guess.",
+        "name": "자수정",
+        "description": "꽤 가치 있어 보이는 멋진 보랏빛 보석.",
         "price": 1500
     },
     "bluelily": {
         "type": "object",
-        "name": "Blue Lily",
-        "description": "A blue lily, a flower that can be used for crafting stuff.",
+        "name": "푸른 백합",
+        "description": "제작에 쓸 수 있는 푸른 백합꽃.",
         "price": 100
     },
     "stew": {
         "type": "object",
-        "name": "Tomato Stew",
-        "description": "A stew composed of tomato, mushrooms, and a bowl.",
+        "name": "토마토 스튜",
+        "description": "토마토와 버섯, 그릇으로 만든 스튜.",
         "edible": true,
         "mediumBowl": true,
         "plugin": "healingitem",
@@ -9225,8 +9211,8 @@
     },
     "stew2": {
         "type": "object",
-        "name": "Corn Stew",
-        "description": "A very filling stew, possibly the best stew currently available.",
+        "name": "옥수수 스튜",
+        "description": "아주 든든한 스튜. 현재 가장 훌륭한 스튜일지도 몰라.",
         "edible": true,
         "mediumBowl": true,
         "plugin": "healingitem",
@@ -9235,148 +9221,148 @@
     },
     "mushroom1": {
         "type": "object",
-        "name": "Shiitake",
-        "description": "A mushroom that can be used for cooking.",
+        "name": "표고버섯",
+        "description": "요리에 쓸 수 있는 버섯.",
         "price": 250
     },
     "mushroom2": {
         "type": "object",
-        "name": "Russula",
-        "description": "A mushroom that can be used for cooking.",
+        "name": "러슐라",
+        "description": "요리에 쓸 수 있는 버섯.",
         "price": 250
     },
     "mushroom3": {
         "type": "object",
-        "name": "Kuriositas",
-        "description": "A mushroom that can be used for cooking.",
+        "name": "쿠리오시타스",
+        "description": "요리에 쓸 수 있는 버섯.",
         "price": 250
     },
     "mushroom4": {
         "type": "object",
-        "name": "Matsutake",
-        "description": "A mushroom that can be used for cooking.",
+        "name": "송이버섯",
+        "description": "요리에 쓸 수 있는 버섯.",
         "price": 250
     },
     "mushroom5": {
         "type": "object",
-        "name": "Cortinarius",
-        "description": "A mushroom that can be used for cooking.",
+        "name": "코르티나리우스",
+        "description": "요리에 쓸 수 있는 버섯.",
         "price": 250
     },
     "mushroom6": {
         "type": "object",
-        "name": "Violet Cort",
-        "description": "A mushroom that can be used for cooking.",
+        "name": "보라 코르트",
+        "description": "요리에 쓸 수 있는 버섯.",
         "price": 250
     },
     "hilt1": {
         "type": "object",
-        "name": "Hilt",
-        "description": "May be used with certain metals to produce a sword.",
+        "name": "검 자루",
+        "description": "특정 금속과 합쳐 검을 만들 수 있어.",
         "price": 1000
     },
     "hilt2": {
         "type": "object",
-        "name": "Hilt",
-        "description": "May be used with certain metals to produce a sword.",
+        "name": "검 자루",
+        "description": "특정 금속과 합쳐 검을 만들 수 있어.",
         "price": 1000
     },
     "ratpet": {
         "type": "pet",
-        "name": "Rat Pet",
+        "name": "쥐 펫",
         "pet": "rat",
-        "description": "A little cute rat that follows you around.",
+        "description": "졸졸 따라다니는 작고 귀여운 쥐.",
         "price": 1000
     },
     "rathatpet": {
         "type": "pet",
-        "name": "Rat Hat Pet",
+        "name": "모자 쓴 쥐 펫",
         "pet": "rathat",
-        "description": "A little cute rat with a little cute hat that follows you around.",
+        "description": "귀여운 작은 모자를 쓰고 졸졸 따라다니는 작고 귀여운 쥐.",
         "price": 1000
     },
     "ratballoonpet": {
         "type": "pet",
-        "name": "Rat Balloon Pet",
+        "name": "풍선 단 쥐 펫",
         "pet": "ratballoon",
-        "description": "A cute little rat tied to a balloon... Wait what?",
+        "description": "풍선에 묶인 작고 귀여운 쥐... 잠깐, 뭐?",
         "price": 1000
     },
     "arcanahypercube": {
         "type": "object",
-        "name": "Arcan Hypercube",
-        "description": "Yoo why we going so frickin fast?",
+        "name": "아르칸 하이퍼큐브",
+        "description": "와, 우리 왜 이렇게 빠른 거야?",
         "price": 1000
     },
     "ettispinefruit": {
         "type": "object",
-        "name": "Etti Spine Fruit",
-        "description": "Kinda looks like a tasty noodle... for sociopaths.",
+        "name": "에티 가시 열매",
+        "description": "꼭 맛있는 면 같이 생겼어... 사이코패스를 위한.",
         "price": 1000
     },
     "galaxylilies": {
         "type": "object",
-        "name": "Galaxy Lilies",
-        "description": "They say that galaxies exsist everywhere looks like you found one on the ground, how careless.",
+        "name": "은하 백합",
+        "description": "은하는 어디에나 있다고들 하는데, 땅바닥에서 하나 주웠나 봐, 참 부주의하기도 하지.",
         "price": 1000
     },
     "godscroissant": {
         "type": "object",
-        "name": "God's Croissant",
-        "description": "Said to have the most heavenly taste in nature. Unfortunately it is very poisonous.",
+        "name": "신의 크루아상",
+        "description": "자연에서 가장 천상의 맛이 난다고 전해져. 안타깝게도 매우 독성이 강해.",
         "price": 1000
     },
     "stellarcluster": {
         "type": "object",
-        "name": "Stellar Cluster",
-        "description": "They say this is formed by an odd mutation from the over exposure to the sun, it's quite impressive",
+        "name": "별의 군집",
+        "description": "햇빛에 너무 노출돼서 생긴 기묘한 변종이라고 해, 꽤 인상적이야.",
         "price": 1000
     },
     "harmoniccrossband": {
         "type": "object",
-        "name": "Harmonic Crossband",
-        "description": "They say the only peace that can be found is by throwing everything away... don't do it.",
+        "name": "조화의 크로스밴드",
+        "description": "진정한 평화는 모든 걸 내던질 때 찾아온다고 하지... 그러지 마.",
         "price": 1000
     },
     "livinganchorroot": {
         "type": "object",
-        "name": "Living Anchor Root",
-        "description": "By far the heaviest plant you will ever try to take. It must be asked if it's worth it to carry it around.",
+        "name": "살아있는 닻 뿌리",
+        "description": "여태껏 캐 본 것 중 가장 무거운 식물. 들고 다닐 가치가 있는지 자문해 봐야 해.",
         "price": 1000
     },
     "manaberry": {
         "type": "object",
-        "name": "Mana Berry",
-        "description": "I heard a story about a wizard that killed an entire town just to taste one. Too bad he slipped on his tunic and died before he could eat it.",
+        "name": "마나베리",
+        "description": "한 마법사가 이걸 한 입 맛보겠다고 마을 하나를 멸망시켰다는 이야기를 들었어. 안타깝게도 옷자락에 걸려 넘어져 먹기도 전에 죽었지만.",
         "price": 1000
     },
     "nexuscross": {
         "type": "object",
-        "name": "Nexus Cross",
-        "description": "Legend says that if buried with the dead their souls will ascend to godhood. What a crock",
+        "name": "넥서스 십자가",
+        "description": "죽은 자와 함께 묻으면 영혼이 신의 경지로 승천한다고 전설은 말해. 헛소리지.",
         "price": 1000
     },
     "orchardsbane": {
         "type": "object",
-        "name": "Orchard's Bane",
-        "description": "If found in one's orchard be warry as either it is your crop's life or the first witness to the cursed weed.",
+        "name": "과수원의 재앙",
+        "description": "과수원에서 발견되면 조심해. 작물이 죽거나 저주받은 잡초의 첫 목격자가 되거나 둘 중 하나니까.",
         "price": 1000
     },
     "wartberries": {
         "type": "object",
-        "name": "Wart Berries",
-        "description": "If observed please seek medical attention as soon as possible. Can never be too careful.",
+        "name": "사마귀 열매",
+        "description": "발견했다면 즉시 의료 도움을 받도록 해. 조심해서 나쁠 건 없으니까.",
         "price": 1000
     },
     "zephyrsgaleblade": {
         "type": "object",
-        "name": "Zephyr's Gale Blade",
-        "description": "Much like its name sake, you can never quite control its form, but it's lovely to be in the presence of.",
+        "name": "제피르의 질풍 검",
+        "description": "이름값을 하듯 결코 그 형태를 통제할 수 없지만, 곁에 있는 것만으로도 사랑스러워.",
         "price": 1000
     },
     "arrow": {
         "type": "arrow",
-        "name": "Arrow",
+        "name": "화살",
         "stackable": true,
         "maxStackSize": 9999,
         "price": 5,
@@ -9390,7 +9376,7 @@
     },
     "firearrow": {
         "type": "arrow",
-        "name": "Fire Arrow",
+        "name": "화염 화살",
         "price": 12,
         "stackable": true,
         "burning": true,
@@ -9405,7 +9391,7 @@
     },
     "poisonarrow": {
         "type": "arrow",
-        "name": "Poison Arrow",
+        "name": "독 화살",
         "price": 16,
         "stackable": true,
         "maxStackSize": 9999,
@@ -9420,7 +9406,7 @@
     },
     "lightningarrow": {
         "type": "arrow",
-        "name": "Lightning Arrow",
+        "name": "번개 화살",
         "price": 18,
         "stackable": true,
         "maxStackSize": 9999,
@@ -9434,7 +9420,7 @@
     },
     "icearrow": {
         "type": "arrow",
-        "name": "Ice Arrow",
+        "name": "얼음 화살",
         "price": 20,
         "stackable": true,
         "freezing": true,
@@ -9449,7 +9435,7 @@
     },
     "nisocarrow": {
         "type": "arrow",
-        "name": "Nisoc Arrow",
+        "name": "나이속 화살",
         "price": 19,
         "stackable": true,
         "freezing": true,
@@ -9464,7 +9450,7 @@
     },
     "cinnabararrow": {
         "type": "arrow",
-        "name": "Cinnabar Arrow",
+        "name": "진사 화살",
         "price": 21,
         "stackable": true,
         "freezing": true,
@@ -9479,7 +9465,7 @@
     },
     "pythararrow": {
         "type": "arrow",
-        "name": "Pythar Arrow",
+        "name": "파이타르 화살",
         "price": 23,
         "stackable": true,
         "freezing": true,
@@ -9494,7 +9480,7 @@
     },
     "iboarrow": {
         "type": "arrow",
-        "name": "Ibo Arrow",
+        "name": "이보 화살",
         "price": 25,
         "stackable": true,
         "freezing": true,

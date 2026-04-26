@@ -1,7 +1,7 @@
 {
-    "name": "Crystals of Yontil",
-    "description": "Mystic ores have been discovered deep within the Yontil Mines. Excavate and learn their secrets.",
-    "rewards": ["Access to Mystic Ore", "3500 Mining experience"],
+    "name": "욘틸의 수정",
+    "description": "욘틸 광산 깊은 곳에서 신비한 광석이 발견되었다. 그것을 채굴하고 비밀을 배워라.",
+    "rewards": ["신비 광석 사용 권한", "채광 경험치 3500"],
     "skillRequirements": {
         "mining": 40
     },
@@ -9,18 +9,18 @@
         "0": {
             "task": "talk",
             "npc": "oldminer",
-            "text": ["Adventurer! The Yontil Mines hold mystic ores.", "I'll guide you if you can fetch them for me."],
-            "completedText": ["Descend into Yontil Mines."]
+            "text": ["모험가여! 욘틸 광산에는 신비한 광석들이 있다네.", "자네가 가져와 준다면 내가 안내해 주지."],
+            "completedText": ["욘틸 광산으로 내려가라."]
         },
         "1": {
             "task": "collect",
             "itemRequirements": [{ "key": "mysticore", "count": 5 }],
-            "completedText": ["Bring the Mystic Ores to the old miner."]
+            "completedText": ["신비 광석을 늙은 광부에게 가져가라."]
         },
         "2": {
             "task": "talk",
             "npc": "oldminer",
-            "hasItemText": ["You've done it! This ore is precious. Here's how you can best utilize it."],
+            "hasItemText": ["해냈군! 이 광석은 귀중하다네. 이걸 가장 잘 활용하는 법을 알려주지."],
 
             "skillRewards": [
                 {
@@ -29,8 +29,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've gained @crimson@Mystic Ore Knowledge@green@ and @crimson@3500 Mining experience@green@.",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 @crimson@신비 광석에 관한 지식@green@과 @crimson@채광 경험치 3500@green@을 획득했습니다.",
                 "colour": "#33cc33"
             }
         }

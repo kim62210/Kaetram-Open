@@ -164,7 +164,7 @@ export default class Friends extends Menu {
         this.popupActive = true;
         this.removeActive = remove;
 
-        let text = remove ? 'Friend to remove' : 'Friend to add';
+        let text = remove ? '삭제할 친구' : '추가할 친구';
 
         this.input.title = text;
         this.input.placeholder = text;
@@ -218,7 +218,7 @@ export default class Friends extends Menu {
         name.innerHTML = Util.formatName(username);
 
         // Update the world information.
-        world.innerHTML = online ? `World ${serverId}` : 'Offline';
+        world.innerHTML = online ? `월드 ${serverId}` : '오프라인';
 
         // Add the name element to the friend slot element.
         element.append(name, world);
@@ -268,14 +268,14 @@ export default class Friends extends Menu {
         // If the friend is online, add the online class (makes the username green).
         if (online) {
             world.classList.add(this.player.serverId === serverId ? 'text-green' : 'text-yellow');
-            world.innerHTML = `World ${friend.serverId}`;
+            world.innerHTML = `월드 ${friend.serverId}`;
 
-            this.notify(`${Util.formatName(username)} has logged in.`);
+            this.notify(`${Util.formatName(username)}님이 접속했습니다.`);
         } else {
             world.classList.remove('text-green', 'text-yellow');
-            world.innerHTML = 'Offline';
+            world.innerHTML = '오프라인';
 
-            this.notify(`${Util.formatName(username)} has logged out.`);
+            this.notify(`${Util.formatName(username)}님이 접속을 종료했습니다.`);
         }
     }
 

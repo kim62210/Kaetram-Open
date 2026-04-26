@@ -7,9 +7,9 @@ import type Mob from '@kaetram/server/src/game/entity/character/mob/mob';
 
 export default class OgreLord extends Default {
     private dialogues: string[] = [
-        'The great ogre lord will trample over you!',
-        'No, do not touch my onions!',
-        'Me smash you!'
+        '위대한 오크 군주가 너희를 짓밟아 버릴 것이다!',
+        '안 돼, 내 양파에 손대지 마!',
+        '나가 너 부숴버린다!'
     ];
 
     private positions: Position[] = [
@@ -96,7 +96,7 @@ export default class OgreLord extends Default {
         else if (wave === 1) this.secondWaveMinions = true;
 
         // Spawn minions text message.
-        this.mob.talkCallback?.('My minions will surely help defeat you!');
+        this.mob.talkCallback?.('내 부하들이 너를 반드시 처치할 것이다!');
     }
 
     /**

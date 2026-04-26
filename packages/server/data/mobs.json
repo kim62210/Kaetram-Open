@@ -1,7 +1,7 @@
 {
     "rat": {
-        "name": "Rat",
-        "description": "Ah yes, this rat is made out of rat.",
+        "name": "쥐",
+        "description": "오 그래, 이 쥐는 쥐로 만들어졌어.",
         "drops": [
             {
                 "key": "petrat",
@@ -45,8 +45,8 @@
     },
 
     "bat": {
-        "name": "Batterfly",
-        "description": "A bat that is also a butterfly, what a strange creature.",
+        "name": "배터플라이",
+        "description": "박쥐이면서 동시에 나비이기도 한, 정말 이상한 생물이야.",
         "dropTables": ["ordinary"],
         "hitPoints": 65,
         "level": 4,
@@ -78,8 +78,8 @@
     },
 
     "crab": {
-        "name": "Crab",
-        "description": "I wonder if I can eat this.",
+        "name": "게",
+        "description": "이거 먹어도 되려나.",
         "dropTables": ["ordinary"],
         "hitPoints": 15,
         "level": 1,
@@ -110,8 +110,8 @@
     },
 
     "wizard": {
-        "name": "Wizard",
-        "description": "Why does every MMORPG have one of these things?",
+        "name": "마법사",
+        "description": "왜 모든 MMORPG에는 이런 게 하나씩 있는 걸까?",
         "drops": [
             {
                 "key": "wizardhatblack",
@@ -191,8 +191,8 @@
     },
 
     "goblin": {
-        "name": "Goblin",
-        "description": "Didn't I see this same style of goblin in RuneScape?",
+        "name": "고블린",
+        "description": "RuneScape에서 똑같이 생긴 고블린을 본 것 같은데?",
         "drops": [
             {
                 "key": "tinsword",
@@ -237,8 +237,8 @@
     },
 
     "skeleton": {
-        "name": "Spooky Skeleton",
-        "description": "I wonder if this skeleton is made out of bones.",
+        "name": "으스스한 스켈레톤",
+        "description": "이 스켈레톤이 뼈로 만들어졌을지 궁금하군.",
         "drops": [
             {
                 "key": "bronzespear",
@@ -286,8 +286,8 @@
     },
 
     "ogre": {
-        "name": "Ogre",
-        "description": "I really feel like the developers had to include generic fantasy creatures.",
+        "name": "오우거",
+        "description": "개발자들이 굳이 흔한 판타지 생물을 넣어야 했던 모양이야.",
         "drops": [
             {
                 "key": "ironspear",
@@ -333,8 +333,8 @@
     },
 
     "skeleton2": {
-        "name": "Scary Skeleton",
-        "description": "Ah yes, it's not spooky, this one is scary.",
+        "name": "무서운 스켈레톤",
+        "description": "오 그래, 이건 으스스한 게 아니라 무서운 거야.",
         "drops": [
             {
                 "key": "bronzespear",
@@ -380,8 +380,8 @@
     },
 
     "snek": {
-        "name": "Snek",
-        "description": "Snek, where you going? Snek, stahp!",
+        "name": "스넥",
+        "description": "스넥, 어디 가? 스넥, 멈춰!",
         "dropTables": ["ordinary"],
         "hitPoints": 85,
         "level": 16,
@@ -414,8 +414,8 @@
     },
 
     "spectre": {
-        "name": "Spectre",
-        "description": "Has a scythe and looks like it's floating.",
+        "name": "망령",
+        "description": "낫을 들고 떠다니는 것처럼 보여.",
         "drops": [
             {
                 "key": "ironscythe",
@@ -457,8 +457,8 @@
     },
 
     "lavaslime": {
-        "name": "Lava Slime",
-        "description": "A cute little slime made out of molten rock.",
+        "name": "용암 슬라임",
+        "description": "용암 바위로 만들어진 귀여운 작은 슬라임이야.",
         "dropTables": ["ordinary", "shards"],
         "hitPoints": 270,
         "level": 32,
@@ -490,10 +490,10 @@
     },
 
     "eye": {
-        "name": "Eye",
+        "name": "눈깔",
         "description": [
-            "Must have really poor depth perception when you think about it.",
-            "Eye really can't seem to figure out how that thing works."
+            "잘 생각해 보면 거리감이 정말 형편없을 거야.",
+            "눈깔이 어떻게 그게 작동하는지 이해 못 하는 것 같아."
         ],
         "drops": [
             {
@@ -531,8 +531,8 @@
     },
 
     "deathknight": {
-        "name": "Death Knight",
-        "description": "Seriously, who comes up with the names for these things?",
+        "name": "죽음의 기사",
+        "description": "진짜로, 이런 것들 이름은 누가 짓는 거야?",
         "dropTables": ["ordinary", "unusual", "shards"],
         "hitPoints": 185,
         "level": 40,
@@ -564,8 +564,8 @@
     },
 
     "adherer": {
-        "name": "Dark Mage",
-        "description": "I heard that these things drop roses that I can then use to hit things with.",
+        "name": "어둠의 마법사",
+        "description": "이런 녀석들은 장미를 떨군다던데, 그걸로 뭔가를 때릴 수 있다더라.",
         "drops": [
             {
                 "key": "darkmagehood",
@@ -609,8 +609,8 @@
     },
 
     "regionhenchman": {
-        "name": "Dark Region Henchman",
-        "description": "I heard that these things drop roses that I can then use to hit things with.",
+        "name": "어둠 지역의 부하",
+        "description": "이런 녀석들은 장미를 떨군다던데, 그걸로 뭔가를 때릴 수 있다더라.",
         "dropTables": ["ordinary", "unusual", "shards"],
         "hitPoints": 200,
         "level": 38,
@@ -644,8 +644,8 @@
     },
 
     "angel": {
-        "name": "Angel",
-        "description": "Holy moly, this is nothing like how they're described in the bible.",
+        "name": "천사",
+        "description": "맙소사, 성경에 묘사된 모습과는 전혀 달라.",
         "hitPoints": 1200,
         "level": 98,
         "aggroRange": 6,
@@ -676,8 +676,8 @@
     },
 
     "ant": {
-        "name": "Worker Ant",
-        "description": "A hardworking small itty bitty ant!",
+        "name": "일개미",
+        "description": "열심히 일하는 작고 조그마한 개미!",
         "dropTables": ["ordinary", "fruits", "mushrooms", "vegetables"],
         "hitPoints": 300,
         "level": 46,
@@ -709,8 +709,8 @@
     },
 
     "beetle": {
-        "name": "Beetle",
-        "description": "Ever heard of a Dung Beetle, well I'm better!",
+        "name": "딱정벌레",
+        "description": "쇠똥구리 들어봤어? 난 그것보다 더 잘나가!",
         "hitPoints": 600,
         "level": 45,
         "aggroRange": 1,
@@ -741,8 +741,8 @@
     },
 
     "card": {
-        "name": "Poker Card",
-        "description": "What's it gonna do, gamble me to death?",
+        "name": "포커 카드",
+        "description": "이게 뭘 하겠어, 도박으로 날 죽이기라도 하나?",
         "hitPoints": 1300,
         "level": 104,
         "aggroRange": 1,
@@ -773,8 +773,8 @@
     },
 
     "card2": {
-        "name": "Another Card",
-        "description": "Okay but like, how does this even make sense as a mob?",
+        "name": "또 다른 카드",
+        "description": "근데 진짜로, 이게 어떻게 몬스터로 말이 되는 거지?",
         "hitPoints": 1300,
         "level": 102,
         "aggroRange": 1,
@@ -805,8 +805,8 @@
     },
 
     "cowwarrior": {
-        "name": "Cow Warrior",
-        "description": "The cows are rising up!",
+        "name": "소 전사",
+        "description": "소들이 일어서고 있어!",
         "dropTables": ["ordinary", "shards", "unusual", "fruits", "mushrooms", "vegetables"],
         "hitPoints": 800,
         "level": 54,
@@ -838,8 +838,8 @@
     },
 
     "rooster": {
-        "name": "Angry Rooster",
-        "description": "It's a sleeping rooster that attacks you...",
+        "name": "성난 수탉",
+        "description": "잠자던 수탉이 널 공격해...",
         "drops": [
             {
                 "key": "pytharring",
@@ -877,7 +877,7 @@
     },
 
     "pirateskeleton": {
-        "name": "Pirate Skeleton",
+        "name": "해적 스켈레톤",
         "drops": [
             {
                 "key": "scimitar",
@@ -915,8 +915,8 @@
     },
 
     "greenpirateskeleton": {
-        "name": "Green Pirate Skeleton",
-        "description": "Isn't this just a skeleton but wearing a pirate hat?",
+        "name": "초록 해적 스켈레톤",
+        "description": "이거 그냥 해적 모자 쓴 스켈레톤 아니야?",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 585,
         "level": 64,
@@ -948,7 +948,7 @@
     },
 
     "redpirateskeleton": {
-        "name": "Red Pirate Skeleton",
+        "name": "붉은 해적 스켈레톤",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 640,
         "level": 69,
@@ -980,8 +980,8 @@
     },
 
     "blackpirateskeleton": {
-        "name": "Blue Pirate Skeleton",
-        "description": "Isn't this just a skeleton but wearing a pirate hat?",
+        "name": "푸른 해적 스켈레톤",
+        "description": "이거 그냥 해적 모자 쓴 스켈레톤 아니야?",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 625,
         "level": 70,
@@ -1013,7 +1013,7 @@
     },
 
     "piratecaptain": {
-        "name": "Pirate Captain",
+        "name": "해적 선장",
         "hitPoints": 4750,
         "level": 175,
         "aggroRange": 10,
@@ -1047,8 +1047,8 @@
     },
 
     "blackwizard": {
-        "name": "Dark Wizard",
-        "description": "They don't look all that different from the other ones.",
+        "name": "어둠의 마법사",
+        "description": "다른 마법사들과 별로 다르지 않아 보이는데.",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 170,
         "level": 32,
@@ -1082,8 +1082,8 @@
     },
 
     "icewizard": {
-        "name": "Ice Wizard",
-        "description": "It's like similar to some other type of wizard I've encountered before.",
+        "name": "얼음 마법사",
+        "description": "전에 만났던 다른 마법사랑 비슷한 느낌이야.",
         "drops": [
             {
                 "key": "bluemoonstaff",
@@ -1124,8 +1124,8 @@
     },
 
     "babyspider": {
-        "name": "Baby Spooder",
-        "description": "It's cute now but give it a while...",
+        "name": "아기 거미",
+        "description": "지금은 귀엽지만 좀만 기다려 봐...",
         "dropTables": ["ordinary", "unusual"],
         "hitPoints": 400,
         "level": 34,
@@ -1156,7 +1156,7 @@
     },
 
     "spider": {
-        "name": "Spooder",
+        "name": "거미",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 650,
         "level": 47,
@@ -1189,8 +1189,8 @@
     },
 
     "poisonspider": {
-        "name": "Poison Spooder",
-        "description": "I swear this thing is gonna poison me as soon as I engage it.",
+        "name": "독거미",
+        "description": "맹세코 이 녀석은 마주치자마자 날 중독시킬 거야.",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 990,
         "level": 49,
@@ -1223,8 +1223,8 @@
     },
 
     "firespider": {
-        "name": "Fire Spooder",
-        "description": "Damn, that is one hot spider.",
+        "name": "화염 거미",
+        "description": "와, 진짜 뜨거운 거미네.",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 850,
         "level": 61,
@@ -1256,8 +1256,8 @@
     },
 
     "blazespider": {
-        "name": "Blaze Spooder",
-        "description": "I wonder how high this spider is...",
+        "name": "작열 거미",
+        "description": "이 거미는 얼마나 흥분한 거지?",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 1350,
         "level": 77,
@@ -1288,8 +1288,8 @@
     },
 
     "hellspider": {
-        "name": "Hell Spooder",
-        "description": "Aren't all spiders technically from hell?",
+        "name": "지옥 거미",
+        "description": "사실 모든 거미가 지옥에서 온 거 아니야?",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 780,
         "level": 56,
@@ -1322,7 +1322,7 @@
     },
 
     "bluepreta": {
-        "name": "Blue Preta",
+        "name": "푸른 아귀",
         "dropTables": ["ordinary", "shards", "unusual", "fruits", "vegetables"],
         "hitPoints": 600,
         "level": 85,
@@ -1354,8 +1354,8 @@
     },
 
     "cactus": {
-        "name": "Cactus",
-        "description": "So it's like, a cactus, that can move?",
+        "name": "선인장",
+        "description": "그러니까, 이게, 움직이는 선인장이라고?",
         "dropTables": ["ordinary", "shards", "unusual", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 160,
         "level": 16,
@@ -1389,7 +1389,7 @@
     },
 
     "cat": {
-        "name": "Cat",
+        "name": "고양이",
         "hitPoints": 600,
         "level": 35,
         "aggroRange": 1,
@@ -1420,8 +1420,8 @@
     },
 
     "clam": {
-        "name": "Clam",
-        "description": "Now this would make a good stew!",
+        "name": "조개",
+        "description": "이걸로 스튜를 끓이면 끝내주겠는데!",
         "dropTables": ["ordinary", "shards", "unusual", "mushrooms"],
         "hitPoints": 450,
         "level": 66,
@@ -1452,7 +1452,7 @@
     },
 
     "cobra": {
-        "name": "Cobra",
+        "name": "코브라",
         "hitPoints": 1150,
         "level": 91,
         "aggroRange": 1,
@@ -1483,8 +1483,8 @@
     },
 
     "crystalscorpion": {
-        "name": "Crystal Scorpion",
-        "description": "It's a scorpion that is made out of crystal, that's really original.",
+        "name": "수정 전갈",
+        "description": "수정으로 만들어진 전갈이라니, 정말 독창적이군.",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 1450,
         "level": 105,
@@ -1516,7 +1516,7 @@
     },
 
     "cursedhahoemask": {
-        "name": "Cursed Hahoe Mask",
+        "name": "저주받은 하회탈",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 2100,
         "level": 115,
@@ -1548,7 +1548,7 @@
     },
 
     "curseddjangseung": {
-        "name": "Cursed Djangseung",
+        "name": "저주받은 장승",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 1900,
         "level": 110,
@@ -1580,8 +1580,8 @@
     },
 
     "darkogre": {
-        "name": "Dark Ogre",
-        "description": "It didn't get to see much sun...",
+        "name": "어둠 오우거",
+        "description": "햇빛을 별로 못 본 모양이야...",
         "dropTables": ["ordinary", "shards", "unusual", "mushrooms"],
         "hitPoints": 900,
         "level": 68,
@@ -1613,7 +1613,7 @@
     },
 
     "darkscorpion": {
-        "name": "Dark Scorpion",
+        "name": "어둠 전갈",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 1150,
         "level": 101,
@@ -1645,7 +1645,7 @@
     },
 
     "darkskeleton": {
-        "name": "Dark Skeleton",
+        "name": "어둠 스켈레톤",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 740,
         "level": 76,
@@ -1677,7 +1677,7 @@
     },
 
     "desertscorpion": {
-        "name": "Desert Scorpion",
+        "name": "사막 전갈",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 124,
         "level": 24,
@@ -1709,7 +1709,7 @@
     },
 
     "devilkazya": {
-        "name": "Devil Blox",
+        "name": "악마 블록스",
         "hitPoints": 2300,
         "level": 135,
         "aggroRange": 1,
@@ -1740,8 +1740,8 @@
     },
 
     "earthworm": {
-        "name": "Earth Worm",
-        "description": "You know, it would make sense that earth worms are underground.",
+        "name": "지렁이",
+        "description": "생각해 보면 지렁이가 땅속에 사는 게 당연한 거지.",
         "dropTables": ["ordinary", "shards", "unusual", "fruits", "vegetables", "mushrooms"],
         "hitPoints": 815,
         "level": 74,
@@ -1773,7 +1773,7 @@
     },
 
     "flaredanceknight": {
-        "name": "Cursed Knight",
+        "name": "저주받은 기사",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 1000,
         "level": 65,
@@ -1804,14 +1804,14 @@
     },
 
     "frog": {
-        "name": "Frog",
+        "name": "개구리",
         "drops": [
             {
                 "key": "froghelm",
                 "chance": 5000
             }
         ],
-        "description": "Just look at it hop around and things and stuff.",
+        "description": "그냥 깡총깡총 뛰어다니는 거 봐, 귀엽잖아.",
         "dropTables": ["ordinary", "shards", "unusual", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 788,
         "level": 56,
@@ -1843,7 +1843,7 @@
     },
 
     "ghostrider": {
-        "name": "Skeleton Knight",
+        "name": "스켈레톤 기사",
         "hitPoints": 700,
         "level": 19,
         "aggroRange": 1,
@@ -1874,7 +1874,7 @@
     },
 
     "goldgolem": {
-        "name": "Golden Golem",
+        "name": "황금 골렘",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 1200,
         "level": 75,
@@ -1906,7 +1906,7 @@
     },
 
     "golem": {
-        "name": "Golem",
+        "name": "골렘",
         "drops": [
             {
                 "key": "golemsmace",
@@ -1944,7 +1944,7 @@
     },
 
     "redfish": {
-        "name": "Red Fesh",
+        "name": "붉은 물고기",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 100,
         "level": 46,
@@ -1975,7 +1975,7 @@
     },
 
     "yellowfish": {
-        "name": "Yellow Fesh",
+        "name": "노란 물고기",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 135,
         "level": 44,
@@ -2006,7 +2006,7 @@
     },
 
     "greenfish": {
-        "name": "Green Fesh",
+        "name": "초록 물고기",
         "dropTables": ["ordinary", "shards", "unusual"],
         "hitPoints": 200,
         "level": 45,
@@ -2037,7 +2037,7 @@
     },
 
     "hermitcrab": {
-        "name": "Hermit Crab",
+        "name": "소라게",
         "dropTables": ["ordinary", "unusual"],
         "hitPoints": 155,
         "level": 15,
@@ -2068,7 +2068,7 @@
     },
 
     "hobgoblin": {
-        "name": "Hobgoblin",
+        "name": "홉고블린",
         "dropTables": ["ordinary", "shards", "unusual", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 260,
         "level": 42,
@@ -2100,7 +2100,7 @@
     },
 
     "hongcheol": {
-        "name": "Hong Chul",
+        "name": "홍철",
         "hitPoints": 1550,
         "level": 100,
         "aggroRange": 1,
@@ -2130,7 +2130,7 @@
     },
 
     "icegolem": {
-        "name": "Ice Golem",
+        "name": "얼음 골렘",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 700,
         "level": 46,
@@ -2165,7 +2165,7 @@
     },
 
     "iceknight": {
-        "name": "Ice Knight",
+        "name": "얼음 기사",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 550,
         "level": 37,
@@ -2197,8 +2197,8 @@
     },
 
     "icevulture": {
-        "name": "Ice Vulture",
-        "description": "It's like a frozen version of the vicious bird I've seen before.",
+        "name": "얼음 독수리",
+        "description": "전에 봤던 그 사나운 새의 얼어붙은 버전 같아.",
         "drops": [
             {
                 "key": "feather",
@@ -2236,7 +2236,7 @@
     },
 
     "infectedguard": {
-        "name": "Infected Guard",
+        "name": "감염된 경비병",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 750,
         "level": 61,
@@ -2268,7 +2268,7 @@
     },
 
     "ironogre": {
-        "name": "Iron Ogre",
+        "name": "강철 오우거",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 300,
         "level": 20,
@@ -2300,7 +2300,7 @@
     },
 
     "livingarmor": {
-        "name": "Living armor",
+        "name": "살아있는 갑옷",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 340,
         "level": 45,
@@ -2332,7 +2332,7 @@
     },
 
     "mantis": {
-        "name": "Praying Mantis",
+        "name": "사마귀",
         "dropTables": ["ordinary", "shards", "unusual", "vegetables", "fruits", "mushrooms", "arrows"],
         "hitPoints": 1000,
         "level": 56,
@@ -2364,7 +2364,7 @@
     },
 
     "mermaid": {
-        "name": "Mermaid",
+        "name": "인어",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 150,
         "level": 40,
@@ -2395,7 +2395,7 @@
     },
 
     "mimic": {
-        "name": "Mimic",
+        "name": "미믹",
         "dropTables": ["ordinary", "shards", "unusual", "mushrooms", "vegetables", "fruits", "arrows"],
         "hitPoints": 1200,
         "level": 25,
@@ -2429,8 +2429,8 @@
     },
 
     "miniiceknight1": {
-        "name": "Mini Ice Knight",
-        "description": "It's a little teeny tiny knight in a little teeny tiny suit of armor.",
+        "name": "꼬마 얼음 기사",
+        "description": "조그마한 갑옷을 입은 조그마한 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 1100,
         "level": 144,
@@ -2462,8 +2462,8 @@
     },
 
     "miniiceknight2": {
-        "name": "Mini Ice Knight",
-        "description": "It's a little teeny tiny knight in a little teeny tiny suit of armor.",
+        "name": "꼬마 얼음 기사",
+        "description": "조그마한 갑옷을 입은 조그마한 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 1100,
         "level": 144,
@@ -2495,8 +2495,8 @@
     },
 
     "miniiceknight3": {
-        "name": "Mini Ice Knight",
-        "description": "It's a little teeny tiny knight in a little teeny tiny suit of armor.",
+        "name": "꼬마 얼음 기사",
+        "description": "조그마한 갑옷을 입은 조그마한 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 1100,
         "level": 144,
@@ -2528,8 +2528,8 @@
     },
 
     "miniiceknight4": {
-        "name": "Mini Ice Knight",
-        "description": "It's a little teeny tiny knight in a little teeny tiny suit of armor.",
+        "name": "꼬마 얼음 기사",
+        "description": "조그마한 갑옷을 입은 조그마한 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 1100,
         "level": 144,
@@ -2561,8 +2561,8 @@
     },
 
     "miniiceknight5": {
-        "name": "Mini Ice Knight",
-        "description": "It's a little teeny tiny knight in a little teeny tiny suit of armor.",
+        "name": "꼬마 얼음 기사",
+        "description": "조그마한 갑옷을 입은 조그마한 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 1100,
         "level": 144,
@@ -2594,8 +2594,8 @@
     },
 
     "miniknight1": {
-        "name": "Mini Knight",
-        "description": "A little ferocious tiny knight that might actually hurt me.",
+        "name": "꼬마 기사",
+        "description": "정말로 날 다치게 할 수 있는 작고 사나운 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 950,
         "level": 116,
@@ -2627,8 +2627,8 @@
     },
 
     "miniknight2": {
-        "name": "Mini Knight",
-        "description": "A little ferocious tiny knight that might actually hurt me.",
+        "name": "꼬마 기사",
+        "description": "정말로 날 다치게 할 수 있는 작고 사나운 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 950,
         "level": 116,
@@ -2660,8 +2660,8 @@
     },
 
     "miniknight3": {
-        "name": "Mini Knight",
-        "description": "A little ferocious tiny knight that might actually hurt me.",
+        "name": "꼬마 기사",
+        "description": "정말로 날 다치게 할 수 있는 작고 사나운 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 950,
         "level": 116,
@@ -2693,8 +2693,8 @@
     },
 
     "miniknight4": {
-        "name": "Mini Knight",
-        "description": "A little ferocious tiny knight that might actually hurt me.",
+        "name": "꼬마 기사",
+        "description": "정말로 날 다치게 할 수 있는 작고 사나운 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 950,
         "level": 116,
@@ -2726,8 +2726,8 @@
     },
 
     "miniknight5": {
-        "name": "Mini Knight",
-        "description": "A little ferocious tiny knight that might actually hurt me.",
+        "name": "꼬마 기사",
+        "description": "정말로 날 다치게 할 수 있는 작고 사나운 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 950,
         "level": 116,
@@ -2759,8 +2759,8 @@
     },
 
     "miniknight6": {
-        "name": "Mini Knight",
-        "description": "A little ferocious tiny knight that might actually hurt me.",
+        "name": "꼬마 기사",
+        "description": "정말로 날 다치게 할 수 있는 작고 사나운 꼬마 기사야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 950,
         "level": 116,
@@ -2792,8 +2792,8 @@
     },
 
     "miniemperor": {
-        "name": "Mini Emperor",
-        "description": "It looks like the leader of this band of mini knights.",
+        "name": "꼬마 황제",
+        "description": "이 꼬마 기사 무리의 두목 같아 보여.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 3950,
         "level": 316,
@@ -2826,8 +2826,8 @@
     },
 
     "oldogre": {
-        "name": "Old Ogre",
-        "description": "He's old, and balding, but still dangerous.",
+        "name": "늙은 오우거",
+        "description": "늙고 머리도 빠졌지만, 여전히 위험해.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 256,
         "level": 23,
@@ -2859,7 +2859,7 @@
     },
 
     "orc": {
-        "name": "Orc",
+        "name": "오크",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 275,
         "level": 47,
@@ -2891,7 +2891,7 @@
     },
 
     "infectedvillager": {
-        "name": "Infected Villager",
+        "name": "감염된 마을 사람",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 1550,
         "level": 73,
@@ -2923,7 +2923,7 @@
     },
 
     "penguin": {
-        "name": "Penguin",
+        "name": "펭귄",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 526,
         "level": 41,
@@ -2954,7 +2954,7 @@
     },
 
     "pierrot": {
-        "name": "Clown",
+        "name": "광대",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 150,
         "level": 12,
@@ -2985,8 +2985,8 @@
     },
 
     "pinkelf": {
-        "name": "Pink Elf",
-        "description": "A pink elf, it's pink, what else do you want to know.",
+        "name": "분홍 엘프",
+        "description": "분홍색 엘프야. 핑크색이지. 그 외에 또 뭘 알고 싶어?",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 925,
         "level": 123,
@@ -3018,7 +3018,7 @@
     },
 
     "preta": {
-        "name": "Preta",
+        "name": "아귀",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 495,
         "level": 36,
@@ -3050,7 +3050,7 @@
     },
 
     "purplepreta": {
-        "name": "Purple Preta",
+        "name": "보라 아귀",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 431,
         "level": 31,
@@ -3082,8 +3082,8 @@
     },
 
     "greencockroach": {
-        "name": "Green Cockroach",
-        "description": "Ew, a cockroach.",
+        "name": "초록 바퀴벌레",
+        "description": "윽, 바퀴벌레잖아.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 785,
         "level": 55,
@@ -3114,7 +3114,7 @@
     },
 
     "redcockroach": {
-        "name": "Red Cockroach",
+        "name": "붉은 바퀴벌레",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 669,
         "level": 44,
@@ -3145,8 +3145,8 @@
     },
 
     "redelf": {
-        "name": "Red Elf",
-        "description": "It's an elf, and it is red, kinda looks like the developer ran out of assets.",
+        "name": "붉은 엘프",
+        "description": "엘프인데 빨갛네. 개발자가 리소스가 떨어진 모양이야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "mushrooms", "fruits", "vegetables"],
         "hitPoints": 850,
         "level": 110,
@@ -3178,7 +3178,7 @@
     },
 
     "guardsword": {
-        "name": "Guard",
+        "name": "경비병",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 625,
         "level": 47,
@@ -3210,7 +3210,7 @@
     },
 
     "guardmace": {
-        "name": "Guard",
+        "name": "경비병",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 625,
         "level": 45,
@@ -3242,7 +3242,7 @@
     },
 
     "redguard": {
-        "name": "Bandit",
+        "name": "산적",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 335,
         "level": 44,
@@ -3274,7 +3274,7 @@
     },
 
     "redmouse": {
-        "name": "Red Mouse",
+        "name": "붉은 생쥐",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 160,
         "level": 24,
@@ -3305,7 +3305,7 @@
     },
 
     "rhaphidophoridae": {
-        "name": "Cricket",
+        "name": "귀뚜라미",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 3500,
         "level": 93,
@@ -3336,7 +3336,7 @@
     },
 
     "rudolf": {
-        "name": "Raindeer",
+        "name": "순록",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 5550,
         "level": 129,
@@ -3368,7 +3368,7 @@
     },
 
     "santaelf": {
-        "name": "Santa's Elf",
+        "name": "산타의 요정",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 610,
         "level": 136,
@@ -3400,7 +3400,7 @@
     },
 
     "scorpion": {
-        "name": "Scorpion",
+        "name": "전갈",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 2700,
         "level": 80,
@@ -3432,8 +3432,8 @@
     },
 
     "skyelf": {
-        "name": "Sky Elf",
-        "description": "An elf that lives in the sky... What is it doing here?",
+        "name": "하늘 엘프",
+        "description": "하늘에 사는 엘프인데... 여기서 뭘 하고 있는 거지?",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 1000,
         "level": 134,
@@ -3465,8 +3465,8 @@
     },
 
     "slime": {
-        "name": "Slime",
-        "description": "Why does every game have a slime in it?",
+        "name": "슬라임",
+        "description": "왜 모든 게임에는 슬라임이 들어 있는 거지?",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "vegetables", "fruits"],
         "hitPoints": 694,
         "level": 48,
@@ -3501,7 +3501,7 @@
     },
 
     "smalldevil": {
-        "name": "Corrupted Bat",
+        "name": "타락한 박쥐",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 100,
         "level": 13,
@@ -3533,8 +3533,8 @@
     },
 
     "snowelf": {
-        "name": "Snow Elf",
-        "description": "A magical tiny elf from the snow realm.",
+        "name": "눈의 엘프",
+        "description": "눈의 영역에서 온 마법의 작은 엘프야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 920,
         "level": 99,
@@ -3566,8 +3566,8 @@
     },
 
     "snowman": {
-        "name": "Snowman",
-        "description": "A magical snowman from the snow realm.",
+        "name": "눈사람",
+        "description": "눈의 영역에서 온 마법의 눈사람이야.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 750,
         "level": 43,
@@ -3598,8 +3598,8 @@
     },
 
     "snowman2": {
-        "name": "Snowman",
-        "description": "I wonder if it'll be resilient to fire.",
+        "name": "눈사람",
+        "description": "불에 잘 견딜 수 있을지 궁금하군.",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 850,
         "level": 93,
@@ -3630,8 +3630,8 @@
     },
 
     "rabbitman": {
-        "name": "The Rabbit Man",
-        "description": "A dude... dressed as a rabbit... why?",
+        "name": "토끼 사나이",
+        "description": "한 남자가... 토끼 옷을 입고... 왜?",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 385,
         "level": 37,
@@ -3663,7 +3663,7 @@
     },
 
     "snowrabbit": {
-        "name": "Snow Rabbit",
+        "name": "눈 토끼",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 340,
         "level": 29,
@@ -3695,8 +3695,8 @@
     },
 
     "snowwolf": {
-        "name": "Snow Wolf",
-        "description": "I really expected the wolf to be made out of snow :(",
+        "name": "눈 늑대",
+        "description": "솔직히 늑대가 눈으로 만들어졌을 줄 알았는데 :(",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 1185,
         "level": 55,
@@ -3728,7 +3728,7 @@
     },
 
     "icegoblin": {
-        "name": "Frost Goblin",
+        "name": "서리 고블린",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 475,
         "level": 28,
@@ -3759,7 +3759,7 @@
     },
 
     "soldierant": {
-        "name": "Soldier Ant",
+        "name": "병정개미",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 526,
         "level": 60,
@@ -3791,7 +3791,7 @@
     },
 
     "soybeanbug": {
-        "name": "Soy Bean Bug",
+        "name": "콩벌레",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 3500,
         "level": 103,
@@ -3823,7 +3823,7 @@
     },
 
     "suicideghost": {
-        "name": "Ghost",
+        "name": "유령",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 750,
         "level": 62,
@@ -3855,7 +3855,7 @@
     },
 
     "vulture": {
-        "name": "Vulture",
+        "name": "독수리",
         "drops": [
             {
                 "key": "feather",
@@ -3893,7 +3893,7 @@
     },
 
     "whitebear": {
-        "name": "Molar Bear",
+        "name": "어금니 곰",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 1300,
         "level": 42,
@@ -3925,7 +3925,7 @@
     },
 
     "whitemouse": {
-        "name": "Mouse",
+        "name": "생쥐",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 750,
         "level": 45,
@@ -3956,7 +3956,7 @@
     },
 
     "whitetiger": {
-        "name": "Tiger",
+        "name": "호랑이",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 3350,
         "level": 98,
@@ -3987,7 +3987,7 @@
         }
     },
     "wolf": {
-        "name": "Wolf",
+        "name": "늑대",
         "drops": [
             {
                 "key": "wolfhelmet",
@@ -4025,7 +4025,7 @@
     },
 
     "darkwolf": {
-        "name": "Dark Wolf",
+        "name": "어둠 늑대",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 850,
         "level": 118,
@@ -4057,7 +4057,7 @@
     },
 
     "yellowbat": {
-        "name": "Mutated Bat",
+        "name": "돌연변이 박쥐",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 650,
         "level": 60,
@@ -4088,7 +4088,7 @@
     },
 
     "paladin": {
-        "name": "Paladin",
+        "name": "팔라딘",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 350,
         "level": 16,
@@ -4119,7 +4119,7 @@
     },
 
     "yellowmouse": {
-        "name": "Yellow Mouse",
+        "name": "노란 생쥐",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 750,
         "level": 39,
@@ -4150,7 +4150,7 @@
     },
 
     "yellowpreta": {
-        "name": "Yellow Preta",
+        "name": "노란 아귀",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 526,
         "level": 39,
@@ -4182,7 +4182,7 @@
     },
 
     "zombie": {
-        "name": "Zombie",
+        "name": "좀비",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 1250,
         "level": 69,
@@ -4214,7 +4214,7 @@
     },
 
     "brownmouse": {
-        "name": "Brown Mouse",
+        "name": "갈색 생쥐",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 140,
         "level": 22,
@@ -4245,7 +4245,7 @@
     },
 
     "picklemob": {
-        "name": "Sea Cucumber",
+        "name": "해삼",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 1250,
         "level": 88,
@@ -4279,7 +4279,7 @@
     },
 
     "icerat": {
-        "name": "Ice Rat",
+        "name": "얼음 쥐",
         "drops": [
             {
                 "key": "rathatpet",
@@ -4316,7 +4316,7 @@
     },
 
     "icebat": {
-        "name": "Frozen Bat",
+        "name": "얼어붙은 박쥐",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 825,
         "level": 86,
@@ -4348,7 +4348,7 @@
     },
 
     "icecrab": {
-        "name": "Ice Crab",
+        "name": "얼음 게",
         "dropTables": ["ordinary", "shards", "unusual", "arrows"],
         "hitPoints": 860,
         "level": 89,
@@ -4379,8 +4379,8 @@
     },
 
     "skeletonking": {
-        "name": "Skeleton King",
-        "description": "Here he is, the chad of r/neverbrokeabone.",
+        "name": "스켈레톤 왕",
+        "description": "여기 있다, r/neverbrokeabone의 진짜 두목.",
         "drops": [
             {
                 "key": "goldshield",
@@ -4433,8 +4433,8 @@
     },
 
     "ogrelord": {
-        "name": "Ogre Lord",
-        "description": "I better keep a distance before this thing turns me into a stew!",
+        "name": "오우거 군주",
+        "description": "이 녀석이 날 스튜로 만들기 전에 거리를 두는 게 좋겠어!",
         "drops": [
             {
                 "key": "firesword",
@@ -4483,8 +4483,8 @@
     },
 
     "hellhound": {
-        "name": "Hellhound",
-        "description": "I better keep a distance before this thing turns me into a stew!",
+        "name": "지옥 사냥개",
+        "description": "이 녀석이 날 스튜로 만들기 전에 거리를 두는 게 좋겠어!",
         "drops": [
             {
                 "key": "hellhoundfang",
@@ -4550,7 +4550,7 @@
     },
 
     "windguardian": {
-        "name": "Wind Guardian",
+        "name": "바람의 수호자",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 15000,
         "projectileName": "iceball",
@@ -4591,7 +4591,7 @@
     },
 
     "lightningguardian": {
-        "name": "Lightning Guardian",
+        "name": "번개의 수호자",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 4500,
         "level": 64,
@@ -4630,7 +4630,7 @@
     },
 
     "darkregion": {
-        "name": "Tenebris",
+        "name": "테네브리스",
         "drops": [
             {
                 "key": "bladeofdarkness",
@@ -4675,7 +4675,7 @@
     },
 
     "darkregionillusion": {
-        "name": "Tenebris",
+        "name": "테네브리스",
         "hitPoints": 500,
         "level": 79,
         "aggroRange": 8,
@@ -4705,8 +4705,8 @@
     },
 
     "miniseadragon": {
-        "name": "Mini Sea Dragon",
-        "description": "Aww it's a little version of something that's gonna stomp me later!",
+        "name": "꼬마 바다 드래곤",
+        "description": "오, 나중에 날 짓밟을 녀석의 꼬마 버전이네!",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 1200,
         "level": 52,
@@ -4745,8 +4745,8 @@
     },
 
     "forestdragon": {
-        "name": "Forest Dragon",
-        "description": "Keros' favourite pet!",
+        "name": "숲 드래곤",
+        "description": "케로스의 애장 펫!",
         "drops": [
             {
                 "key": "dragonscale",
@@ -4795,7 +4795,7 @@
     },
 
     "enel": {
-        "name": "Lucendi",
+        "name": "루센디",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 25000,
         "level": 256,
@@ -4828,7 +4828,7 @@
     },
 
     "seadragon": {
-        "name": "Sea Dragon",
+        "name": "바다 드래곤",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 100,
         "level": 485,
@@ -4860,7 +4860,7 @@
     },
 
     "minidragon": {
-        "name": "Mini Dragon",
+        "name": "꼬마 드래곤",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 380,
         "level": 77,
@@ -4894,7 +4894,7 @@
     },
 
     "queenant": {
-        "name": "Queen Ant",
+        "name": "여왕개미",
         "drops": [
             {
                 "key": "helmofliberty",
@@ -4944,7 +4944,7 @@
     },
 
     "skydinosaur": {
-        "name": "Fulgur",
+        "name": "풀구르",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 50000,
         "level": 435,
@@ -4984,7 +4984,7 @@
     },
 
     "squid": {
-        "name": "Great Squid",
+        "name": "거대 오징어",
         "drops": [
             {
                 "key": "twilightgreataxe",
@@ -5031,7 +5031,7 @@
     },
 
     "snowlady": {
-        "name": "Queen of Snow",
+        "name": "눈의 여왕",
         "drops": [
             {
                 "key": "swashbuckler",
@@ -5076,7 +5076,7 @@
     },
 
     "frostqueen": {
-        "name": "Frost Queen",
+        "name": "서리 여왕",
         "drops": [
             {
                 "key": "timelessglaive",
@@ -5120,7 +5120,7 @@
     },
 
     "eliminator": {
-        "name": "Eliminator",
+        "name": "제거자",
         "drops": [
             {
                 "key": "executionershammer",
@@ -5158,7 +5158,7 @@
     },
 
     "santa": {
-        "name": "Santa",
+        "name": "산타",
         "dropTables": ["ordinary", "shards", "unusual", "arrows", "vegetables", "fruits", "mushrooms"],
         "hitPoints": 7500,
         "level": 240,

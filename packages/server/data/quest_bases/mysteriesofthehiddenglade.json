@@ -1,41 +1,41 @@
 {
-    "name": "Mysteries of the Hidden Glade",
-    "description": "A sealed forest awaits.|Rumors speak of a sealed glade, hidden away from the world. Deep within, a creature of power guards a great treasure.",
+    "name": "숨겨진 빈터의 미스터리",
+    "description": "봉인된 숲이 기다린다.|세상으로부터 봉인된 빈터에 대한 소문이 있다. 그 깊은 곳에서 강력한 생물이 거대한 보물을 지키고 있다.",
     "rewards": ["gladering"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "villagehistorian",
             "text": [
-                "Greetings, adventurer. Have you heard of the Hidden Glade?",
-                "It's a mystical forest sealed by our ancestors due to the danger within.",
-                "Could you perhaps venture in and discover its secrets?"
+                "안녕하신가, 모험가여. 숨겨진 빈터에 대해 들어본 적 있나?",
+                "그 안의 위험 때문에 우리 선조들이 봉인한 신비한 숲이라네.",
+                "혹시 그곳에 들어가 비밀을 밝혀 줄 수 있을까?"
             ],
-            "completedText": ["Find the entrance to the Hidden Glade."]
+            "completedText": ["숨겨진 빈터의 입구를 찾아라."]
         },
         "1": {
             "task": "talk",
             "npc": "gladeentrance",
             "text": [
-                "A sealed gate stands before you, adorned with ancient symbols.",
-                "By solving a riddle, the gate slowly opens, revealing the glade within."
+                "그대 앞에 고대의 상징으로 장식된 봉인된 문이 서 있다.",
+                "수수께끼를 풀자 문이 천천히 열리며 빈터가 모습을 드러낸다."
             ],
-            "completedText": ["Enter the Hidden Glade."]
+            "completedText": ["숨겨진 빈터로 들어가라."]
         },
         "2": {
             "task": "talk",
             "npc": "mysteriousaltar",
-            "text": ["Deep within the glade, an altar beckons. Placing an offering might grant you safe passage."],
-            "completedText": ["Seek the creature guarding the treasure."]
+            "text": ["빈터 깊은 곳에서 제단이 손짓한다. 공물을 바치면 안전하게 통과할 수 있을지도 모른다."],
+            "completedText": ["보물을 지키는 생물을 찾아라."]
         },
         "3": {
             "task": "talk",
             "npc": "gladeboss",
             "text": [
-                "A creature of immense power stands before you, its eyes watching your every move.",
-                "To reach the treasure, you must first defeat this guardian."
+                "엄청난 힘을 가진 생물이 그대 앞에 서서 일거수일투족을 지켜보고 있다.",
+                "보물에 닿으려거든 먼저 이 수호자를 처치해야 한다."
             ],
-            "completedText": ["Prepare for battle!"]
+            "completedText": ["전투를 준비하라!"]
         },
         "4": {
             "task": "kill",
@@ -46,8 +46,8 @@
             "task": "talk",
             "npc": "gladetreasure",
             "text": [
-                "Having defeated the guardian, a chest materializes before you.",
-                "Inside, you find a ring that radiates energy."
+                "수호자를 물리치자, 그대 앞에 상자가 모습을 드러낸다.",
+                "그 안에서 에너지를 발산하는 반지를 발견한다."
             ],
             "itemRewards": [
                 {
@@ -56,8 +56,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have completed @crimson@Mysteries of the Hidden Glade@green@. The glade's treasure, the Glade Ring, is now yours!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 @crimson@숨겨진 빈터의 미스터리@green@를 완료했습니다. 빈터의 보물, 빈터의 반지가 이제 당신의 것입니다!",
                 "colour": "#33cc33"
             }
         }

@@ -1,17 +1,17 @@
 {
-    "name": "Gnome More Problems",
-    "description": "Tall tales.|Gary the Gnome claims he was once as tall as a giant! Retrieve his 'height potion' from the mischievous squirrels that stole it.",
-    "rewards": ["giant-hat", "3 acorns"],
+    "name": "노움 노 프라블럼",
+    "description": "키 큰 시절의 추억담.|노움 게리는 한때 자기가 거인만큼 컸다고 주장한다! 장난꾸러기 다람쥐들이 훔쳐간 그의 '키 물약'을 되찾아주자.",
+    "rewards": ["giant-hat", "도토리 3개"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "garygnome",
             "text": [
-                "Ah, adventurer! I was once taller than the mightiest tree!",
-                "Those darn squirrels stole my height potion!",
-                "Would you help an old gnome out and get it back?"
+                "오, 모험가여! 한때 나는 가장 큰 나무보다도 더 컸지!",
+                "그 못된 다람쥐들이 내 키 물약을 훔쳐갔다네!",
+                "이 늙은 노움을 도와 되찾아 줄 수 있겠나?"
             ],
-            "completedText": ["Retrieve the height potion from those sneaky squirrels."]
+            "completedText": ["몰래 가져간 다람쥐들에게서 키 물약을 되찾아라."]
         },
         "1": {
             "task": "kill",
@@ -22,9 +22,9 @@
             "task": "talk",
             "npc": "garygnome",
             "text": [
-                "You got it! Watch as I become... still the same size.",
-                "Eh, probably expired. Thanks anyway!",
-                "Here, take this giant hat and some acorns!"
+                "물약을 찾아왔군! 자, 보거라... 여전히 똑같은 키군.",
+                "에잇, 유통기한이 지난 모양이지. 어쨌든 고맙네!",
+                "이 거대 모자와 도토리 몇 개를 받게나!"
             ],
             "itemRewards": [
                 {
@@ -37,8 +37,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@Gary is still gnome-sized, but you've made a tiny friend for life! Enjoy your @crimson@giant-hat@green@ and acorns.",
+                "title": "퀘스트 완료!",
+                "text": "@green@게리는 여전히 노움 크기지만, 당신은 평생의 작은 친구를 사귀었습니다! @crimson@거대 모자@green@와 도토리를 즐기세요.",
                 "colour": "#33cc33"
             }
         }

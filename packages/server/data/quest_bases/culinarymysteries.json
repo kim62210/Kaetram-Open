@@ -1,7 +1,7 @@
 {
-    "name": "Culinary Mysteries",
-    "description": "Chef Gustavo is known across the land for his delicious dishes. However, he's hit a roadblock trying to recreate a historic recipe. Can you help him solve this culinary conundrum?",
-    "rewards": ["Chef's Special Apron", "2500 Cooking experience"],
+    "name": "요리의 미스터리",
+    "description": "셰프 구스타보는 맛있는 요리로 온 땅에 명성이 자자하다. 그러나 역사적인 비법을 재현하는 데 난관에 부딪혔다. 이 요리의 수수께끼를 함께 풀어보자.",
+    "rewards": ["셰프의 특제 앞치마", "요리 경험치 2500"],
     "skillRequirements": {
         "cooking": 20
     },
@@ -10,23 +10,23 @@
             "task": "talk",
             "npc": "chefgustavo",
             "text": [
-                "Ah, a fellow cooking enthusiast! I've recently discovered an ancient recipe",
-                "that I've been trying to recreate. But it's missing some ingredients.",
-                "The recipe calls for a rare Moonlit Mushroom. Would you be able to fetch it for me?"
+                "오, 동료 요리 애호가여! 최근에 고대의 비법을 발견했다네.",
+                "그걸 재현하려고 애쓰고 있지만, 재료 몇 가지가 부족해.",
+                "이 비법에는 희귀한 달빛 버섯이 필요하지. 가져와 줄 수 있겠나?"
             ],
             "completedText": [
-                "Have you found the Moonlit Mushroom?",
-                "It's crucial to the dish I'm trying to recreate."
+                "달빛 버섯을 찾았는가?",
+                "재현하려는 요리에 꼭 필요한 재료라네."
             ]
         },
         "1": {
             "task": "talk",
             "npc": "chefgustavo",
             "hasItemText": [
-                "Ah, the Moonlit Mushroom! Fantastic! But there's one more thing...",
-                "The recipe mentions a 'secret spice'. No one seems to know what it is.",
-                "However, old tales speak of a hermit living atop the snowy peaks who",
-                "might have knowledge about this. Could you consult him?"
+                "오, 달빛 버섯! 환상적이군! 그런데 한 가지가 더 남았어...",
+                "비법에는 '비밀의 향신료'가 언급되어 있는데, 그게 뭔지 아무도 몰라.",
+                "다만 옛 이야기에 따르면, 눈 덮인 봉우리 위에 사는 은둔자가",
+                "그것에 대해 알고 있을지도 모른다고 하네. 그를 만나봐 주겠나?"
             ],
             "itemRequirements": [
                 {
@@ -39,20 +39,20 @@
             "task": "talk",
             "npc": "snowyhermit",
             "text": [
-                "Ah, Chef Gustavo's 'secret spice'. It's not a spice at all!",
-                "It's the dried petal of a Frozen Rose, found deep within these mountains.",
-                "Retrieve it, and the recipe will be complete."
+                "오, 셰프 구스타보의 '비밀의 향신료'라. 사실 향신료가 아니라네!",
+                "이 산속 깊은 곳에서 자라는 얼어붙은 장미의 말린 꽃잎이지.",
+                "그것을 구해오면 비법이 완성될 것이오."
             ],
-            "completedText": ["The Frozen Rose is a rare flower.", "Take care when searching for it."]
+            "completedText": ["얼어붙은 장미는 희귀한 꽃이다.", "찾을 때 주의하라."]
         },
         "3": {
             "task": "talk",
             "npc": "chefgustavo",
             "hasItemText": [
-                "The Frozen Rose petal! The final ingredient!",
-                "Now, watch as I create culinary history...",
-                "Thank you, dear adventurer. For your help, I bestow upon you",
-                "the Chef's Special Apron. May it aid you in all your culinary endeavors!"
+                "얼어붙은 장미 꽃잎! 마지막 재료다!",
+                "이제 요리의 역사를 만드는 모습을 지켜보거라...",
+                "고맙네, 모험가여. 자네의 도움에 대한 보답으로",
+                "셰프의 특제 앞치마를 선물하지. 모든 요리의 길에 보탬이 되기를!"
             ],
             "itemRequirements": [
                 {
@@ -67,8 +67,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Culinary Mysteries@green@. You've been awarded @crimson@2500@green@ Cooking experience and a @crimson@Chef's Special Apron@green@!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 방금 @crimson@요리의 미스터리@green@를 완료했습니다. @crimson@2500@green@ 요리 경험치와 @crimson@셰프의 특제 앞치마@green@를 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

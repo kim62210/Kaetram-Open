@@ -120,7 +120,7 @@ export default class State extends Menu {
         this.petPickupButton.hidden = !this.player.hasPet;
 
         // Synchronize the player's general information
-        this.level.textContent = `Level ${this.player.level}`;
+        this.level.textContent = `레벨 ${this.player.level}`;
         this.experience.textContent = `${this.player.getTotalExperience()}`;
 
         // Synchronize equipment data
@@ -218,51 +218,51 @@ export default class State extends Menu {
     private getTooltip(style: Modules.AttackStyle): string {
         switch (style) {
             case Modules.AttackStyle.Stab: {
-                return 'Stab (Accuracy EXP)';
+                return '찌르기 (명중 경험치)';
             }
 
             case Modules.AttackStyle.Slash: {
-                return 'Slash (Strength EXP)';
+                return '참격 (힘 경험치)';
             }
 
             case Modules.AttackStyle.Defensive: {
-                return 'Defensive (Defense EXP)';
+                return '방어 (방어 경험치)';
             }
 
             case Modules.AttackStyle.Crush: {
-                return 'Crush (Accuracy + Strength EXP)';
+                return '강타 (명중 + 힘 경험치)';
             }
 
             case Modules.AttackStyle.Shared: {
-                return 'Shared (Accuracy + Strength + Defense EXP)';
+                return '균형 (명중 + 힘 + 방어 경험치)';
             }
 
             case Modules.AttackStyle.Hack: {
-                return 'Hack (Strength + Defense EXP)';
+                return '난격 (힘 + 방어 경험치)';
             }
 
             case Modules.AttackStyle.Chop: {
-                return 'Chop (Accuracy + Defense EXP)';
+                return '베기 (명중 + 방어 경험치)';
             }
 
             case Modules.AttackStyle.Accurate: {
-                return 'Accurate (Increased Accuracy)';
+                return '정확 (명중률 증가)';
             }
 
             case Modules.AttackStyle.Fast: {
-                return 'Fast (Increased Speed)';
+                return '신속 (속도 증가)';
             }
 
             case Modules.AttackStyle.Focused: {
-                return 'Focused (Increased Damage)';
+                return '집중 (피해 증가)';
             }
 
             case Modules.AttackStyle.LongRange: {
-                return 'Long Range';
+                return '장거리';
             }
         }
 
-        return 'Create a bug report if you see this :)';
+        return '이 메시지가 보이면 버그 제보 부탁드립니다 :)';
     }
 
     /**

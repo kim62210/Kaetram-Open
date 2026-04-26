@@ -6,7 +6,7 @@ import type Player from '@kaetram/server/src/game/entity/character/player/player
 export default class Knife implements Plugin {
     public onUse(player: Player): boolean {
         if (player.inCombat()) {
-            player.notify(`You cannot activate the fletching menu while in combat.`);
+            player.notify(`전투 중에는 제작 메뉴를 열 수 없다.`);
             return false;
         }
 

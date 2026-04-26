@@ -1,7 +1,7 @@
 {
-    "name": "The Elixir of Luminance",
-    "description": "Alchemy Master Alden needs rare ingredients to craft the Elixir of Luminance. Aid him and learn the secrets of the potion.",
-    "rewards": ["Elixir of Luminance Recipe", "3200 Alchemy experience"],
+    "name": "광휘의 영약",
+    "description": "연금술 마스터 알덴이 광휘의 영약을 만들기 위해 희귀한 재료가 필요하다. 그를 도와 영약의 비법을 배워라.",
+    "rewards": ["광휘의 영약 비법", "연금술 경험치 3200"],
     "skillRequirements": {
         "alchemy": 38
     },
@@ -10,22 +10,22 @@
             "task": "talk",
             "npc": "alden",
             "text": [
-                "Adventurer, I require assistance to craft the Elixir of Luminance.",
-                "Can you fetch the Moonshade Herb for me?"
+                "모험가여, 광휘의 영약을 만드는 데 도움이 필요하오.",
+                "달그늘 약초를 가져다줄 수 있겠소?"
             ],
-            "completedText": ["Seek out the elusive Moonshade Herb."]
+            "completedText": ["희귀한 달그늘 약초를 찾아라."]
         },
         "1": {
             "task": "collect",
             "itemRequirements": [{ "key": "moonshadeherb", "count": 3 }],
-            "completedText": ["Return to Master Alden with the herbs."]
+            "completedText": ["약초를 가지고 마스터 알덴에게 돌아가라."]
         },
         "2": {
             "task": "talk",
             "npc": "alden",
             "hasItemText": [
-                "You've done it! Now, observe as I craft the Elixir.",
-                "I shall share its secret with you."
+                "해냈군! 자, 내가 영약을 만드는 모습을 지켜보게.",
+                "그 비법을 그대와 나누리다."
             ],
             "skillRewards": [
                 {
@@ -34,8 +34,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've unlocked the @crimson@Elixir of Luminance Recipe@green@ and gained @crimson@3200 Alchemy experience@green@.",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 @crimson@광휘의 영약 비법@green@을 익히고 @crimson@연금술 경험치 3200@green@을 획득했습니다.",
                 "colour": "#33cc33"
             }
         }

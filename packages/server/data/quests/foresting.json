@@ -1,30 +1,30 @@
 {
-    "name": "Foresting",
-    "description": "Help the forester with foresting stuff.|The forester needs your help with foresting-related things such as trees and axes and stuff like that. I don't know I'm just a quest description stop asking me questions.",
-    "rewards": ["A Rusted Axe", "Access to Forester's store"],
+    "name": "벌목",
+    "description": "벌목꾼의 벌목 일을 도와줘라.|벌목꾼은 나무, 도끼 등등 벌목 관련 일에 도움이 필요하다. 나도 모른다. 난 그냥 퀘스트 설명일 뿐이다, 더 묻지 마라.",
+    "rewards": ["녹슨 도끼", "벌목꾼 상점 이용 권한"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "forestnpc",
             "text": [
-                "Greetings dear adventurer!",
-                "Please, you must help me.",
-                "I simply cannot take it much longer, I've been",
-                "cutting trees for the past few days.",
-                "I'm rather exhausted, would you be so kind as",
-                "to bring me 10 logs?"
+                "안녕하시오, 친애하는 모험가여!",
+                "부탁이오, 나를 도와주시오.",
+                "더는 못 버티겠소. 며칠째",
+                "나무를 베고 있다오.",
+                "너무 지쳤소. 통나무 10개를",
+                "가져다 줄 수 있겠소?"
             ],
-            "completedText": ["Please adventurer, bring me 10 logs.", "That's all I ask from you!"]
+            "completedText": ["부탁이오 모험가여, 통나무 10개만 가져다 주시오.", "그 부탁만 들어주면 되오!"]
         },
         "1": {
             "task": "talk",
             "npc": "forestnpc",
             "hasItemText": [
-                "Oh my, dear adventurer",
-                "These logs seem to have too many imperfections in them",
-                "Would you be so kind as to bring me another 10?"
+                "이런, 친애하는 모험가여,",
+                "이 통나무들은 흠이 너무 많구려.",
+                "10개만 더 가져다 주시면 안 되겠소?"
             ],
-            "completedText": ["Please adventurer, I beg of you, just 10 more logs."],
+            "completedText": ["부탁이오 모험가여, 빌게요. 통나무 10개만 더."],
             "itemRequirements": [
                 {
                     "key": "logs",
@@ -36,8 +36,8 @@
             "task": "talk",
             "npc": "forestnpc",
             "hasItemText": [
-                "Ah yes, you see, these logs are suitable for my needs.",
-                "Thank you so much dear adventurer. Please take this reward!"
+                "아, 그래, 이 통나무들은 내 용도에 딱 맞소.",
+                "정말 고맙소이다, 친애하는 모험가여. 이 보상을 받으시오!"
             ],
             "itemRequirements": [
                 {
@@ -52,8 +52,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Foresting@green@ quest. You have received a @crimson@Rusted Axe@green@!",
+                "title": "퀘스트 완료!",
+                "text": "@green@@crimson@벌목@green@ 퀘스트를 완료했습니다. @crimson@녹슨 도끼@green@를 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

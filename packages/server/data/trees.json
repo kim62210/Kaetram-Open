@@ -1,6 +1,6 @@
 {
     "oak": {
-        "name": "Oak",
+        "name": "떡갈나무",
         "levelRequirement": 1,
         "experience": 10,
         "difficulty": 10,
@@ -13,7 +13,7 @@
         ]
     },
     "tutorialoak": {
-        "name": "Oak",
+        "name": "떡갈나무",
         "levelRequirement": 1,
         "experience": 10,
         "difficulty": 2,
@@ -22,7 +22,7 @@
     },
 
     "spruce": {
-        "name": "Spruce",
+        "name": "가문비나무",
         "levelRequirement": 10,
         "experience": 24,
         "difficulty": 30,
@@ -30,7 +30,7 @@
     },
 
     "oak2": {
-        "name": "Oak",
+        "name": "떡갈나무",
         "levelRequirement": 1,
         "experience": 10,
         "difficulty": 10,
@@ -44,7 +44,7 @@
     },
 
     "oak3": {
-        "name": "Oak",
+        "name": "떡갈나무",
         "levelRequirement": 1,
         "experience": 10,
         "difficulty": 10,
@@ -58,7 +58,7 @@
     },
 
     "oak4": {
-        "name": "Oak",
+        "name": "떡갈나무",
         "levelRequirement": 1,
         "experience": 10,
         "difficulty": 10,
@@ -72,7 +72,7 @@
     },
 
     "oak5": {
-        "name": "Oak",
+        "name": "떡갈나무",
         "levelRequirement": 1,
         "experience": 10,
         "difficulty": 10,
@@ -86,7 +86,7 @@
     },
 
     "snowoak": {
-        "name": "Snow Oak",
+        "name": "눈 덮인 떡갈나무",
         "levelRequirement": 20,
         "experience": 75,
         "difficulty": 90,
@@ -94,7 +94,7 @@
     },
 
     "tutorialsnowoak": {
-        "name": "Snow Oak",
+        "name": "눈 덮인 떡갈나무",
         "levelRequirement": 1,
         "experience": 10,
         "difficulty": 5,
@@ -103,7 +103,7 @@
     },
 
     "palm": {
-        "name": "Palm",
+        "name": "야자수",
         "levelRequirement": 5,
         "experience": 15,
         "difficulty": 25,
@@ -117,7 +117,7 @@
     },
 
     "iceoak": {
-        "name": "Ice Oak",
+        "name": "얼음 떡갈나무",
         "levelRequirement": 10,
         "experience": 30,
         "difficulty": 50,
@@ -125,7 +125,7 @@
     },
 
     "iceoak2": {
-        "name": "Ice Oak",
+        "name": "얼음 떡갈나무",
         "levelRequirement": 10,
         "experience": 30,
         "difficulty": 50,
@@ -133,7 +133,7 @@
     },
 
     "iceoak3": {
-        "name": "Ice Oak",
+        "name": "얼음 떡갈나무",
         "levelRequirement": 10,
         "experience": 30,
         "difficulty": 50,
@@ -141,7 +141,7 @@
     },
 
     "iceoak4": {
-        "name": "Ice Oak",
+        "name": "얼음 떡갈나무",
         "levelRequirement": 10,
         "experience": 30,
         "difficulty": 50,
@@ -149,7 +149,7 @@
     },
 
     "iceoak5": {
-        "name": "Ice Oak",
+        "name": "얼음 떡갈나무",
         "levelRequirement": 10,
         "experience": 30,
         "difficulty": 50,
@@ -157,7 +157,7 @@
     },
 
     "iceoak6": {
-        "name": "Ice Oak",
+        "name": "얼음 떡갈나무",
         "levelRequirement": 10,
         "experience": 30,
         "difficulty": 50,
@@ -165,7 +165,7 @@
     },
 
     "icepalm": {
-        "name": "Ice Palm",
+        "name": "얼음 야자수",
         "levelRequirement": 15,
         "experience": 55,
         "difficulty": 65,
@@ -173,7 +173,7 @@
     },
 
     "pine": {
-        "name": "Pine",
+        "name": "소나무",
         "levelRequirement": 20,
         "experience": 75,
         "difficulty": 80,
@@ -181,7 +181,7 @@
     },
 
     "alkythn": {
-        "name": "Alkythn",
+        "name": "알키슨 나무",
         "levelRequirement": 25,
         "experience": 105,
         "difficulty": 90,
@@ -189,7 +189,7 @@
     },
 
     "heliphatit": {
-        "name": "Heliphatit",
+        "name": "헬리파팃 나무",
         "levelRequirement": 30,
         "experience": 125,
         "difficulty": 100,
@@ -197,7 +197,7 @@
     },
 
     "aquasillius": {
-        "name": "Aquasillius",
+        "name": "아쿠아실리우스 나무",
         "levelRequirement": 35,
         "experience": 160,
         "difficulty": 115,
@@ -205,7 +205,7 @@
     },
 
     "zoncil": {
-        "name": "Zoncil",
+        "name": "존실 나무",
         "levelRequirement": 35,
         "experience": 160,
         "difficulty": 115,
@@ -213,7 +213,7 @@
     },
 
     "zondul": {
-        "name": "Zondul",
+        "name": "존둘 나무",
         "levelRequirement": 35,
         "experience": 160,
         "difficulty": 115,
@@ -221,7 +221,7 @@
     },
 
     "bloodwood": {
-        "name": "Bloodwood",
+        "name": "혈목수",
         "levelRequirement": 40,
         "experience": 350,
         "difficulty": 240,
@@ -229,7 +229,7 @@
     },
 
     "flastel": {
-        "name": "Flastel",
+        "name": "플라스텔 나무",
         "levelRequirement": 50,
         "experience": 400,
         "difficulty": 320,
@@ -237,7 +237,7 @@
     },
 
     "puhrix": {
-        "name": "Puhrix",
+        "name": "푸릭스 나무",
         "levelRequirement": 50,
         "experience": 400,
         "difficulty": 320,

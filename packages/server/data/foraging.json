@@ -1,6 +1,6 @@
 {
     "blueberrybush": {
-        "name": "Blueberry Bush",
+        "name": "블루베리 덤불",
         "levelRequirement": 1,
         "experience": 10,
         "difficulty": 1,
@@ -8,7 +8,7 @@
     },
 
     "cornbush": {
-        "name": "Corn",
+        "name": "옥수수",
         "levelRequirement": 5,
         "experience": 15,
         "difficulty": 1,
@@ -16,7 +16,7 @@
     },
 
     "bluelilybush": {
-        "name": "Blue Lily Bush",
+        "name": "푸른 백합 덤불",
         "levelRequirement": 10,
         "experience": 20,
         "difficulty": 1,
@@ -24,7 +24,7 @@
     },
 
     "tomatobush": {
-        "name": "Tomato Plant Thingy",
+        "name": "토마토 줄기",
         "levelRequirement": 15,
         "experience": 25,
         "difficulty": 1,
@@ -32,7 +32,7 @@
     },
 
     "peachbush": {
-        "name": "Peach Bush",
+        "name": "복숭아 덤불",
         "levelRequirement": 5,
         "experience": 30,
         "difficulty": 1,
@@ -40,7 +40,7 @@
     },
 
     "raspberrybush": {
-        "name": "Raspberry Bush",
+        "name": "라즈베리 덤불",
         "levelRequirement": 15,
         "experience": 35,
         "difficulty": 1,
@@ -48,7 +48,7 @@
     },
 
     "blackberrybush": {
-        "name": "Blackberry Bush",
+        "name": "블랙베리 덤불",
         "levelRequirement": 20,
         "experience": 40,
         "difficulty": 1,
@@ -56,7 +56,7 @@
     },
 
     "mustardbush": {
-        "name": "Mustard Bush",
+        "name": "겨자 덤불",
         "levelRequirement": 20,
         "experience": 45,
         "difficulty": 1,
@@ -64,7 +64,7 @@
     },
 
     "paprikabush": {
-        "name": "Paprika Bush",
+        "name": "파프리카 덤불",
         "levelRequirement": 25,
         "experience": 50,
         "difficulty": 1,
@@ -72,7 +72,7 @@
     },
 
     "cuminbush": {
-        "name": "Cumin Bush",
+        "name": "쿠민 덤불",
         "levelRequirement": 25,
         "experience": 50,
         "difficulty": 1,
@@ -80,7 +80,7 @@
     },
 
     "treestump1": {
-        "name": "Tree Stump",
+        "name": "나무 그루터기",
         "levelRequirement": 1,
         "experience": 10,
         "difficulty": 1,

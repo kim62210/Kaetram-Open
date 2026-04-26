@@ -1,37 +1,37 @@
 {
-    "name": "Mystic Timber",
-    "description": "A legendary tree of magic awaits.|In the heart of the Enchanted Forest lies a tree said to hold boundless magical properties. Only those with pure intent can locate and harness its might.",
+    "name": "신비의 목재",
+    "description": "마법의 전설적인 나무가 기다리고 있다.|마법의 숲 깊은 곳에 무한한 마법의 힘을 지녔다고 전해지는 나무가 있다. 오직 순수한 마음을 가진 자만이 그 나무를 찾아 그 힘을 다룰 수 있다.",
     "rewards": ["magicwood"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "oldlumberjack",
             "text": [
-                "Adventurer, have you heard tales of the Mystic Tree?",
-                "Its wood is said to possess incredible magical power.",
-                "If you wish to find it, you must first seek the Forest Guardian."
+                "모험가여, 신비의 나무 이야기를 들어본 적이 있나?",
+                "그 목재는 엄청난 마법의 힘을 지녔다고 하지.",
+                "그것을 찾고 싶다면 먼저 숲의 수호자를 찾아야 한다네."
             ],
-            "completedText": ["Find the Forest Guardian."]
+            "completedText": ["숲의 수호자를 찾아라."]
         },
         "1": {
             "task": "talk",
             "npc": "forestguardian",
             "text": [
-                "Seeker of the Mystic Tree, why do you desire its wood?",
-                "Only those with pure intent can find it.",
-                "To prove your worth, help me with a few tasks."
+                "신비의 나무를 찾는 자여, 어찌하여 그 목재를 원하는가?",
+                "오직 순수한 마음을 가진 자만이 그것을 찾을 수 있다.",
+                "자격을 증명하려거든 몇 가지 임무를 도와다오."
             ],
-            "completedText": ["What can you help with?"]
+            "completedText": ["무엇을 도와드릴까요?"]
         },
         "2": {
             "task": "talk",
             "npc": "forestguardian",
             "text": [
-                "Firstly, the animals of this forest are restless.",
-                "Calm them by collecting the Tranquil Berries nearby.",
-                "Bring me 5 of them, and I'll share the next step."
+                "먼저, 이 숲의 동물들이 동요하고 있다.",
+                "근처에서 평온의 열매를 모아 그들을 진정시켜라.",
+                "다섯 개를 가져오면 다음 단계를 알려주마."
             ],
-            "completedText": ["Collect 5 Tranquil Berries."]
+            "completedText": ["평온의 열매 5개를 모아라."]
         },
         "3": {
             "task": "talk",
@@ -43,10 +43,10 @@
                 }
             ],
             "text": [
-                "Well done! Now, there's a dark spirit that lurks in the forest.",
-                "Defeat it, and you'll prove your commitment to the balance of nature."
+                "잘했다! 이제 숲에 도사리고 있는 어둠의 영혼이 있다.",
+                "그것을 처치하라. 그러면 자연의 균형에 헌신하는 자임이 증명될 것이다."
             ],
-            "completedText": ["Defeat the dark spirit."]
+            "completedText": ["어둠의 영혼을 처치하라."]
         },
         "4": {
             "task": "kill",
@@ -57,20 +57,20 @@
             "task": "talk",
             "npc": "forestguardian",
             "text": [
-                "Impressive! Your intent seems pure.",
-                "To find the Mystic Tree, follow the path of glowing mushrooms.",
-                "But remember, respect the tree and only take what it willingly gives."
+                "훌륭하다! 그대의 마음이 순수하다는 것이 느껴지는군.",
+                "신비의 나무를 찾으려면 빛나는 버섯의 길을 따라가라.",
+                "다만 기억하라, 나무를 존중하고 그가 기꺼이 내어주는 것만 가져가야 한다."
             ],
-            "completedText": ["Follow the path of glowing mushrooms."]
+            "completedText": ["빛나는 버섯의 길을 따라가라."]
         },
         "6": {
             "task": "talk",
             "npc": "mystictree",
             "text": [
-                "You stand before me, adventurer. I sense your pure intent.",
-                "Cut a small piece of my wood, but promise to use its magic for good."
+                "그대가 내 앞에 서 있구나, 모험가여. 그대의 순수한 마음이 느껴진다.",
+                "내 목재를 한 조각 잘라가도 좋다. 다만 그 마법을 선한 일에 쓰겠다 약속하라."
             ],
-            "completedText": ["Cut the Mystic Tree."]
+            "completedText": ["신비의 나무를 베어라."]
         },
         "7": {
             "task": "talk",
@@ -82,12 +82,12 @@
                 }
             ],
             "text": [
-                "You've done it! The power of the Mystic Tree is now yours to wield.",
-                "Use it wisely, and always respect the balance of nature."
+                "해냈구나! 이제 신비의 나무의 힘은 그대의 것이다.",
+                "현명하게 쓰고, 항상 자연의 균형을 존중하거라."
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Mystic Timber@green@. The power of the Mystic Tree is now in your hands!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 방금 @crimson@신비의 목재@green@를 완료했습니다. 신비의 나무의 힘이 이제 당신의 손에 있습니다!",
                 "colour": "#33cc33"
             }
         }

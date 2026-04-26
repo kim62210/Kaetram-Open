@@ -1,6 +1,6 @@
 {
     "nisocrock": {
-        "name": "Nisoc Rock",
+        "name": "니속 바위",
         "levelRequirement": 1,
         "experience": 20,
         "difficulty": 15,
@@ -9,7 +9,7 @@
     },
 
     "cinnabarrock": {
-        "name": "Cinnabar Rock",
+        "name": "진사 바위",
         "levelRequirement": 5,
         "experience": 30,
         "difficulty": 20,
@@ -17,7 +17,7 @@
     },
 
     "pytharrock": {
-        "name": "Pythar Rock",
+        "name": "파이타르 바위",
         "levelRequirement": 15,
         "experience": 70,
         "difficulty": 40,
@@ -25,7 +25,7 @@
     },
 
     "goldrock": {
-        "name": "Gold Ore",
+        "name": "금 광석",
         "levelRequirement": 25,
         "experience": 150,
         "difficulty": 80,
@@ -33,7 +33,7 @@
     },
 
     "iborock": {
-        "name": "Ibo Rock",
+        "name": "이보 바위",
         "levelRequirement": 30,
         "experience": 210,
         "difficulty": 160,
@@ -41,7 +41,7 @@
     },
 
     "moonrockrock": {
-        "name": "Moonrock Rock",
+        "name": "월석 바위",
         "levelRequirement": 40,
         "experience": 300,
         "difficulty": 220,
@@ -50,7 +50,7 @@
     },
 
     "topazrock": {
-        "name": "Topaz Rock",
+        "name": "토파즈 바위",
         "levelRequirement": 15,
         "experience": 160,
         "difficulty": 160,
@@ -58,7 +58,7 @@
     },
 
     "berylrock": {
-        "name": "Beryl Rock",
+        "name": "녹주석 바위",
         "levelRequirement": 1,
         "experience": 22,
         "difficulty": 20,
@@ -68,7 +68,7 @@
     },
 
     "lapislazulirock": {
-        "name": "Lapis Lazuli Rock",
+        "name": "청금석 바위",
         "levelRequirement": 45,
         "experience": 350,
         "difficulty": 250,
@@ -76,7 +76,7 @@
     },
 
     "citrinerock": {
-        "name": "Citrine Rock",
+        "name": "황수정 바위",
         "levelRequirement": 50,
         "experience": 400,
         "difficulty": 285,
@@ -85,7 +85,7 @@
     },
 
     "taaffeiterock": {
-        "name": "Taaffeite Rock",
+        "name": "타페아이트 바위",
         "levelRequirement": 30,
         "experience": 310,
         "difficulty": 225,
@@ -94,7 +94,7 @@
     },
 
     "rubyrock": {
-        "name": "Ruby Rock",
+        "name": "루비 바위",
         "levelRequirement": 62,
         "experience": 550,
         "difficulty": 325,
@@ -103,7 +103,7 @@
     },
 
     "peridotrock": {
-        "name": "Peridot Rock",
+        "name": "페리도트 바위",
         "levelRequirement": 55,
         "experience": 475,
         "difficulty": 345,
@@ -112,7 +112,7 @@
     },
 
     "opalrock": {
-        "name": "Opal Rock",
+        "name": "오팔 바위",
         "levelRequirement": 10,
         "experience": 100,
         "difficulty": 140,
@@ -120,7 +120,7 @@
     },
 
     "emeraldrock": {
-        "name": "Emerald Rock",
+        "name": "에메랄드 바위",
         "levelRequirement": 57,
         "experience": 510,
         "difficulty": 345,
@@ -129,7 +129,7 @@
     },
 
     "amethystrock": {
-        "name": "Amethyst Rock",
+        "name": "자수정 바위",
         "levelRequirement": 65,
         "experience": 580,
         "difficulty": 375,
@@ -138,7 +138,7 @@
     },
 
     "coalrock": {
-        "name": "Coal",
+        "name": "석탄",
         "levelRequirement": 1,
         "experience": 20,
         "difficulty": 5,
@@ -147,7 +147,7 @@
     },
 
     "copperrock": {
-        "name": "Copper Ore",
+        "name": "구리 광석",
         "levelRequirement": 1,
         "experience": 20,
         "difficulty": 15,
@@ -156,7 +156,7 @@
     },
 
     "tinrock": {
-        "name": "Tin Ore",
+        "name": "주석 광석",
         "levelRequirement": 1,
         "experience": 20,
         "difficulty": 15,
@@ -165,7 +165,7 @@
     },
 
     "ironrock": {
-        "name": "Iron Ore",
+        "name": "철 광석",
         "levelRequirement": 10,
         "experience": 40,
         "difficulty": 15,

@@ -33,8 +33,8 @@ export default class Leaderboards extends Menu {
 
     // Search elements available (key is the search URL term, value is the name displayed).
     private searchElements: SearchElement[] = [
-        { name: 'Total Experience', key: '', type: '' },
-        { name: 'PVP Kills', key: 'pvp', type: 'pvp' }
+        { name: '총 경험치', key: '', type: '' },
+        { name: 'PVP 처치', key: 'pvp', type: 'pvp' }
     ];
     private availableMobs: { [key: string]: string } = {};
 

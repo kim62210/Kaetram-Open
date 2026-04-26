@@ -119,7 +119,7 @@ export default class Quests extends Menu {
             Object.keys(quest.skillRequirements).length === 0 &&
             quest.questRequirements.length === 0
         ) {
-            this.requirements.innerHTML = 'None';
+            this.requirements.innerHTML = '없음';
             return;
         }
 
@@ -127,13 +127,13 @@ export default class Quests extends Menu {
 
         // Iterate through the quest requirements and map the key to the quest name.
         for (let info of quest.questRequirements)
-            requirements += `Completion of ${this.player.quests[info]?.name}.<br>`;
+            requirements += `${this.player.quests[info]?.name} 완료.<br>`;
 
         // Iterate through the skill requirements and add them to the requirements string.
         for (let skill in quest.skillRequirements)
-            requirements += `Your ${this.formatSkillName(skill)} level must be at least ${
+            requirements += `${this.formatSkillName(skill)} 레벨 ${
                 quest.skillRequirements[skill]
-            }.<br>`;
+            } 이상.<br>`;
 
         this.requirements.innerHTML = requirements;
     }
@@ -145,6 +145,26 @@ export default class Quests extends Menu {
      */
 
     private formatSkillName(key: string): string {
-        return key.charAt(0).toUpperCase() + key.slice(1);
+        let labels: { [key: string]: string } = {
+            lumberjacking: '벌목',
+            mining: '채광',
+            fishing: '낚시',
+            cooking: '요리',
+            smithing: '대장간',
+            smelting: '제련',
+            crafting: '제작',
+            chiseling: '조각',
+            fletching: '활제작',
+            alchemy: '연금술',
+            magic: '마법',
+            archery: '활쏘기',
+            defense: '방어',
+            strength: '힘',
+            accuracy: '명중',
+            health: '체력',
+            foraging: '채집'
+        };
+
+        return labels[key] || key.charAt(0).toUpperCase() + key.slice(1);
     }
 }

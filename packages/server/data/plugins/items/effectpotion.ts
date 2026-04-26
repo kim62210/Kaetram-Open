@@ -15,10 +15,10 @@ export default class EffectPotion implements Plugin {
 
     public onUse(player: Player): boolean {
         player.status.addWithTimeout(this.getEffect(), this.duration, () => {
-            player.notify(`The effect of the ${this.effect} potion has worn off.`);
+            player.notify(`${this.effect} 물약의 효과가 사라졌다.`);
         });
 
-        player.notify(`You drink the ${this.effect} potion.`);
+        player.notify(`${this.effect} 물약을 마셨다.`);
 
         return true;
     }

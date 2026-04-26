@@ -1,7 +1,7 @@
 {
-    "name": "The Grand Bowmaster's Request",
-    "description": "The Grand Bowmaster requires a special bow, one that's beyond ordinary. Help him craft the legendary Moonlit Bow.",
-    "rewards": ["Moonlit Bow Blueprint", "2500 Fletching experience"],
+    "name": "위대한 활 장인의 의뢰",
+    "description": "위대한 활 장인이 평범한 활을 넘어선 특별한 활을 필요로 한다. 전설의 달빛 활을 만들도록 도와주자.",
+    "rewards": ["달빛 활 청사진", "궁시 제작 경험치 2500"],
     "skillRequirements": {
         "fletching": 30
     },
@@ -10,20 +10,20 @@
             "task": "talk",
             "npc": "bowmaster",
             "text": [
-                "Adventurer! I need a bow made from the elusive Moonwood Tree.",
-                "Will you aid me in this endeavor?"
+                "모험가여! 보기 드문 달빛 나무로 만든 활이 필요하다.",
+                "이 일을 도와주겠는가?"
             ],
-            "completedText": ["Seek the Moonwood Tree in the Midnight Grove."]
+            "completedText": ["한밤의 숲에서 달빛 나무를 찾아라."]
         },
         "1": {
             "task": "collect",
             "itemRequirements": [{ "key": "moonwood", "count": 10 }],
-            "completedText": ["Return to the Bowmaster with the Moonwood."]
+            "completedText": ["달빛 나무를 가지고 활 장인에게 돌아가라."]
         },
         "2": {
             "task": "talk",
             "npc": "bowmaster",
-            "hasItemText": ["Ah, perfect! With this, I can teach you to craft the Moonlit Bow."],
+            "hasItemText": ["오, 완벽하다! 이것이면 달빛 활을 만드는 법을 가르쳐 줄 수 있다."],
 
             "skillRewards": [
                 {
@@ -32,8 +32,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've been awarded @crimson@2500 Fletching experience@green@ and the @crimson@Moonlit Bow Blueprint@green@.",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 @crimson@궁시 제작 경험치 2500@green@과 @crimson@달빛 활 청사진@green@을 획득했습니다.",
                 "colour": "#33cc33"
             }
         }

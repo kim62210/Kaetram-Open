@@ -1,30 +1,30 @@
 {
-    "name": "Miner's Quest",
-    "description": "The miner needs your help with acuqiring ore.|A miner is in need of your immediate assistance. Instead of going out and looking for ore by himself, he wants to harass random adventurers to do his job for him. You can find him pretending to mine where the desert meets the volcano.",
-    "rewards": ["Access to Miner's store", "2000 Mining experience"],
+    "name": "광부의 퀘스트",
+    "description": "광부가 광석을 모으는 데 도움이 필요하다.|광부가 즉각적인 도움을 구하고 있다. 그는 직접 광석을 캐러 가는 대신, 지나가는 모험가들을 닦달해서 자기 일을 시키고 싶어 한다. 사막과 화산이 만나는 곳에서 광석을 캐는 척하고 있는 그를 찾을 수 있다.",
+    "rewards": ["광부 상점 이용 권한", "채광 경험치 2000"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "miner",
             "text": [
-                "Oh please, adventurer, please help me.",
-                "I'm supposed to be mining, but I really don't feel like it.",
-                "Please you must help me before my supervisor finds out.",
-                "I need to collect 15 nisoc ores by the end of the day or else",
-                "I'm going to be fired!",
-                "Bring me 15 of those ores and I'll",
-                "give you access to my store!"
+                "아 제발, 모험가님, 좀 도와주쇼.",
+                "원래 광석을 캐고 있어야 하는데 진짜 너무 하기 싫소.",
+                "감독관이 알아채기 전에 좀 도와줘야 하오.",
+                "오늘 안에 니속 광석 15개를 모아야 하오. 안 그러면",
+                "잘려버릴 거요!",
+                "광석 15개를 가져다 주면 내",
+                "상점 이용 권한을 주겠소!"
             ],
-            "completedText": ["Please hurry, the time is ticking!", "Bring me 15 nisoc ores."]
+            "completedText": ["서둘러 주시오, 시간이 없소!", "니속 광석 15개를 가져다 주시오."]
         },
         "1": {
             "task": "talk",
             "npc": "miner",
             "hasItemText": [
-                "Phew, thank you for your help, now I can just do nothing.",
-                "It sure is nice being self-employed eh?",
-                "Come back any time and I'll buy your ores at a better price",
-                "than any other store!"
+                "휴, 도와줘서 고맙소. 이제 아무것도 안 하고 빈둥거릴 수 있겠군.",
+                "역시 자영업이 최고 아니겠소?",
+                "언제든 다시 오시오. 다른 어떤 가게보다",
+                "더 좋은 가격에 광석을 사주겠소!"
             ],
             "itemRequirements": [
                 {
@@ -39,8 +39,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Miner's Quest@green@. You've been awarded @crimson@2000@green@ Mining experience!",
+                "title": "퀘스트 완료!",
+                "text": "@green@@crimson@광부의 퀘스트@green@를 완료했습니다. @crimson@2000@green@ 채광 경험치를 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

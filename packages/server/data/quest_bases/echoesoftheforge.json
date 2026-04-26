@@ -1,33 +1,33 @@
 {
-    "name": "Echoes of the Forge",
-    "description": "The Weapon of Legends has awoken ancient evils.|The forging of the mighty weapon has inadvertently unleashed old and powerful forces. They threaten the land, and only the combined effort of Thrain and the player can quell them.",
-    "rewards": ["5000 gold", "legendaryarmorset"],
+    "name": "대장간의 메아리",
+    "description": "전설의 무기가 고대의 악을 깨웠다.|위대한 무기의 단조가 뜻하지 않게 오래되고 강력한 힘을 풀어놓았다. 이들은 이 땅을 위협하고 있으며, 트레인과 모험가의 합심만이 그것을 잠재울 수 있다.",
+    "rewards": ["5000 골드", "legendaryarmorset"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "thrain",
             "text": [
-                "It seems the forging of the weapon has disturbed ancient powers.",
-                "Dark creatures have emerged, drawn to the weapon's energy.",
-                "We must find a way to contain this power before it's too late."
+                "무기를 단조한 것이 고대의 힘들을 깨운 모양이군.",
+                "어둠의 생물들이 무기의 기운에 이끌려 나타났다.",
+                "너무 늦기 전에 이 힘을 봉인할 방법을 찾아야 한다."
             ],
-            "completedText": ["Seek the wisdom of the Oracle to find a solution."]
+            "completedText": ["오라클의 지혜를 빌려 해결책을 찾아라."]
         },
         "1": {
             "task": "talk",
             "npc": "oracle",
             "text": [
-                "The weapon you forged is both a blessing and a curse.",
-                "To contain its power, you must seek the Seals of Balance.",
-                "They are scattered in the three Temples of Equilibrium."
+                "그대가 단조한 무기는 축복이자 저주이다.",
+                "그 힘을 봉인하려면 균형의 봉인을 찾아야 한다.",
+                "세 곳의 평형 신전에 흩어져 있다."
             ],
-            "completedText": ["Retrieve the first Seal from the Temple of Earth."]
+            "completedText": ["땅의 신전에서 첫 번째 봉인을 가져와라."]
         },
         "2": {
             "task": "talk",
             "npc": "earthpriest",
-            "text": ["You wish to claim the Seal? Prove your connection to the earth by defeating the Stone Golems."],
-            "completedText": ["Defeat the Stone Golems to claim the Seal."]
+            "text": ["봉인을 얻고자 하는가? 돌 골렘들을 처치하여 대지와의 유대를 증명하라."],
+            "completedText": ["돌 골렘들을 처치하여 봉인을 얻어라."]
         },
         "3": {
             "task": "kill",
@@ -37,53 +37,53 @@
         "4": {
             "task": "talk",
             "npc": "earthpriest",
-            "text": ["You've proven your worth. Here is the Seal of Earth."],
+            "text": ["자격을 증명했군. 여기 땅의 봉인이다."],
             "itemRewards": [
                 {
                     "key": "sealofearth",
                     "count": 1
                 }
             ],
-            "completedText": ["Now head to the Temple of Water."]
+            "completedText": ["이제 물의 신전으로 향하라."]
         },
         "5": {
             "task": "talk",
             "npc": "waterpriestess",
-            "text": ["To earn the Seal of Water, navigate the water maze and face the trials within."],
-            "completedText": ["Navigate the maze and retrieve the Seal of Water."]
+            "text": ["물의 봉인을 얻으려거든 물의 미궁을 헤쳐 나가 그 안의 시련에 맞서라."],
+            "completedText": ["미궁을 헤쳐나가 물의 봉인을 가져와라."]
         },
         "6": {
             "task": "talk",
             "npc": "waterguardian",
-            "text": ["Impressive. You've made it this far. Here's the Seal of Water."],
+            "text": ["대단하다. 여기까지 왔구나. 여기 물의 봉인이다."],
             "itemRewards": [
                 {
                     "key": "sealofwater",
                     "count": 1
                 }
             ],
-            "completedText": ["Finally, proceed to the Temple of Wind."]
+            "completedText": ["마지막으로 바람의 신전으로 향하라."]
         },
         "7": {
             "task": "talk",
             "npc": "windshaman",
             "text": [
-                "Prove your mastery of the winds by flying through the Sky Rings.",
-                "Once completed, the Seal of Wind is yours."
+                "하늘의 고리를 통과해 날아 바람을 다스리는 능력을 증명하라.",
+                "완수하면 바람의 봉인이 그대의 것이 된다."
             ],
-            "completedText": ["Fly through the Sky Rings."]
+            "completedText": ["하늘의 고리를 통과하라."]
         },
         "8": {
             "task": "talk",
             "npc": "windshaman",
-            "text": ["You have the heart of an eagle. The Seal of Wind is now yours."],
+            "text": ["독수리의 심장을 가졌군. 바람의 봉인은 이제 그대의 것이다."],
             "itemRewards": [
                 {
                     "key": "sealofwind",
                     "count": 1
                 }
             ],
-            "completedText": ["Return to Thrain with all the Seals."]
+            "completedText": ["모든 봉인을 가지고 트레인에게 돌아가라."]
         },
         "9": {
             "task": "talk",
@@ -113,8 +113,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Echoes of the Forge@green@. You have gained 5000 gold and the Legendary Armor Set!",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 방금 @crimson@대장간의 메아리@green@를 완료했습니다. 5000 골드와 전설의 갑옷 세트를 획득했습니다!",
                 "colour": "#33cc33"
             }
         }

@@ -1,24 +1,24 @@
 {
-    "name": "The Not-So-Great Potato",
-    "description": "Root of all humor.|The potato king insists he's a tomato. Help him come to terms with his tuber truth.",
+    "name": "그리 대단치 않은 감자",
+    "description": "유머의 뿌리.|감자 왕은 자신이 토마토라고 우긴다. 그가 자신의 덩이줄기 진실을 받아들이도록 도와주자.",
     "rewards": ["potato"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "petepotato",
-            "text": ["I'm a juicy red tomato! I swear!", "Prove me wrong and I'll give you treasures."],
-            "completedText": ["Seek evidence about Pete's true identity."]
+            "text": ["나는 즙 많은 빨간 토마토라고! 정말이야!", "내가 틀렸다는 걸 증명하면 보물을 줄게."],
+            "completedText": ["피트의 진짜 정체에 대한 증거를 찾아라."]
         },
         "1": {
             "task": "talk",
             "npc": "vegetablevendor",
-            "text": ["Oh, Pete? He's definitely a potato.", "I've got an old photo of him sprouting!"],
-            "completedText": ["Return to Pete with the photo."]
+            "text": ["오, 피트? 그 친구는 분명히 감자야.", "싹 트는 모습이 찍힌 옛날 사진도 있어!"],
+            "completedText": ["사진을 가지고 피트에게 돌아가라."]
         },
         "2": {
             "task": "talk",
             "npc": "petepotato",
-            "text": ["Oh dear, I'm really a potato, huh?", "Thanks for setting me straight. Here's your reward!"],
+            "text": ["오 이런, 정말 내가 감자였구나?", "바로잡아 줘서 고마워. 약속한 보상이야!"],
             "itemRewards": [
                 {
                     "key": "potato-tiara",
@@ -30,8 +30,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You've unveiled the truth of Pete's past! Enjoy your sparkling @crimson@potato-tiara@green@ and a sack of very bewildered vegetables.",
+                "title": "퀘스트 완료!",
+                "text": "@green@당신은 피트의 과거의 진실을 밝혀냈습니다! 반짝이는 @crimson@감자 티아라@green@와 매우 어리둥절한 채소가 든 자루를 즐기세요.",
                 "colour": "#33cc33"
             }
         }

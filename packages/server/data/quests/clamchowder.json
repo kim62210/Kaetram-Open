@@ -1,37 +1,36 @@
 {
-    "name": "Clam Chowder",
-    "description": "Some human being needs your help in the ice world.|Someone, somewhere, I can't say where because I'm spoiling what's upcoming in this game needs your help to make some clam chowder. You know, I feel like I'm spoiling it already by telling you what the quest requires but knowing how these quests are setup should tell you that it may not just be about clam chowder.",
-    "reward": ["Nothing in particular"],
+    "name": "클램 차우더",
+    "description": "얼음 세계에 사는 어떤 사람이 도움을 필요로 한다.|어디 누군가가 — 게임 진행을 망치고 싶지 않으니 어딘지는 못 말하지만 — 클램 차우더 만드는 걸 도와달라고 한다. 사실 이렇게 말하는 것만으로도 이미 스포일러 같지만, 이 게임 퀘스트들이 어떤 식인지 안다면 단순히 클램 차우더 얘기만은 아니라는 걸 짐작할 수 있을 거다.",
+    "reward": ["딱히 별것 없음"],
     "stages": {
         "0": {
             "task": "talk",
             "npc": "bluebikinigirlnpc",
             "text": [
-                "Oh hello, you look particularly capable of running some errands.",
-                "You see, I was trying to cook some clam chowder but I'm missing the ingredients",
-                "primarily the clam meat.",
-                "Could you defeat some clams and bring me some meat?",
-                "Lets say 5 of them?"
+                "어머, 안녕하세요. 잔심부름 잘 해줄 것처럼 생기셨네요.",
+                "제가 클램 차우더를 만들려고 했는데 재료가 부족해요.",
+                "특히 조개 살이 없어요.",
+                "조개를 잡아서 살을 좀 가져다 주실 수 있나요?",
+                "5개 정도면 어떨까요?"
             ],
-            "completedText": ["Please bring me 5 clam meat."]
+            "completedText": ["조개 살 5개를 가져다 주세요."]
         },
         "1": {
             "task": "talk",
             "npc": "bluebikinigirlnpc",
             "hasItemText": [
-                "Oh no adventurer, I almost forgot!",
-                "I don't actually need the clam chowder.",
-                "So you've probably heard this before but I'm too lazy",
-                "to come up with a better lie.",
-                "Okay, so my grandmother is very sick and I need you",
-                "to find out where she is.",
-                "I was supposed to take care",
-                "of her but I really wanted to go to the ice beach.",
-                "I know one of the villagers might've seen her recently."
+                "아 잠깐만요 모험가님, 깜빡할 뻔했네요!",
+                "사실 클램 차우더는 필요 없어요.",
+                "예전에 들어보셨을 수도 있는데 더 그럴듯한 거짓말을",
+                "지어낼 만큼 부지런하지가 않아서요.",
+                "그러니까, 제 할머니가 많이 편찮으신데 어디 계시는지",
+                "좀 찾아주셨으면 해서요.",
+                "원래 제가 돌봐드렸어야 하는데 얼음 해변에 너무 가고 싶었거든요.",
+                "마을 사람 중 한 명은 최근에 할머니를 봤을 거예요."
             ],
             "completedText": [
-                "Please find out where my grandmother is.",
-                "If you ask some of the villagers you might find some information."
+                "할머니가 어디 계신지 좀 찾아주세요.",
+                "마을 사람들에게 물어보면 정보를 얻을 수 있을 거예요."
             ],
             "itemRequirements": [
                 {
@@ -44,26 +43,26 @@
             "task": "talk",
             "npc": "doctor",
             "text": [
-                "Oh hey there, how is your day going?",
-                "Oh you are looking for that girl's grandmother?",
-                "You know that's not actually her grandmother, she just likes",
-                "sending adventurers on redundant quests.",
-                "Regardless, I can tell you where she was last seen",
-                "if you bring me 2 clam chowders."
+                "안녕하세요, 오늘 하루는 어떠신가요?",
+                "아, 그 여자애의 할머니를 찾고 계신가요?",
+                "사실 그 사람은 진짜 할머니가 아니에요. 그냥 모험가들한테",
+                "쓸데없는 잔심부름 시키는 걸 좋아하는 거죠.",
+                "어쨌든, 클램 차우더 2개를 가져다 주시면",
+                "마지막으로 할머니를 본 곳을 알려드릴게요."
             ],
-            "completedText": ["Please bring me 2 clam chowders and I'll tell you what I know."]
+            "completedText": ["클램 차우더 2개를 가져다 주시면 아는 걸 알려드릴게요."]
         },
         "3": {
             "task": "talk",
             "npc": "doctor",
             "hasItemText": [
-                "Thank you so much, clam chowder is quite the delicacy around here.",
-                "Maybe it has something to do with the surplus of clams.",
-                "Anyway, I can tell you that I've seen that old lady venture",
-                "into the ice forest in one of the caves trying to find mushrooms.",
-                "It's probably your best bet to check out the caves nearby."
+                "정말 감사해요. 클램 차우더는 이 동네에서 꽤나 별미죠.",
+                "아마 조개가 너무 많아서 그런 것 같아요.",
+                "어쨌든, 그 할머니가 버섯을 찾으러 얼음 숲의 어느 동굴로",
+                "들어가시는 걸 본 적이 있어요.",
+                "근처 동굴들을 찾아보시는 게 좋을 거예요."
             ],
-            "completedText": ["You should probably check out the caves nearby."],
+            "completedText": ["근처 동굴들을 찾아보세요."],
             "itemRequirements": [
                 {
                     "key": "clamchowder",
@@ -75,24 +74,24 @@
             "task": "talk",
             "npc": "oldlady2",
             "text": [
-                "No no no, absolutely not!",
-                "I am not moving from here, let me just enjoy my last days.",
-                "Unless of course you bring me 2 hot bowls of clam chowder.",
-                "But even then I might not actually wanna go.",
-                "That granddaughter of mine doesn't care about me.",
-                "Why is it such a recurring theme in this game?"
+                "아니 아니 아니, 절대 안 가!",
+                "여기서 안 움직일 거야. 그냥 마지막 날들을 즐기게 내버려둬.",
+                "물론 따끈한 클램 차우더 두 그릇을 가져온다면 모를까.",
+                "근데 그래도 가기 싫을 수도 있어.",
+                "그 손녀딸은 나한테 관심도 없거든.",
+                "이 게임에서 왜 이런 주제가 자꾸 반복되는 건지?"
             ],
-            "completedText": ["I might sorta possibly potentially move if you bring me", "2 hot bowls of clam chowder."]
+            "completedText": ["따끈한 클램 차우더 두 그릇을 가져온다면", "어쩌면 아주 살짝 움직여 볼지도 모르지."]
         },
         "5": {
             "task": "talk",
             "npc": "oldlady2",
             "hasItemText": [
-                "Oh my, this is delicious!",
-                "I guess I'll get out of here.",
-                "Tell that granddaughter of mine that I am very hurt."
+                "어머나, 이거 정말 맛있구나!",
+                "그래, 여기서 나가야겠어.",
+                "그 손녀딸한테 내가 진짜 서운하다고 전해줘."
             ],
-            "completedText": ["Tell that granddaughter of mine that I am very hurt."],
+            "completedText": ["그 손녀딸한테 내가 진짜 서운하다고 전해줘."],
             "itemRequirements": [
                 {
                     "key": "clamchowder",
@@ -104,9 +103,9 @@
             "task": "talk",
             "npc": "bluebikinigirlnpc",
             "text": [
-                "Oh my, I really didn't expect to see you again.",
-                "Oh you even found her? That's... great!",
-                "Here is a small reward for your troubles."
+                "어머, 다시 보게 될 줄은 정말 몰랐어요.",
+                "할머니까지 찾으셨다고요? 그거… 잘됐네요!",
+                "수고하신 보답으로 작은 보상을 드릴게요."
             ],
             "itemRewards": [
                 {
@@ -115,8 +114,8 @@
                 }
             ],
             "popup": {
-                "title": "Quest completed!",
-                "text": "@green@You have just finished @crimson@Clam Chowder@green@ quest.",
+                "title": "퀘스트 완료!",
+                "text": "@green@@crimson@클램 차우더@green@ 퀘스트를 완료했습니다.",
                 "colour": "#33cc33"
             }
         }
