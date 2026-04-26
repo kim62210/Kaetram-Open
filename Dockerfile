@@ -1,6 +1,8 @@
-FROM node:20-alpine
+FROM node:20-bookworm-slim
 
-RUN apk add --no-cache git python3 make g++ bash wget \
+RUN apt-get update && apt-get install -y --no-install-recommends \
+        git python3 make g++ build-essential ca-certificates wget pkg-config \
+    && rm -rf /var/lib/apt/lists/* \
     && corepack enable
 
 WORKDIR /app
