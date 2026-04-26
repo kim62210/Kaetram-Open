@@ -9,7 +9,8 @@ services:
     environment:
       ACCEPT_LICENSE: 'true'
       HOST: '0.0.0.0'
-      PORT: '9001'
+      # PORT는 클라(sirv)와 서버(uws) 둘 다 process.env.PORT를 읽어 충돌하므로 미설정.
+      # 서버 기본 9001 / 클라 sirv 기본 9000 (--no-logs -p 9000)
       SSL: 'true'
       HUB_ENABLED: 'false'
       SKIP_DATABASE: 'true'
