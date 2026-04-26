@@ -17,7 +17,7 @@ RUN cp .env.defaults .env \
     && sed -i 's|^HOST=.*|HOST=0.0.0.0|' .env \
     && sed -i 's|^SSL=false|SSL=true|' .env \
     && sed -i 's|^SKIP_DATABASE=.*|SKIP_DATABASE=true|' .env \
-    && sed -i 's|^CLIENT_REMOTE_HOST=.*|CLIENT_REMOTE_HOST=kaetram.brian-dev.cloud|' .env
+    && sed -i 's|^CLIENT_REMOTE_HOST=.*|CLIENT_REMOTE_HOST=kaetram-ws.brian-dev.cloud|' .env
 
 RUN HUSKY=0 yarn install --immutable \
     && yarn build
