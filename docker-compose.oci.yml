@@ -7,7 +7,10 @@ services:
     container_name: kaetram
     restart: unless-stopped
     # config.ts:95가 dotenv.load({path: '../../.env', defaults: '../../.env.defaults'})
-    # 로 .env 파일을 직접 읽으므로 호스트 .env를 마운트한다 (compose environment 무효).
+    # 로 .env 파일을 직접 읽으므로 서버 설정은 호스트 .env를 마운트한다.
+    # sirv(클라이언트)는 process.env.HOST를 직접 읽으므로 환경변수로 0.0.0.0 강제.
+    environment:
+      HOST: '0.0.0.0'
     volumes:
       - ./.env:/app/.env:ro
     networks:
